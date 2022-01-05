@@ -7,4 +7,8 @@ Cat prediction using GradCAM                                                    
 :-------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_dog.jpg)
 
+Cat (GradCAM)          |  Cat (GradCAM)
+:-------------------------:|:-------------------------:
+![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_dog.jpg)
+
 * 
