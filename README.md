@@ -6,6 +6,6 @@ This is the 100 days of Machine Learning, Deep Learning, Artificial Intelligence
 
 Cat (GradCAM)          |  Dog (GradCAM)
 :-------------------------:|:-------------------------:
-![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/Problem_001/gradcam_dog.jpg)
+![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
 * 
