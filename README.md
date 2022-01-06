@@ -9,6 +9,7 @@ Cat (GradCAM)          |  Dog (GradCAM)
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
 * Multi-task Learning (focussed on Object Localization)
+
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png)
 
 * 
