@@ -13,3 +13,4 @@ Cat (GradCAM)          |  Dog (GradCAM)
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png)
 
 * 
+* 1. GradCAM for SemanticSegmentation
