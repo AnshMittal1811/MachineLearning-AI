@@ -16,7 +16,6 @@ Cat (GradCAM)          |  Dog (GradCAM)
   1. GradCAM for Semantic Segmentation
   2. GradCAM for ObjectDetection
 
-
 Computer Vision domains         |  CAM methods used         | Detected Images         | CAM-based images
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 Semantic Segmentation  | GradCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/SemanticSegmentation.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/GradCAMonSS.png)
@@ -25,6 +24,14 @@ Object Detection      | AblationCAM  | ![](https://github.com/AnshMittal1811/Mac
 
 * Deep Learning using PointNet-based Dataset
   1. Classification
+
+3D Point Clouds         |  Meshes Used         | Sampled Meshes        
+:-------------------------:|:-------------------------:|:-------------------------:
+Beds          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Bed_Actual_off.gif)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Bed_sampled_faces_on.gif)  
+Airplane      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)  | N/A
+Chair      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Chair_Actual_off.gif)   |  N/A
+
+
   2. Segmentation
 
 * 
