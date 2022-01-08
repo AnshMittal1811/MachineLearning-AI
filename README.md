@@ -28,8 +28,8 @@ Object Detection      | AblationCAM  | ![](https://github.com/AnshMittal1811/Mac
 3D Point Clouds         |  Meshes Used         | Sampled Meshes        
 :-------------------------:|:-------------------------:|:-------------------------:
 Beds          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Bed_Actual_off.gif)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Bed_sampled_faces_on.gif)  
-Airplane      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)  | N/A
-Chair      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Chair_Actual_off.gif)   |  N/A
+Airplane      | TBA  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)
+Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Chair_Actual_off.gif)
 
 
   2. Segmentation
