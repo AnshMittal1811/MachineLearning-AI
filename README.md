@@ -32,6 +32,7 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
 
   2. Segmentation
+
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)
 
 * 
