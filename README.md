@@ -35,4 +35,6 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)
 
-* 
+* Graph Neural Network on YouChoose dataset
+1. Implementing GNNs on YouChoose-Click dataset
+2. Implementing GNNs on YouChoose-Buy dataset
