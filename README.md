@@ -53,4 +53,9 @@ SN         |  Training and Validation Metrices
 2  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
 
 * **Day 8 (01/10/2022)**: Graph Neural Networks for Molecular Machine Learning
+
+Loss Metrices              
+:-------------------------:
+![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png)  
+
 * **Day 9 (01/11/2022)**: Nature-inspired Optimization for defining Neural Architecture
