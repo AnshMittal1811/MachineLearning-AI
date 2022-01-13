@@ -47,4 +47,4 @@ YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/bl
 * Graph neural Network for Recommnedation Systems
 * Vision Transformers for efficient Image Classification
 * Graph Neural Networks for Molecular Machine Learning
-* 
+* Nature-inspired Optimization for defining Neural Architecture
