@@ -50,8 +50,8 @@ YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/bl
 SN         |  Training and Validation Metrices              
 :-------------------------:|:-------------------------:
 
-1          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/accuracy_1.png)  
-2          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
+1  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/accuracy_1.png)  
+2  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
 
 * **Day 8 (01/10/2022)**: Graph Neural Networks for Molecular Machine Learning
 * **Day 9 (01/11/2022)**: Nature-inspired Optimization for defining Neural Architecture
