@@ -4,7 +4,7 @@ This is the 100 days of Machine Learning, Deep Learning, Artificial Intelligence
 
 * **Day 1 (01/03/2022)**: GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models
 
-Cat (GradCAM)          |  Dog (GradCAM)
+Classification for Cat (GradCAM-based Explainability)          |  Classification for Dog (GradCAM-based Explainability)
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
