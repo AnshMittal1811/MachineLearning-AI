@@ -49,7 +49,6 @@ YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/bl
 
 SN         |  Training and Validation Metrices              
 :-------------------------:|:-------------------------:
-
 1  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/accuracy_1.png)  
 2  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
 
