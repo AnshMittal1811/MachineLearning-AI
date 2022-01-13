@@ -44,3 +44,5 @@ Dataset         |  Loss Curve         | Accuracy Curve
 YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_1.png)  
 YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_2.png)
 
+* Graph neural Network for Recommnedation Systems
+* Vision Transformers for efficient Image Classification
