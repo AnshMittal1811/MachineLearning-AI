@@ -8,11 +8,11 @@ Cat (GradCAM)          |  Dog (GradCAM)
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
-* Day 1 (01/04/2022): Multi-task Learning (focussed on Object Localization)
+* Day 2 (01/04/2022): Multi-task Learning (focussed on Object Localization)
 
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png)
 
-* Day 1 (01/05/2022): Implementing GradCAM on Computer Vision problems
+* Day 3 (01/05/2022): Implementing GradCAM on Computer Vision problems
   1. GradCAM for Semantic Segmentation
   2. GradCAM for ObjectDetection
 
@@ -22,7 +22,7 @@ Semantic Segmentation  | GradCAM  | ![](https://github.com/AnshMittal1811/Machin
 Object Detection      | EigenCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/EigenCAMonOD.png)
 Object Detection      | AblationCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/AblationCAMonOD.png)
 
-* Day 1 (01/06/2022): Deep Learning using PointNet-based Dataset
+* Day 4 (01/06/2022): Deep Learning using PointNet-based Dataset
   1. Classification
 
 3D Point Clouds         |  Meshes Used         | Sampled Meshes        
@@ -35,7 +35,7 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)
 
-* Day 1 (01/07/2022): Graph Neural Network on YouChoose dataset
+* Day 5 (01/07/2022): Graph Neural Network on YouChoose dataset
 1. Implementing GNNs on YouChoose-Click dataset
 2. Implementing GNNs on YouChoose-Buy dataset
 
@@ -44,7 +44,7 @@ Dataset         |  Loss Curve         | Accuracy Curve
 YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_1.png)  
 YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_2.png)
 
-* Day 1 (01/08/2022): Graph neural Network for Recommnedation Systems
-* Day 1 (01/09/2022): Vision Transformers for efficient Image Classification
-* Day 1 (01/10/2022): Graph Neural Networks for Molecular Machine Learning
-* Day 1 (01/11/2022): Nature-inspired Optimization for defining Neural Architecture
+* Day 6 (01/08/2022): Graph neural Network for Recommnedation Systems
+* Day 7 (01/09/2022): Vision Transformers for efficient Image Classification
+* Day 8 (01/10/2022): Graph Neural Networks for Molecular Machine Learning
+* **Day 9 (01/11/2022)**: Nature-inspired Optimization for defining Neural Architecture
