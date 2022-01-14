@@ -56,8 +56,10 @@ SN         |  Training and Validation Metrices
 
 Loss Metrices              
 :-------------------------:
-![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png)  
+![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png) 
 
-* **Day 9 (01/11/2022)**: Deep Learning introduced on Audio S/n
+* **Day 9 (01/10/2022)**: Latent 3D Point Cloud Generation using GANs
 
-* **Day 10 (01/12/2022)**: Ant-Colony Optimization for defining Neural Architecture
+* **Day 10 (01/11/2022)**: Deep Learning introduced on Audio S/n
+
+* **Day 11 (01/13/2022)**: Ant-Colony Optimization for defining Neural Architecture
