@@ -8,11 +8,11 @@ Classification for Cat (GradCAM-based Explainability)          |  Classification
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
-* **Day 2 (01/04/2022)**: Multi-task Learning (focussed on Object Localization)
+* **Day 2 (01/04/2022)**: [Multi-task Learning (focussed on Object Localization)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/002_Multi_task_Learning)
 
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png)
 
-* **Day 3 (01/05/2022)**: Implementing GradCAM on Computer Vision problems
+* **Day 3 (01/05/2022)**: [Implementing GradCAM on Computer Vision problems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/003_GradCAM_for_CV)
   1. GradCAM for Semantic Segmentation
   2. GradCAM for ObjectDetection
 
@@ -22,7 +22,7 @@ Semantic Segmentation  | GradCAM  | ![](https://github.com/AnshMittal1811/Machin
 Object Detection      | EigenCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/EigenCAMonOD.png)
 Object Detection      | AblationCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/AblationCAMonOD.png)
 
-* **Day 4 (01/06/2022)**: Deep Learning using PointNet-based Dataset
+* **Day 4 (01/06/2022)**: [Deep Learning using PointNet-based Dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/004_PointNet_Deep_Learning)
   1. Classification
 
 3D Point Clouds         |  Meshes Used         | Sampled Meshes        
@@ -35,7 +35,7 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif)
 
-* **Day 5 (01/07/2022)**: Graph Neural Network on YouChoose dataset
+* **Day 5 (01/07/2022)**: [Graph Neural Network on YouChoose dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/005_Graph_Neural_Network)
 1. Implementing GNNs on YouChoose-Click dataset
 2. Implementing GNNs on YouChoose-Buy dataset
 
@@ -44,15 +44,15 @@ Dataset         |  Loss Curve         | Accuracy Curve
 YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_1.png)  
 YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_2.png)
 
-* **Day 6 (01/08/2022)**: Graph neural Network for Recommnedation Systems
-* **Day 7 (01/09/2022)**: Vision Transformers for efficient Image Classification
+* **Day 6 (01/08/2022)**: [Graph neural Network for Recommnedation Systems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/006_Graph_Neural_Network_for_Recommender_System)
+* **Day 7 (01/09/2022)**: [Vision Transformers for efficient Image Classification](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/007_Vision_Transformer)
 
 SN         |  Training and Validation Metrices              
 :-------------------------:|:-------------------------:
 1  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/accuracy_1.png)  
 2  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
 
-* **Day 8 (01/10/2022)**: Graph Neural Networks for Molecular Machine Learning
+* **Day 8 (01/10/2022)**: [Graph Neural Networks for Molecular Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/008_GNNs_on_Molecular_ML)
 
 Loss Metrices              
 :-------------------------:
