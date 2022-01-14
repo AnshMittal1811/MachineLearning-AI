@@ -58,4 +58,6 @@ Loss Metrices
 :-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png)  
 
-* **Day 9 (01/11/2022)**: Nature-inspired Optimization for defining Neural Architecture
+* **Day 9 (01/11/2022)**: Deep Learning introduced on Embody VR
+
+* **Day 10 (01/12/2022)**: Ant-Colony Optimization for defining Neural Architecture
