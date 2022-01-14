@@ -2,7 +2,7 @@
 
 This is the 100 days of Machine Learning, Deep Learning, Artificial Intelligence, and Optimization mini-projects that I picked up at the start of January 2022. I have used Google Colab for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
-* **Day 1 (01/03/2022)**: GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models
+* **Day 1 (01/03/2022)**: [GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/001_GradCAM_basics)
 
 Classification for Cat (GradCAM-based Explainability)          |  Classification for Dog (GradCAM-based Explainability)
 :-------------------------:|:-------------------------:
