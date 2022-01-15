@@ -66,3 +66,6 @@ Loss Metrices
 
 * **Day 12 (01/13/2022)**: News Text Summarization using Transformers
 
+* **Day 13 (01/14/2022)**: Particle Swarm Optimization for defining Neural Architecture
+
+* **Day 14 (01/15/2022)**: Convolutional Matrix Adaptation Evolution Strategy
