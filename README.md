@@ -58,7 +58,7 @@ Loss Metrices
 :-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png) 
 
-* **Day 9 (01/10/2022)**: Latent 3D Point Cloud Generation using GANs
+* **Day 9 (01/10/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
 
 * **Day 10 (01/11/2022)**: Deep Learning introduced on Audio S/n
 
