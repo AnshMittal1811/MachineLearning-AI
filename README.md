@@ -63,3 +63,6 @@ Loss Metrices
 * **Day 10 (01/11/2022)**: Deep Learning introduced on Audio S/n
 
 * **Day 11 (01/12/2022)**: Ant-Colony Optimization for defining Neural Architecture
+
+* **Day 12 (01/13/2022)**: News Text Summarization using Transformers
+
