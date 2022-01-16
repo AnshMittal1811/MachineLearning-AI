@@ -34,7 +34,7 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
   2. Segmentation
 
-<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif" width="1024" height="512">
+<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif" width="1024" height="640">
 <!-- ![]() -->
 
 * **Day 5 (01/07/2022)**: [Graph Neural Network on YouChoose dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/005_Graph_Neural_Network)
