@@ -62,10 +62,18 @@ Loss Metrices
 
 * **Day 10 (01/11/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
 
-* **Day 11 (01/12/2022)**: Ant-Colony Optimization
+* **Day 11 (01/12/2022)**: [Ant-Colony Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/011_Ant_Colony_Optimization)
 
-* **Day 12 (01/13/2022)**: Particle Swarm Optimization 
+Explore Difference between Ant Colony Optimization and Genetic Algorithms for Travelling Salesman Problem. 
 
-* **Day 13 (01/14/2022)**: Covariance Matrix Adaptation Evolution Strategy
+Methods Used         |  Geo-locaion graph              
+:-------------------------:|:-------------------------:
+Ant Colony Optimization | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/011_Ant_Colony_Optimization/AntColonyOptimization.png)  
+Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/011_Ant_Colony_Optimization/GeneticAlgorithm.png)
+
+
+* **Day 12 (01/13/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
+
+* **Day 13 (01/14/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
 
 * **Day 14 (01/15/2022)**: News Text Summarization using Transformers
