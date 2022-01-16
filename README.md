@@ -10,7 +10,7 @@ Classification for Cat (GradCAM-based Explainability)          |  Classification
 
 * **Day 2 (01/04/2022)**: [Multi-task Learning (focussed on Object Localization)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/002_Multi_task_Learning)
 
-![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png)
+![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png){:height="700px" width="700px"}
 
 * **Day 3 (01/05/2022)**: [Implementing GradCAM on Computer Vision problems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/003_GradCAM_for_CV)
   1. GradCAM for Semantic Segmentation
