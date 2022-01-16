@@ -1,4 +1,4 @@
-# 100 days of Machine Learning
+# 100 days of Artificial Intelligence
 
 This is the 100 days of Machine Learning, Deep Learning, Artificial Intelligence, and Optimization mini-projects that I picked up at the start of January 2022. I have used Google Colab for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
