@@ -60,12 +60,12 @@ Loss Metrices
 
 * **Day 9 (01/10/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
 
-* **Day 10 (01/11/2022)**: Deep Learning introduced on Audio Signal
+* **Day 10 (01/11/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
 
-* **Day 11 (01/12/2022)**: Ant-Colony Optimization for defining Neural Architecture
+* **Day 11 (01/12/2022)**: Ant-Colony Optimization
 
-* **Day 12 (01/13/2022)**: News Text Summarization using Transformers
+* **Day 12 (01/13/2022)**: Particle Swarm Optimization 
 
-* **Day 13 (01/14/2022)**: Particle Swarm Optimization for defining Neural Architecture
+* **Day 13 (01/14/2022)**: Covariance Matrix Adaptation Evolution Strategy
 
-* **Day 14 (01/15/2022)**: Convolutional Matrix Adaptation Evolution Strategy
+* **Day 14 (01/15/2022)**: News Text Summarization using Transformers
