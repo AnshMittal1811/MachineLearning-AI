@@ -76,6 +76,16 @@ Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-
 
 * **Day 12 (01/13/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
 
-* **Day 13 (01/14/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+* **Day 13 (01/14/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
 
-* **Day 14 (01/15/2022)**: News Text Summarization using Transformers
+* **Day 14 (01/15/2022)**: [Physics-based Optimization algorithms]()
+This folder contains optimization techniques such as the following: 
+1. Tug-Of-War Optimization
+2. Nuclear Reaction Optimization
+3. Henry Gas Optimization
+
+* **Day 15 (01/16/2022)**: [Human Activity-based Optimization algorithms]()
+
+* **Day 18 (01/14/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+
+* **Day 19 (01/15/2022)**: News Text Summarization using Transformers
