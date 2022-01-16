@@ -60,11 +60,11 @@ Loss Metrices
 :-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png) 
 
-* **Day 9 (01/10/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
+* **Day 9 (01/11/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
 
-* **Day 10 (01/11/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
+* **Day 10 (01/12/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
 
-* **Day 11 (01/12/2022)**: [Ant-Colony Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/011_Ant_Colony_Optimization)
+* **Day 11 (01/13/2022)**: [Ant-Colony Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/011_Ant_Colony_Optimization)
 
 Explore Difference between Ant Colony Optimization and Genetic Algorithms for Travelling Salesman Problem. 
 
@@ -74,11 +74,11 @@ Ant Colony Optimization | ![](https://github.com/AnshMittal1811/MachineLearning-
 Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/011_Ant_Colony_Optimization/GeneticAlgorithm.png)
 
 
-* **Day 12 (01/13/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
+* **Day 12 (01/14/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
 
-* **Day 13 (01/14/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
+* **Day 13 (01/15/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
 
-* **Day 14 (01/15/2022)**: [Physics-based Optimization algorithms]()
+* **Day 14 (01/16/2022)**: [Physics-based Optimization algorithms]()
 Explored the contents of Physics-based optimization techniques such as: 
 1. Tug-Of-War Optimization (Kaveh, A., & Zolghadr, A. (2016). A novel meta-heuristic algorithm: tug of war optimization. Iran University of Science & Technology, 6(4), 469-492.)
 2. Nuclear Reaction Optimization (Wei, Z., Huang, C., Wang, X., Han, T., & Li, Y. (2019). Nuclear Reaction Optimization: A novel and powerful physics-based algorithm for global optimization. IEEE Access.)
@@ -98,17 +98,17 @@ Explored the contents of Physics-based optimization techniques such as:
     + Good results come from CEC 2014
 ```
 
-* **Day 15 (01/16/2022)**: [Human Activity-based Optimization algorithms]()
+* **Day 15 (01/17/2022)**: [Human Activity-based Optimization algorithms]()
 Explored the contents of Human Activity-based optimization techniques such as: 
 1. Queuing Search Algorithm (Zhang, J., Xiao, M., Gao, L., & Pan, Q. (2018). Queuing search algorithm: A novel metaheuristic algorithm for solving engineering optimization problems. Applied Mathematical Modelling, 63, 464-490.)
 
-* **Day 16 (01/17/2022)**: [Evolutionary Optimization algorithms]()
+* **Day 16 (01/18/2022)**: [Evolutionary Optimization algorithms]()
 Explored the contents of Human Activity-based optimization techniques such as:
 Genetic Algorithms (Holland, J. H. (1992). Genetic algorithms. Scientific american, 267(1), 66-73)
 Differential Evolution (Storn, R., & Price, K. (1997). Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. Journal of global optimization, 11(4), 341-359)
 Coral Reefs Optimization Algorithm (Salcedo-Sanz, S., Del Ser, J., Landa-Torres, I., Gil-López, S., & Portilla-Figueras, J. A. (2014). The coral reefs optimization algorithm: a novel metaheuristic for efficiently solving optimization problems. The Scientific World Journal, 2014)
 
-* **Day 17 (01/18/2022)**: [Swarm-based Optimization algorithms]()
+* **Day 17 (01/19/2022)**: [Swarm-based Optimization algorithms]()
 Explored the contents of Swarm-based optimization techniques such as: 
 1. Particle Swarm Optimization (Eberhart, R., & Kennedy, J. (1995, October). A new optimizer using particle swarm theory. In MHS'95. Proceedings of the Sixth International Symposium on Micro Machine and Human Science (pp. 39-43). IEEE)
 2. Cat Swarm Optimization (Chu, S. C., Tsai, P. W., & Pan, J. S. (2006, August). Cat swarm optimization. In Pacific Rim international conference on artificial intelligence (pp. 854-858). Springer, Berlin, Heidelberg)
@@ -120,8 +120,8 @@ Explored the contents of Swarm-based optimization techniques such as:
 8. Harris Hawks Optimization (Heidari, A. A., Mirjalili, S., Faris, H., Aljarah, I., Mafarja, M., & Chen, H. (2019). Harris hawks optimization: Algorithm and applications. Future Generation Computer Systems, 97, 849-872)
 9. Sailfish Optimizer (Shadravan, S., Naji, H. R., & Bardsiri, V. K. (2019). The Sailfish Optimizer: A novel nature-inspired metaheuristic algorithm for solving constrained engineering optimization problems. Engineering Applications of Artificial Intelligence, 80, 20-34)
 
-*Credits (from Day 14--17): [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics)*
+*Credits (from Day 14--17): Learnt a lot due to [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics)* and his repository that deals with metaheuristic algorithms. Plan to use these algorithms in the problems enountered later onwards.
 
-* **Day 18 (01/14/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+* **Day 18 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
 
-* **Day 19 (01/15/2022)**: News Text Summarization using Transformers
+* **Day 19 (01/21/2022)**: [News Text Summarization using Transformers]()
