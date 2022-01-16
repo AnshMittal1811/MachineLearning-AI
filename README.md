@@ -82,12 +82,23 @@ Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-
 This folder contains optimization techniques such as the following: 
 1. Tug-Of-War Optimization (Kaveh, A., & Zolghadr, A. (2016). A novel meta-heuristic algorithm: tug of war optimization. Iran University of Science & Technology, 6(4), 469-492.)
 2. Nuclear Reaction Optimization (Wei, Z., Huang, C., Wang, X., Han, T., & Li, Y. (2019). Nuclear Reaction Optimization: A novel and powerful physics-based algorithm for global optimization. IEEE Access.)
-``` + So many equations and loops - take time to run on larger dimension 
+``` 
+    + So many equations and loops - take time to run on larger dimension 
     + General O (g * n * d) 
     + Good convergence curse because the used of gaussian-distribution and levy-flight trajectory
     + Use the variant of Differential Evolution
 ```
 4. Henry Gas Solubility Optimization (Hashim, F. A., Houssein, E. H., Mabrouk, M. S., Al-Atabany, W., & Mirjalili, S. (2019). Henry gas solubility optimization: A novel physics-based algorithm. Future Generation Computer Systems, 101, 646-667.)
+
+```
+    + Too much constants and variables
+    + Still have some unclear point in Eq. 9 and Algorithm. 1
+    + Can improve this algorithm by opposition-based and levy-flight
+    + A wrong logic code in line 91 "j = id % self.n_elements" => to "j = id % self.n_clusters" can make algorithm converge faster. I don't know why?
+    + Good results come from CEC 2014
+```
+
+Credits: [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics)
 
 * **Day 15 (01/16/2022)**: [Human Activity-based Optimization algorithms]()
 
