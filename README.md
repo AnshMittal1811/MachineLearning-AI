@@ -120,7 +120,7 @@ Explored the contents of Swarm-based optimization techniques such as:
 8. Harris Hawks Optimization (Heidari, A. A., Mirjalili, S., Faris, H., Aljarah, I., Mafarja, M., & Chen, H. (2019). Harris hawks optimization: Algorithm and applications. Future Generation Computer Systems, 97, 849-872)
 9. Sailfish Optimizer (Shadravan, S., Naji, H. R., & Bardsiri, V. K. (2019). The Sailfish Optimizer: A novel nature-inspired metaheuristic algorithm for solving constrained engineering optimization problems. Engineering Applications of Artificial Intelligence, 80, 20-34)
 
-*Credits (from Day 14--17): Learnt a lot due to [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics)* and his repository that deals with metaheuristic algorithms. Plan to use these algorithms in the problems enountered later onwards.
+*Credits (from Day 14--17): Learnt a lot due to [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics) and his repository that deals with metaheuristic algorithms. Plan to use these algorithms in the problems enountered later onwards.*
 
 * **Day 18 (01/18/2022)**: [Grey Wolf Optimization, and Firefly Algorithm]()
 
