@@ -2,18 +2,18 @@
 
 This is the 100 days of Machine Learning, Deep Learning, Artificial Intelligence, and Optimization mini-projects that I picked up at the start of January 2022. I have used Google Colab for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
-* **Day 1 (01/03/2022)**: [GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/001_GradCAM_basics)
+* **Day 1 (01/01/2022)**: [GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/001_GradCAM_basics)
 
 Classification for Cat (GradCAM-based Explainability)          |  Classification for Dog (GradCAM-based Explainability)
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_cat.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/001_GradCAM_basics/gradcam_dog.jpg)
 
-* **Day 2 (01/04/2022)**: [Multi-task Learning (focussed on Object Localization)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/002_Multi_task_Learning)
+* **Day 2 (01/02/2022)**: [Multi-task Learning (focussed on Object Localization)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/002_Multi_task_Learning)
 
 <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/002_Multi_task_Learning/Image_predict.png" width="500" height="450">
 <!-- %% ![](){:height="700px" width="700px"} -->
 
-* **Day 3 (01/05/2022)**: [Implementing GradCAM on Computer Vision problems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/003_GradCAM_for_CV)
+* **Day 3 (01/03/2022)**: [Implementing GradCAM on Computer Vision problems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/003_GradCAM_for_CV)
   1. GradCAM for Semantic Segmentation
   2. GradCAM for ObjectDetection
 
@@ -23,7 +23,7 @@ Semantic Segmentation  | GradCAM  | ![](https://github.com/AnshMittal1811/Machin
 Object Detection      | EigenCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/EigenCAMonOD.png)
 Object Detection      | AblationCAM  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/ObjectDetection.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/003_GradCAM_for_CV/AblationCAMonOD.png)
 
-* **Day 4 (01/06/2022)**: [Deep Learning using PointNet-based Dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/004_PointNet_Deep_Learning)
+* **Day 4 (01/04/2022)**: [Deep Learning using PointNet-based Dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/004_PointNet_Deep_Learning)
   1. Classification
 
 3D Point Clouds         |  Meshes Used         | Sampled Meshes        
@@ -37,7 +37,7 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/004_PointNet_Deep_Learning/Airplane_Actual_off.gif" width="1024" height="640">
 <!-- ![]() -->
 
-* **Day 5 (01/07/2022)**: [Graph Neural Network on YouChoose dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/005_Graph_Neural_Network)
+* **Day 5 (01/05/2022)**: [Graph Neural Network on YouChoose dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/005_Graph_Neural_Network)
 1. Implementing GNNs on YouChoose-Click dataset
 2. Implementing GNNs on YouChoose-Buy dataset
 
@@ -46,25 +46,25 @@ Dataset         |  Loss Curve         | Accuracy Curve
 YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_1.png)  
 YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_2.png)
 
-* **Day 6 (01/08/2022)**: [Graph neural Network for Recommnedation Systems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/006_Graph_Neural_Network_for_Recommender_System)
-* **Day 7 (01/09/2022)**: [Vision Transformers for efficient Image Classification](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/007_Vision_Transformer)
+* **Day 6 (01/06/2022)**: [Graph neural Network for Recommnedation Systems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/006_Graph_Neural_Network_for_Recommender_System)
+* **Day 7 (01/07/2022)**: [Vision Transformers for efficient Image Classification](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/007_Vision_Transformer)
 
 SN         |  Training and Validation Metrices              
 :-------------------------:|:-------------------------:
 1  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/accuracy_1.png)  
 2  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/007_Vision_Transformer/loss_1.png)
 
-* **Day 8 (01/10/2022)**: [Graph Neural Networks for Molecular Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/008_GNNs_on_Molecular_ML)
+* **Day 8 (01/08/2022)**: [Graph Neural Networks for Molecular Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/008_GNNs_on_Molecular_ML)
 
 Loss Metrices              
 :-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/008_GNNs_on_Molecular_ML/loss_1.png) 
 
-* **Day 9 (01/11/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
+* **Day 9 (01/09/2022)**: [Latent 3D Point Cloud Generation using GANs and Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/009_Latent_3D_PointCloud_Generation_using_GANs)
 
-* **Day 10 (01/12/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
+* **Day 10 (01/10/2022)**: [Deep Learning introduced on Audio Signal](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/010_Deep_Learning_for_Audio_Signals)
 
-* **Day 11 (01/13/2022)**: [Ant-Colony Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/011_Ant_Colony_Optimization)
+* **Day 11 (01/11/2022)**: [Ant-Colony Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/011_Ant_Colony_Optimization)
 
 Explore Difference between Ant Colony Optimization and Genetic Algorithms for Travelling Salesman Problem. 
 
@@ -74,11 +74,11 @@ Ant Colony Optimization | ![](https://github.com/AnshMittal1811/MachineLearning-
 Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/011_Ant_Colony_Optimization/GeneticAlgorithm.png)
 
 
-* **Day 12 (01/14/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
+* **Day 12 (01/12/2022)**: [Particle Swarm Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/012_Particle_Swarm_Optimization) 
 
-* **Day 13 (01/15/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
+* **Day 13 (01/13/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
 
-* **Day 14 (01/16/2022)**: [Physics-based Optimization algorithms]()
+* **Day 14 (01/14/2022)**: [Physics-based Optimization algorithms]()
 Explored the contents of Physics-based optimization techniques such as: 
 1. Tug-Of-War Optimization (Kaveh, A., & Zolghadr, A. (2016). A novel meta-heuristic algorithm: tug of war optimization. Iran University of Science & Technology, 6(4), 469-492.)
 2. Nuclear Reaction Optimization (Wei, Z., Huang, C., Wang, X., Han, T., & Li, Y. (2019). Nuclear Reaction Optimization: A novel and powerful physics-based algorithm for global optimization. IEEE Access.)
@@ -98,17 +98,17 @@ Explored the contents of Physics-based optimization techniques such as:
     + Good results come from CEC 2014
 ```
 
-* **Day 15 (01/17/2022)**: [Human Activity-based Optimization algorithms]()
+* **Day 15 (01/15/2022)**: [Human Activity-based Optimization algorithms]()
 Explored the contents of Human Activity-based optimization techniques such as: 
 1. Queuing Search Algorithm (Zhang, J., Xiao, M., Gao, L., & Pan, Q. (2018). Queuing search algorithm: A novel metaheuristic algorithm for solving engineering optimization problems. Applied Mathematical Modelling, 63, 464-490.)
 
-* **Day 16 (01/18/2022)**: [Evolutionary Optimization algorithms]()
+* **Day 16 (01/16/2022)**: [Evolutionary Optimization algorithms]()
 Explored the contents of Human Activity-based optimization techniques such as:
 Genetic Algorithms (Holland, J. H. (1992). Genetic algorithms. Scientific american, 267(1), 66-73)
 Differential Evolution (Storn, R., & Price, K. (1997). Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. Journal of global optimization, 11(4), 341-359)
 Coral Reefs Optimization Algorithm (Salcedo-Sanz, S., Del Ser, J., Landa-Torres, I., Gil-López, S., & Portilla-Figueras, J. A. (2014). The coral reefs optimization algorithm: a novel metaheuristic for efficiently solving optimization problems. The Scientific World Journal, 2014)
 
-* **Day 17 (01/19/2022)**: [Swarm-based Optimization algorithms]()
+* **Day 17 (01/17/2022)**: [Swarm-based Optimization algorithms]()
 Explored the contents of Swarm-based optimization techniques such as: 
 1. Particle Swarm Optimization (Eberhart, R., & Kennedy, J. (1995, October). A new optimizer using particle swarm theory. In MHS'95. Proceedings of the Sixth International Symposium on Micro Machine and Human Science (pp. 39-43). IEEE)
 2. Cat Swarm Optimization (Chu, S. C., Tsai, P. W., & Pan, J. S. (2006, August). Cat swarm optimization. In Pacific Rim international conference on artificial intelligence (pp. 854-858). Springer, Berlin, Heidelberg)
@@ -122,6 +122,8 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 *Credits (from Day 14--17): Learnt a lot due to [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics)* and his repository that deals with metaheuristic algorithms. Plan to use these algorithms in the problems enountered later onwards.
 
-* **Day 18 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+* **Day 18 (01/18/2022)**: [Grey Wolf Optimization, and Firefly Algorithm]()
 
-* **Day 19 (01/21/2022)**: [News Text Summarization using Transformers]()
+* **Day 19 (01/19/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+
+* **Day 20 (01/20/2022)**: [News Text Summarization using Transformers]()
