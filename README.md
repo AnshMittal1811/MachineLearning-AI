@@ -102,7 +102,7 @@ Explored the contents of Physics-based optimization techniques such as:
 Explored the contents of Human Activity-based optimization techniques such as: 
 1. Queuing Search Algorithm (Zhang, J., Xiao, M., Gao, L., & Pan, Q. (2018). Queuing search algorithm: A novel metaheuristic algorithm for solving engineering optimization problems. Applied Mathematical Modelling, 63, 464-490.)
 
-* **Day 16 (01/16/2022)**: [Evolutionary Optimization algorithms]()
+* **Day 16 (01/16/2022)**: [Evolutionary Optimization algorithms](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/016_Evoluationarybased_Optimization_Algos)
 Explored the contents of Human Activity-based optimization techniques such as:
 Genetic Algorithms (Holland, J. H. (1992). Genetic algorithms. Scientific american, 267(1), 66-73)
 Differential Evolution (Storn, R., & Price, K. (1997). Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. Journal of global optimization, 11(4), 341-359)
