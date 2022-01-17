@@ -78,7 +78,7 @@ Genetic Algorithm       | ![](https://github.com/AnshMittal1811/MachineLearning-
 
 * **Day 13 (01/13/2022)**: [Cuckoo Search Optimization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/013_Cuckoo_Search_Optimization)
 
-* **Day 14 (01/14/2022)**: [Physics-based Optimization algorithms]()
+* **Day 14 (01/14/2022)**: [Physics-based Optimization algorithms](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/014_Physicsbased_Optimization_Algos)
 Explored the contents of Physics-based optimization techniques such as: 
 1. Tug-Of-War Optimization (Kaveh, A., & Zolghadr, A. (2016). A novel meta-heuristic algorithm: tug of war optimization. Iran University of Science & Technology, 6(4), 469-492.)
 2. Nuclear Reaction Optimization (Wei, Z., Huang, C., Wang, X., Han, T., & Li, Y. (2019). Nuclear Reaction Optimization: A novel and powerful physics-based algorithm for global optimization. IEEE Access.)
@@ -98,7 +98,7 @@ Explored the contents of Physics-based optimization techniques such as:
     + Good results come from CEC 2014
 ```
 
-* **Day 15 (01/15/2022)**: [Human Activity-based Optimization algorithms]()
+* **Day 15 (01/15/2022)**: [Human Activity-based Optimization algorithms](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/015_Human_Activitybased_Optimization_Algo)
 Explored the contents of Human Activity-based optimization techniques such as: 
 1. Queuing Search Algorithm (Zhang, J., Xiao, M., Gao, L., & Pan, Q. (2018). Queuing search algorithm: A novel metaheuristic algorithm for solving engineering optimization problems. Applied Mathematical Modelling, 63, 464-490.)
 
