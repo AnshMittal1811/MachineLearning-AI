@@ -122,7 +122,9 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 *Credits (from Day 14--17): Learnt a lot due to [Nguyen Van Thieu](https://github.com/thieu1995/metaheuristics) and his repository that deals with metaheuristic algorithms. Plan to use these algorithms in the problems enountered later onwards.*
 
-* **Day 18 (01/18/2022)**: [Grey Wolf Optimization, and Firefly Algorithm]()
+* **Day 18 (01/18/2022)**: [Grey Wolf Optimization Algorithm](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/018_Grey_Wolf_Optimizer)
+
+* **Day 19 (01/19/2022)**: [Firefly Optimization Algorithm]()
 
 * **Day 19 (01/19/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
 
