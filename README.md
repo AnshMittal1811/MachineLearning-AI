@@ -126,6 +126,6 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 * **Day 19 (01/19/2022)**: [Firefly Optimization Algorithm]()
 
-* **Day 19 (01/19/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+* **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
 
-* **Day 20 (01/20/2022)**: [News Text Summarization using Transformers]()
+* **Day 21 (01/21/2022)**: [News Text Summarization using Transformers]()
