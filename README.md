@@ -124,10 +124,10 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 * **Day 18 (01/18/2022)**: [Grey Wolf Optimization Algorithm](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/018_Grey_Wolf_Optimizer)
 
-* **Day 19 (01/20/2022)**: [Latent Space Representation]()
+* **Day 19 (01/19/2022)**: [Firefly Optimization Algorithm](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/019_Firefly_Algorithm)
 
-* **Day 20 (01/20/2022)**: [Firefly Optimization Algorithm]()
+* **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
 
-* **Day 21 (01/21/2022)**: [Covariance Matrix Adaptation Evolution Strategy]()
+* **Day 21 (01/21/2022)**: [Latent Space Representation]()
 
 * **Day 22 (01/22/2022)**: [News Text Summarization using Transformers]()
