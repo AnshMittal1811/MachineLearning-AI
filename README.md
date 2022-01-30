@@ -134,7 +134,14 @@ CMAES without bounds          |  CMAES with bounds
 
 Refered from: Nikolaus Hansen, Dirk Arnold, Anne Auger. Evolution Strategies. Janusz Kacprzyk; Witold Pedrycz. Handbook of Computational Intelligence, Springer, 2015, 978-3-622-43504-5. ffhal-01155533f
 
-* **Day 21 (01/21/2022)**: 
+* **Day 21 (01/21/2022)**: [Copy Move Forgery Detection using SIFT Features](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/021_Copy_Move_Forgery_Detection)
+
+S. No          |  Forged Images          |  Forgery Detection in Images
+:-------------------------:|:-------------------------:
+1.  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/Images/forged1.png)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/CopyMoveDetection/forged1_60_2_2022_01_30_01_05_13.png)
+2.  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/Images/forged2.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/CopyMoveDetection/forged2_60_2_2022_01_30_01_06_01.jpg)
+3.  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/Images/forged3.png)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/CopyMoveDetection/forged3_60_2_2022_01_30_01_06_18.png)
+
 
 * **Day 22 (01/22/2022)**: 
 
