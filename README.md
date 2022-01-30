@@ -128,7 +128,7 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 * **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy) Referenced from CMA (can be installed using ```pip install cma```)
 
-Classification for Cat (GradCAM-based Explainability)          |  Classification for Dog (GradCAM-based Explainability)
+CMAES without bounds          |  CMAES with bounds
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy/CMAES.png)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy/CMAES_with_bounds.png)
 
