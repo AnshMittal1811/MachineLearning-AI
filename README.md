@@ -156,19 +156,19 @@ CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/
 
 Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 
-* **Day 23 (01/23/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1]()
+* **Day 23 (01/23/2022)**: [Background Detection using OpenCV]
 
-* **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2]()
+* **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1]()
 
-* **Day 25 (01/25/2022)**: [Latent Space Representation Part 1: AutoEncoders]()
+* **Day 25 (01/25/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2]()
 
-* **Day 26 (01/26/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders]()
+* **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders]()
 
-* **Day 27 (01/27/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks]()
+* **Day 27 (01/27/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders]()
 
-* **Day 28 (01/28/2022)**: [StyleGANs]()
+* **Day 28 (01/28/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks]()
 
-* **Day 29 (01/29/2022)**: 
+* **Day 29 (01/29/2022)**: [StyleGANs]()
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
