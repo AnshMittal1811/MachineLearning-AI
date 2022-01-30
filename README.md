@@ -143,7 +143,18 @@ S. No          |  Forged Images          |  Forgery Detection in Images
 3     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/Images/forged3.png)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/021_Copy_Move_Forgery_Detection/CopyMoveDetection/forged3_60_2_2022_01_30_01_06_18.png)
 
 
-* **Day 22 (01/22/2022)**: 
+* **Day 22 (01/22/2022)**: [Contour Detection using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/022_Contour_Detection_using_OpenCV)
+
+Contour Approximation Method          |  Retrieval Method          |  Actual Image          |  Contours Detected
+:-------------:|:-----------------------:|:-------------------------:
+CHAIN_APPROX_NONE     |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img4.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_none_image4.jpg)
+CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img4.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_simple_image4.jpg)
+CHAIN_APPROX_SIMPLE   |  RETR_CCOMP    |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img5.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_retr_ccomp_img5.jpg)
+CHAIN_APPROX_SIMPLE   |  RETR_LIST     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img5.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_retr_list_img5.jpg)
+CHAIN_APPROX_SIMPLE   |  RETR_EXTERNAL |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img5.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_retr_external_img5.jpg)
+CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img5.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_retr_tree_img5.jpg)
+
+Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 
 * **Day 23 (01/23/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1]()
 
