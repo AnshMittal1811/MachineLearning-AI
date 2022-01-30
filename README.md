@@ -128,6 +128,9 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 * **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy) Referenced from CMA (can be installed using ```pip install cma```)
 
+Refered from: Nikolaus Hansen, Dirk Arnold, Anne Auger. Evolution Strategies. Janusz Kacprzyk; Witold Pedrycz. Handbook of Computational Intelligence, Springer, 2015, 978-3-622-43504-5. ffhal-01155533f
+
 * **Day 21 (01/21/2022)**: [Latent Space Representation]()
 
-* **Day 22 (01/22/2022)**: [News Text Summarization using Transformers]()
+<!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
+ -->
