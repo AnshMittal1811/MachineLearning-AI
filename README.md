@@ -134,7 +134,23 @@ CMAES without bounds          |  CMAES with bounds
 
 Refered from: Nikolaus Hansen, Dirk Arnold, Anne Auger. Evolution Strategies. Janusz Kacprzyk; Witold Pedrycz. Handbook of Computational Intelligence, Springer, 2015, 978-3-622-43504-5. ffhal-01155533f
 
-* **Day 21 (01/21/2022)**: [Latent Space Representation]()
+* **Day 21 (01/21/2022)**: 
+
+* **Day 22 (01/22/2022)**: 
+
+* **Day 23 (01/23/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1]()
+
+* **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2]()
+
+* **Day 25 (01/25/2022)**: [Latent Space Representation Part 1: AutoEncoders]()
+
+* **Day 26 (01/26/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders]()
+
+* **Day 27 (01/27/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks]()
+
+* **Day 28 (01/28/2022)**: [StyleGANs]()
+
+* **Day 29 (01/29/2022)**: 
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
