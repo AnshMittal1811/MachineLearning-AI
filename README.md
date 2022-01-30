@@ -146,7 +146,7 @@ S. No          |  Forged Images          |  Forgery Detection in Images
 * **Day 22 (01/22/2022)**: [Contour Detection using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/022_Contour_Detection_using_OpenCV)
 
 Contour Approximation Method          |  Retrieval Method          |  Actual Image          |  Contours Detected
-:-------------:|:-----------------------:|:-------------------------:
+:-------------:|:-------------:|:-----------------------:|:-------------------------:
 CHAIN_APPROX_NONE     |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img4.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_none_image4.jpg)
 CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img4.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_simple_image4.jpg)
 CHAIN_APPROX_SIMPLE   |  RETR_CCOMP    |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/img5.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/022_Contour_Detection_using_OpenCV/Images/contours_retr_ccomp_img5.jpg)
