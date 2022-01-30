@@ -126,7 +126,7 @@ Explored the contents of Swarm-based optimization techniques such as:
 
 * **Day 19 (01/19/2022)**: [Firefly Optimization Algorithm](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/019_Firefly_Algorithm)
 
-* **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy)
+* **Day 20 (01/20/2022)**: [Covariance Matrix Adaptation Evolution Strategy](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/020_Covariance_Matrix_Adaptation_Evolution_Strategy) Referenced from CMA (can be installed using ```pip install cma```)
 
 * **Day 21 (01/21/2022)**: [Latent Space Representation]()
 
