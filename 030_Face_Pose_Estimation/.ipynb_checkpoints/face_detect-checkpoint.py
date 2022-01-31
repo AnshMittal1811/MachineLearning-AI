@@ -1,6 +1,6 @@
 from mtcnn.mtcnn import MTCNN
 import cv2
-#import dlib
+import dlib
 import numpy as np
 import os
 import sys
@@ -102,7 +102,7 @@ def read_image_file(img_folder):
         
         print(str(image.split("\\")[-1].split(".jpg")[0]))
         cv2.imwrite("./TestImages/mtcnn_" + str(image.split("\\")[-1]), img1)
-        # cv2.imwrite("./TestImages/dlib_" + image.split("\\")[-1].split(".jpg")[0], img2)
+        #cv2.imwrite("./TestImages/dlib_" + image.split("\\")[-1].split(".jpg")[0], img2)
         cv2.imwrite("./TestImages/haar_" + str(image.split("\\")[-1]), img3)
         cv2.imwrite("./TestImages/dnn_" + str(image.split("\\")[-1]), img4)
         
