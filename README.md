@@ -170,5 +170,7 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 29 (01/29/2022)**: [StyleGANs]()
 
+* **Day 30 (01/30/2022)**: [Head-Pose Detection using 3D coordinates for Multiple People]()
+
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
