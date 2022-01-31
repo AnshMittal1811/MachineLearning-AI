@@ -156,11 +156,11 @@ CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/
 
 Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 
-* **Day 23 (01/23/2022)**: [Background Detection using OpenCV]()
+* **Day 23 (01/23/2022)**: [Background Detection using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/023_Simple_Background_Estimation)
 
-* **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1]()
+* **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/024_Quantum_Machine_Learning_Part_I)
 
-* **Day 25 (01/25/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2]()
+* **Day 25 (01/25/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/025_Quantum_Machine_Learning_Part_II)
 
 * **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders]()
 
