@@ -162,7 +162,7 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 25 (01/25/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 2](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/025_Quantum_Machine_Learning_Part_II)
 
-* **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders]()
+* **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/026_LSR_I_Autoencoders)
 
 * **Day 27 (01/27/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders]()
 
@@ -170,7 +170,9 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 29 (01/29/2022)**: [StyleGANs]()
 
-* **Day 30 (01/30/2022)**: [Head-Pose Detection using 3D coordinates for Multiple People]()
+* **Day 30 (01/30/2022)**: [Head-Pose Detection using 3D coordinates for Multiple People](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/030_Face_Pose_Estimation)
+
+* **Day 31 (01/31/2022)**: [Depth Estimation for face using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/031_Depth_Estimation_for_faces)
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
