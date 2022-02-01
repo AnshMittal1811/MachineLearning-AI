@@ -13,14 +13,17 @@ def monocular_depth_estimation_config():
     mp_facedetector = mp.solutions.face_detection
     mp_draw = mp.solutions.drawing_utils
 
-    path_model = "./models"
+    path_model = "F:\\100daysofML\\031_Depth_Estimation_for_faces\\models"
 
     # Read Network
     model_name = "model-f6b98070.onnx"; # MiDaS v2.1 Large
     #model_name = "model-small.onnx"; # MiDaS v2.1 Small
 
+    model_path = os.path.join(path_model, model_name)
+    if os.path.isfile(model_path):
+        print(model_path)
     # Load the DNN model
-    model = cv2.dnn.readNet(os.path.join(path_model, model_name))
+    model = cv2.dnn.readNet(model_path)
 
     if (model.empty()):
         print("Could not load the neural net! - Check path")
@@ -36,7 +39,7 @@ def invert_rgb_to_bgr(img):
     return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 
-def depth_estimation_for_face(img):
+def depth_estimation_for_face(img, imgHeight, imgWidth, channels):
     mp_facedetector, mp_draw, model = monocular_depth_estimation_config()
     face_detection = mp_facedetector.FaceDetection(min_detection_confidence=0.6)
     results = face_detection.process(img)
@@ -87,11 +90,11 @@ def depth_estimation_for_face(img):
 def read_video_camera():
     cap_video = cv2.VideoCapture(0)
     while cap_video.isOpened():
-        success, img = cap.read()
+        success, img = cap_video.read()
         imgHeight, imgWidth, channels = img.shape
         start = time.time()
         # --------- Process the image and find faces with mediapipe ---------
-        img, depth_map = depth_estimation_for_face(invert_rgb_to_bgr(img))
+        img, depth_map = depth_estimation_for_face(invert_rgb_to_bgr(img), imgHeight, imgWidth, channels)
         
         end = time.time()
         totalTime = end - start
@@ -116,8 +119,8 @@ def read_image_file(img_folder):
         os.mkdir("./DepthEstimation")
     for image in tqdm(images): 
         img = cv2.imread(image)
-        
-        img, depth_estimation = depth_estimation_for_face(invert_rgb_to_bgr(img.copy()))
+        imgHeight, imgWidth, channels = img.shape
+        img, depth_estimation = depth_estimation_for_face(invert_rgb_to_bgr(img.copy()), imgHeight, imgWidth, channels)
         cv2.imwrite("./DepthEstimation/depth_map_" + str(image.split("\\")[-1]), img)
         cv2.imwrite("./DepthEstimation/depth_estimation_" + str(image.split("\\")[-1]), depth_estimation)
 
