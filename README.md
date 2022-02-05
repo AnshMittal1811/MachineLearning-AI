@@ -185,6 +185,13 @@ OpenCV's Deep Neural Network   |  ![](https://github.com/AnshMittal1811/MachineL
 
 * **Day 31 (01/31/2022)**: [Depth Estimation for face using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/031_Depth_Estimation_for_faces)
 
+Model Used          |  Actual Image          |  Monocular Depth Estimation          |  Depth Map
+:-------------:|:-------------:|:-------------:|:-------------:
+MiDaS model for Depth Estimation      |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/Images/faces01.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/DepthEstimation/depth_estimation_faces01.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/DepthEstimation/depth_map_faces01.jpg)  
+MiDaS model for Depth Estimation     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/Images/faces03.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/DepthEstimation/depth_estimation_faces03https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/DepthEstimation/depth_map_faces01.jpg.jpg)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/031_Depth_Estimation_for_faces/DepthEstimation/depth_map_faces03.jpg)  
+
+Ref: (The model used was ![Large Model ONNX file](https://github.com/isl-org/MiDaS/releases/tag/v2_1))
+
 * **Day 32 (02/01/2022)**: [Adversarial Learning in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
