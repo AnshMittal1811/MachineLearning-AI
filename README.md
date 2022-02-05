@@ -164,15 +164,27 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/026_LSR_I_Autoencoders)
 
-* **Day 27 (01/27/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders]()
+* **Day 27 (01/27/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/027_LSR_II_Variational_Autoencoders)
 
-* **Day 28 (01/28/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks]()
+* **Day 28 (01/28/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/028_LSR_III_GANs)
 
 * **Day 29 (01/29/2022)**: [Entity Recognition in Natural Language Processing]()
 
 * **Day 30 (01/30/2022)**: [Head-Pose Detection using 3D coordinates for Multiple People](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/030_Face_Pose_Estimation)
 
+Library Used          |  Actual Image          |  Facial Detection          |  Facial Landmarks           |  Head Pose Estimation
+:-------------:|:-------------:|:-------------:|:-----------------------:|:-------------------------:
+Haar Cascades     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/Images/faces01.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/TestImages/haar_faces01.jpg)  |  (To be done)  |  (To be done)
+Haar Cascades     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/Images/faces03.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/TestImages/haar_faces03.jpg)   |  (To be done)  |  (To be done)
+Mult-task Cascaded Convolutional Neural Networks   | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/Images/faces01.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/TestImages/mtcnn_faces01.jpg)
+Mult-task Cascaded Convolutional Neural Networks   | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/Images/faces03.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/TestImages/mtcnn_faces03.jpg)   |  (To be done)  |  (To be done)
+OpenCV's Deep Neural Network   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/Images/faces01.jpg)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/030_Face_Pose_Estimation/TestImages/dnn_faces01.jpg)   |  (To be done)  |  (To be done)
+
+(Yet to use Dlib for facial detection.)
+
 * **Day 31 (01/31/2022)**: [Depth Estimation for face using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/031_Depth_Estimation_for_faces)
+
+* **Day 32 (02/01/2022)**: [Adversarial Learning in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
