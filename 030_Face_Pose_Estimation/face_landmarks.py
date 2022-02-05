@@ -11,6 +11,7 @@ from mtcnn_landmarks import MTCNN
 import warnings
 warnings.filterwarnings('ignore')
 
+
 def mtcnn_detect_land_marks(img, flag = False): 
     mark_detector = MTCNN()
     img = mark_detector.detectAndDraw(img, flag)
