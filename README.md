@@ -211,7 +211,10 @@ MiDaS model for Depth Estimation     |  ![](https://github.com/AnshMittal1811/Ma
 
 Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDaS/releases/tag/v2_1))
 
-* **Day 32 (02/01/2022)**: [Adversarial Learning in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
+* **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
+* **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
+* **Day 34 (02/03/2022)**: [Adversarial Learning in Natural Language Processing Part I]()
+* **Day 35 (02/04/2022)**: [Adversarial Learning in Natural Language Processing Part II]()
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
