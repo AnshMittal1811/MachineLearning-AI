@@ -168,7 +168,7 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 28 (01/28/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks]()
 
-* **Day 29 (01/29/2022)**: [StyleGANs]()
+* **Day 29 (01/29/2022)**: 
 
 * **Day 30 (01/30/2022)**: [Head-Pose Detection using 3D coordinates for Multiple People](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/030_Face_Pose_Estimation)
 
@@ -176,3 +176,5 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
+ 
+ <!--[StyleGANs]()-->
