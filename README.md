@@ -156,7 +156,11 @@ CHAIN_APPROX_SIMPLE   |  RETR_TREE     |  ![](https://github.com/AnshMittal1811/
 
 Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 
-* **Day 23 (01/23/2022)**: [Background Detection using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/023_Simple_Background_Estimation)
+* **Day 23 (01/23/2022)**: [Simple Background Detection using OpenCV](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/023_Simple_Background_Estimation)
+
+File used          |  Actual File          |  Estimated Background
+:-------------:|:-------------:|:-----------------------:
+Video 1     |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/023_Simple_Background_Estimation/data/video1.gif)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/023_Simple_Background_Estimation/Images/background1.jpg)
 
 * **Day 24 (01/24/2022)**: [Basics of Quantum Machine Learning with TensorFlow-Quantum Part 1](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/024_Quantum_Machine_Learning_Part_I)
 
@@ -164,9 +168,24 @@ Referenced from [here](https://learnopencv.com/contour-detection-using-opencv-py
 
 * **Day 26 (01/26/2022)**: [Latent Space Representation Part 1: AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/026_LSR_I_Autoencoders)
 
+Methods used       |  t-SNE Representation
+:-------------:|:-------------:
+Using PCA  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/026_LSR_I_Autoencoders/Images/tSNE-PCA-fashiondb.png)
+Using Autoencoders  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/026_LSR_I_Autoencoders/Images/tSNE-Latent-fashiondb.png)
+
+
 * **Day 27 (01/27/2022)**: [Latent Space Representation Part 2: Variational AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/027_LSR_II_Variational_Autoencoders)
 
+Methods used       |  Representation
+:-------------:|:-------------:
+Using PCA  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/026_LSR_I_Autoencoders/Images/tSNE-PCA-fashiondb.png)
+Using Variational Autoencoders  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/027_LSR_II_Variational_Autoencoders/Images/vae.png)
+
 * **Day 28 (01/28/2022)**: [Latent Space Representation Part 3: Deep Convolutional Generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/028_LSR_III_GANs)
+
+Methods used       |  Representation
+:-------------:|:-------------:
+Using Generative Adversarial Networks  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/028_LSR_III_GANs/bicycles.png)
 
 * **Day 29 (01/29/2022)**: [Entity Recognition in Natural Language Processing]()
 
