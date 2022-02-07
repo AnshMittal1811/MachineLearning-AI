@@ -26,20 +26,12 @@ parser.add_argument("--n_cpu", type=int, default=8, help="number of cpu threads 
 parser.add_argument("--latent_dim", type=int, default=100, help="dimensionality of the latent space")
 parser.add_argument("--img_size", type=int, default=32, help="size of each image dimension")
 parser.add_argument("--channels", type=int, default=1, help="number of image channels")
-parser.add_argument("--sample_interval", type=int, default=1000, help="number of image channels")
+parser.add_argument("--sample_interval", type=int, default=400, help="interval between image sampling")
+parser.add_argument("--rel_avg_gan", action="store_true", help="relativistic average GAN instead of standard")
 opt = parser.parse_args()
 print(opt)
 
-cuda = True if torch.cuda.is_available() else False
-
-
-def weights_init_normal(m):
-    classname = m.__class__.__name__
-    if classname.find("Conv") != -1:
-        torch.nn.init.normal_(m.weight.data, 0.0, 0.02)
-    elif classname.find("BatchNorm") != -1:
-        torch.nn.init.normal_(m.weight.data, 1.0, 0.02)
-        torch.nn.init.constant_(m.bias.data, 0.0)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 class Generator(nn.Module):
@@ -50,6 +42,7 @@ class Generator(nn.Module):
         self.l1 = nn.Sequential(nn.Linear(opt.latent_dim, 128 * self.init_size ** 2))
 
         self.conv_blocks = nn.Sequential(
+            nn.BatchNorm2d(128),
             nn.Upsample(scale_factor=2),
             nn.Conv2d(128, 128, 3, stride=1, padding=1),
             nn.BatchNorm2d(128, 0.8),
@@ -88,7 +81,7 @@ class Discriminator(nn.Module):
 
         # The height and width of downsampled image
         ds_size = opt.img_size // 2 ** 4
-        self.adv_layer = nn.Linear(128 * ds_size ** 2, 1)
+        self.adv_layer = nn.Sequential(nn.Linear(128 * ds_size ** 2, 1))
 
     def forward(self, img):
         out = self.model(img)
@@ -98,21 +91,12 @@ class Discriminator(nn.Module):
         return validity
 
 
-# !!! Minimizes MSE instead of BCE
-adversarial_loss = torch.nn.MSELoss()
+# Loss function
+adversarial_loss = torch.nn.BCEWithLogitsLoss().to(device)
 
 # Initialize generator and discriminator
-generator = Generator()
-discriminator = Discriminator()
-
-if cuda:
-    generator.cuda()
-    discriminator.cuda()
-    adversarial_loss.cuda()
-
-# Initialize weights
-generator.apply(weights_init_normal)
-discriminator.apply(weights_init_normal)
+generator = Generator().to(device)
+discriminator = Discriminator().to(device)
 
 # Configure data loader
 os.makedirs("../../data/mnist", exist_ok=True)
@@ -133,7 +117,7 @@ dataloader = torch.utils.data.DataLoader(
 optimizer_G = torch.optim.Adam(generator.parameters(), lr=opt.lr, betas=(opt.b1, opt.b2))
 optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=opt.lr, betas=(opt.b1, opt.b2))
 
-Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
+Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTensor
 
 # ----------
 #  Training
@@ -161,6 +145,14 @@ for epoch in range(opt.n_epochs):
         # Generate a batch of images
         gen_imgs = generator(z)
 
+        real_pred = discriminator(real_imgs).detach()
+        fake_pred = discriminator(gen_imgs)
+
+        if opt.rel_avg_gan:
+            g_loss = adversarial_loss(fake_pred - real_pred.mean(0, keepdim=True), valid)
+        else:
+            g_loss = adversarial_loss(fake_pred - real_pred, valid)
+
         # Loss measures generator's ability to fool the discriminator
         g_loss = adversarial_loss(discriminator(gen_imgs), valid)
 
@@ -173,10 +165,18 @@ for epoch in range(opt.n_epochs):
 
         optimizer_D.zero_grad()
 
-        # Measure discriminator's ability to classify real from generated samples
-        real_loss = adversarial_loss(discriminator(real_imgs), valid)
-        fake_loss = adversarial_loss(discriminator(gen_imgs.detach()), fake)
-        d_loss = 0.5 * (real_loss + fake_loss)
+        # Predict validity
+        real_pred = discriminator(real_imgs)
+        fake_pred = discriminator(gen_imgs.detach())
+
+        if opt.rel_avg_gan:
+            real_loss = adversarial_loss(real_pred - fake_pred.mean(0, keepdim=True), valid)
+            fake_loss = adversarial_loss(fake_pred - real_pred.mean(0, keepdim=True), fake)
+        else:
+            real_loss = adversarial_loss(real_pred - fake_pred, valid)
+            fake_loss = adversarial_loss(fake_pred - real_pred, fake)
+
+        d_loss = (real_loss + fake_loss) / 2
 
         d_loss.backward()
         optimizer_D.step()
