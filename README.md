@@ -211,14 +211,19 @@ MiDaS model for Depth Estimation     |  ![](https://github.com/AnshMittal1811/Ma
 
 Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDaS/releases/tag/v2_1))
 
-* **Day 32 (02/01/2022)**: [Exploring Latent Space in Depth II]
+* **Day 32 -- 37 (02/01/2022 -- 02/06/2022)**: [Exploring Latent Spaces in Depth]
 
-Model Used          |  Paper Link          |  Pictures          |  Implementation
-:-------------:|:-------------:|:-------------:|:-------------:
-Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)   |  ``` $ cd implementations/acgan/ 
-$ python3 acgan.py ```
-Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)   |  ``` $ cd implementations/acgan/ 
-$ python3 acgan.py ```
+Model Used          |  Paper Link          |  Pictures
+:-------------:|:-------------:|:-------------:
+Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)
+Bicycle GAN      |  [Paper 2](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Bicycle_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/bicyclegan.png)
+Conditional GAN      |  [Paper 3](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/bicyclegan.png)
+Cluster GAN      |  [Paper 4](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Cluster_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/cluster_gan.gif)
+Context Conditional GAN      |  [Paper 5](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Context_Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/conditional_gan.gif)
+Context Encoder      |  [Paper 6](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Context_Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/context_encoder.png)
+Cycle GAN      |  [Paper 7](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Cycle_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/cyclegan.png)
+
+
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
