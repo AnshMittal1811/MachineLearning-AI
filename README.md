@@ -215,8 +215,10 @@ Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDa
 
 Model Used          |  Paper Link          |  Pictures          |  Implementation
 :-------------:|:-------------:|:-------------:|:-------------:
-Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ``` $ cd implementations/acgan/ $ python3 acgan.py ```
-Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ``` $ cd implementations/acgan/ $ python3 acgan.py ```
+Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)   |  ``` $ cd implementations/acgan/ 
+$ python3 acgan.py ```
+Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)   |  ``` $ cd implementations/acgan/ 
+$ python3 acgan.py ```
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
