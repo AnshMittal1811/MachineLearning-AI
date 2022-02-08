@@ -214,7 +214,7 @@ Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDa
 * **Day 32 (02/01/2022)**: [Exploring Latent Space in Depth II]
 
 Model Used          |  Paper Link          |  Pictures          |  Implementation
-:-------------:|:-------------:|:-------------:|:-------------:|:-------------:
+:-------------:|:-------------:|:-------------:|:-------------:
 Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ``` $ cd implementations/acgan/ $ python3 acgan.py ```
 Auxiliary Classifier GAN      |  [Paper 1](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ``` $ cd implementations/acgan/ $ python3 acgan.py ```
 
