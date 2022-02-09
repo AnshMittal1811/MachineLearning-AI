@@ -211,7 +211,7 @@ MiDaS model for Depth Estimation     |  ![](https://github.com/AnshMittal1811/Ma
 
 Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDaS/releases/tag/v2_1))
 
-* **Day 32 -- 37 (02/01/2022 -- 02/06/2022)**: [Exploring Latent Spaces in Depth]
+* **Day 32 - 37 (02/01/2022 - 02/06/2022)**: [Exploring Latent Spaces in Depth]
 
 Model Used          |  Paper Link          |  Pictures
 :-------------:|:-------------:|:-------------:
@@ -233,6 +233,13 @@ StarGAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 SuperRes GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/papers/srgan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/Images/superresgan.png)
 WGAN DIV      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/papers/wgan_div.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/Images/wgan_div.gif)
 WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/papers/wgan_gp.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/Images/wgan_gp.gif)
+
+* **Day 38 (02/07/2022)**:
+ 
+* **Day 39 (02/08/2022)**:
+ 
+* **Day 40 (02/09/2022)**: 
+
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
