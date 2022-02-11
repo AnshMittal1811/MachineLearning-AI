@@ -211,6 +211,36 @@ MiDaS model for Depth Estimation     |  ![](https://github.com/AnshMittal1811/Ma
 
 Ref: (The model used was [Large Model ONNX file](https://github.com/isl-org/MiDaS/releases/tag/v2_1))
 
+* **Day 32 - 37 (02/01/2022 - 02/06/2022)**: [Exploring Latent Spaces in Depth]
+
+Model Used          |  Paper Link          |  Pictures
+:-------------:|:-------------:|:-------------:
+Auxiliary Classifier GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Auxiliary_Classifier_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/acgan.gif)
+Bicycle GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Bicycle_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/bicyclegan.png)
+Conditional GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/bicyclegan.png)
+Cluster GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Cluster_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/cluster_gan.gif)
+Context Conditional GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Context_Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/conditional_gan.gif)
+Context Encoder      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Context_Conditional_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/context_encoder.png)
+Cycle GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Papers%20Studied/Cycle_GANs.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/032_Exploring_Latent_Spaces_in_Depth_I/Images/cyclegan.png)
+Deep Convolutional GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Papers%20Studied/dcgan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Images/dcgan.gif)
+DiscoGANs      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Papers%20Studied/disco_gan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Images/discogan.png)
+Enhanced SuperRes GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Papers%20Studied/esrgan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/033_Exploring_Latent_Spaces_in_Depth_II/Images/enhanced_superresgan.png)
+InfoGAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/034_Exploring_Latent_Spaces_in_Depth_III/Papers%20Studied/info_gan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/034_Exploring_Latent_Spaces_in_Depth_III/Images/infogan.gif)
+MUNIT      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/034_Exploring_Latent_Spaces_in_Depth_III/Papers%20Studied/munit.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/034_Exploring_Latent_Spaces_in_Depth_III/Images/munit.png)
+Pix2Pix      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/035_Exploring_Latent_Spaces_in_Depth_IV/Papers%20Studied/pix2pix.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/035_Exploring_Latent_Spaces_in_Depth_IV/Images/pix2pix.png)
+PixelDA      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/035_Exploring_Latent_Spaces_in_Depth_IV/Papers%20Studied/pixelDA.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/035_Exploring_Latent_Spaces_in_Depth_IV/Images/pixelda.png)
+StarGAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/papers/stargan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/Images/stargan.png)
+SuperRes GAN      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/papers/srgan.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/036_Exploring_Latent_Spaces_in_Depth_V/Images/superresgan.png)
+WGAN DIV      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/papers/wgan_div.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/Images/wgan_div.gif)
+WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/papers/wgan_gp.pdf)  |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/037_Exploring_Latent_Spaces_in_Depth_VI/Images/wgan_gp.gif)
+
+* **Day 38 (02/07/2022)**:
+ 
+* **Day 39 (02/08/2022)**:
+ 
+* **Day 40 (02/09/2022)**: 
+
+
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
 * **Day 34 (02/03/2022)**: [Adversarial Learning in Natural Language Processing Part I]()
