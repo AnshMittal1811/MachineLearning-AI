@@ -240,6 +240,9 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
  
 * **Day 40 (02/09/2022)**: [Optical Flow Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/040_Optical_Flow_Estimation)
 
+* **Day 41 (02/10/2022)**: [Face Frontalization]()
+
+* **Day 42 (02/11/2022)**: [Scene Understanding Problem]()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
