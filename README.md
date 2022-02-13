@@ -244,7 +244,7 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 
 * **Day 42 (02/11/2022)**: [Explainability in Self Driving Cars](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/042_Explainability_in_Self_Driving_Cars)
 
-(video)[https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/042_Explainability_in_Self_Driving_Cars/Images/How%20a%20self%20driving%20car%20sees%20the%20world.mp4]
+[video](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/042_Explainability_in_Self_Driving_Cars/Images/How%20a%20self%20driving%20car%20sees%20the%20world.mp4)
 
 * **Day 43 (02/12/2022)**: []()
 
