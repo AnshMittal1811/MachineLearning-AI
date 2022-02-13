@@ -240,9 +240,20 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
  
 * **Day 40 (02/09/2022)**: [Optical Flow Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/040_Optical_Flow_Estimation)
 
-* **Day 41 (02/10/2022)**: [Face Frontalization]()
+* **Day 41 (02/10/2022)**: [Vision Transformers Explainability](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/041_Vision_Transformers_Explainability)
 
-* **Day 42 (02/11/2022)**: [Scene Understanding Problem]()
+* **Day 42 (02/11/2022)**: [Explainability in Self Driving Cars](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/042_Explainability_in_Self_Driving_Cars)
+<video width="640" height="480" controls>
+  <source src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/042_Explainability_in_Self_Driving_Cars/Images/How%20a%20self%20driving%20car%20sees%20the%20world.mp4" type="video/mp4">
+</video>
+
+* **Day 43 (02/12/2022)**: []()
+
+* **Day 44 (02/13/2022)**: []()
+
+* **Day 45 (02/14/2022)**: [Face Frontalization]()
+
+* **Day 46 (02/15/2022)**: [Scene Understanding Problem]()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
