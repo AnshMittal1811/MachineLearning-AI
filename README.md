@@ -248,11 +248,12 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 
 * **Day 43 (02/12/2022)**: [TimeSformer Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/043_TimeSformers_Intuition)
 
-* **Day 44 (02/13/2022)**: [Face Frontalization]()
+* **Day 44 (02/13/2022)**: [044 Image Deraining Implementation using SPANet](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/044_Image_Deraining_Implementation)
+Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references pyinn by Sergey Zagoruyko and DSC(CF-Caffe) by Xiaowei Hu!!
 
-* **Day 45 (02/14/2022)**: [Scene Understanding Problem]()
+* **Day 45 (02/14/2022)**: [Scene Understanding]()
 
-* **Day 46 (02/15/2022)**: []()
+* **Day 46 (02/15/2022)**: [Face Frontalization]()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
