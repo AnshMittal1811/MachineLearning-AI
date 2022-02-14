@@ -246,13 +246,13 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 
 [video](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/042_Explainability_in_Self_Driving_Cars/Images/How%20a%20self%20driving%20car%20sees%20the%20world.mp4)
 
-* **Day 43 (02/12/2022)**: []()
+* **Day 43 (02/12/2022)**: [TimeSformer Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/043_TimeSformers_Intuition)
 
-* **Day 44 (02/13/2022)**: []()
+* **Day 44 (02/13/2022)**: [Face Frontalization]()
 
-* **Day 45 (02/14/2022)**: [Face Frontalization]()
+* **Day 45 (02/14/2022)**: [Scene Understanding Problem]()
 
-* **Day 46 (02/15/2022)**: [Scene Understanding Problem]()
+* **Day 46 (02/15/2022)**: []()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
