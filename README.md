@@ -248,12 +248,12 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 
 * **Day 43 (02/12/2022)**: [TimeSformer Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/043_TimeSformers_Intuition)
 
-* **Day 44 (02/13/2022)**: [044 Image Deraining Implementation using SPANet](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/044_Image_Deraining_Implementation)
+* **Day 44 (02/13/2022)**: [Image Deraining Implementation using SPANet](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/044_Image_Deraining_Implementation)
 Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references pyinn by Sergey Zagoruyko and DSC(CF-Caffe) by Xiaowei Hu!!
 
-* **Day 45 (02/14/2022)**:
+* **Day 45 (02/14/2022)**: [G-SimCLR Intuition]()
 
-* **Day 46 (02/15/2022)**: 
+* **Day 46 (02/15/2022)**: [TransPose Intuition]()
 
 * **Day 47 (02/16/2022)**: [Scene Understanding]()
 
