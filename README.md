@@ -253,7 +253,7 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition]()
 
-* **Day 46 (02/15/2022)**: [TransPose Intuition]()
+* **Day 46 (02/15/2022)**: [TransDepth Intuition]()
 
 * **Day 47 (02/16/2022)**: [Scene Understanding]()
 
