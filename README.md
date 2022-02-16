@@ -251,15 +251,22 @@ WGAN GP      |  [Paper](https://github.com/AnshMittal1811/MachineLearning-AI/blo
 * **Day 44 (02/13/2022)**: [Image Deraining Implementation using SPANet](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/044_Image_Deraining_Implementation)
 Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references pyinn by Sergey Zagoruyko and DSC(CF-Caffe) by Xiaowei Hu!!
 
-* **Day 45 (02/14/2022)**: [G-SimCLR Intuition]()
+* **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
 * **Day 46 (02/15/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 47 (02/16/2022)**: [Scene Understanding]()
+* **Day 47 (02/16/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
-* **Day 48 (02/17/2022)**: [Face Frontalization]()
+* **Day 48 (02/17/2022)**: [Scene Understanding]()
 
-* **Day 49 (02/18/2022)**: [TransDepth Intuition]()
+* **Day 48 (02/18/2022)**: [Face Frontalization]()
+
+* **Day 49 (02/19/2022)**: [TransDepth Intuition]()
+
+* **Day 50 (02/20/2022)**: [TansPose Intuition]()
+
+
+
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
@@ -270,3 +277,4 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
  -->
  
  <!--[StyleGANs]()-->
+ <!---* **Day 100** (04/10/2022)**: DINO and PAWS implementation for GeoSpatial Imagery--->
