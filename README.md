@@ -253,11 +253,13 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition]()
 
-* **Day 46 (02/15/2022)**: [TransDepth Intuition]()
+* **Day 46 (02/15/2022)**: [SWIN Transformer Intuition]()
 
 * **Day 47 (02/16/2022)**: [Scene Understanding]()
 
 * **Day 48 (02/17/2022)**: [Face Frontalization]()
+
+* **Day 49 (02/18/2022)**: [TransDepth Intuition]()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
