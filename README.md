@@ -253,17 +253,35 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
-* **Day 46 (02/15/2022)**: [SWIN Transformer Intuition]()
+* **Day 46 (02/15/2022)**: []()
 
-* **Day 47 (02/16/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 47 (02/16/2022)**: []()
 
-* **Day 48 (02/17/2022)**: [Scene Understanding]()
+* **Day 48 (02/17/2022)**: []()
 
-* **Day 48 (02/18/2022)**: [Face Frontalization]()
+* **Day 49 (02/18/2022)**: []()
 
-* **Day 49 (02/19/2022)**: [TransDepth Intuition]()
+* **Day 50 (02/19/2022)**: []()
 
-* **Day 50 (02/20/2022)**: [TansPose Intuition]()
+* **Day 51 (02/20/2022)**: []()
+
+* **Day 52 (02/21/2022)**: []()
+
+* **Day 53 (02/22/2022)**: []()
+
+* **Day 54 (02/23/2022)**: []()
+
+* **Day 55 (02/24/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+
+* **Day 56 (02/25/2022)**: [Face Frontalization]()
+
+* **Day 57 (02/26/2022)**: [SWIN Transformer Intuition]()
+
+* **Day 58 (02/27/2022)**: [TransDepth Intuition]()
+
+* **Day 59 (02/28/2022)**: [TansPose Intuition]()
+
+* **Day 60 (03/1/2022)**: [Scene Understanding]()
 
 
 
