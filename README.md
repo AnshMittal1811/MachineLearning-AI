@@ -253,7 +253,7 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
-* **Day 46 (02/15/2022)**: []()
+* **Day 46 (02/15/2022)**: [Training a Deep Neural Network on different DL Compilers]()
 
 * **Day 47 (02/16/2022)**: []()
 
@@ -281,7 +281,7 @@ Referred from: Code borrows from RESCAN by Xia Li. The CUDA extension references
 
 * **Day 59 (02/28/2022)**: [TansPose Intuition]()
 
-* **Day 60 (03/1/2022)**: [Scene Understanding]()
+* **Day 60 (03/01/2022)**: [Scene Understanding]()
 
 
 
