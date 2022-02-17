@@ -255,9 +255,7 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 * **Day 46 (02/15/2022)**: [Training a Deep Neural Network on different DL Compilers]()
 
-* **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
-
-**img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation**
+* **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
 
 **Paper accepted to the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021**
 
@@ -268,29 +266,6 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 **Summary:** This repository provides a novel method for six degrees of fredoom (6DoF) detection on multiple faces without the need of prior face detection. After prediction, one can visualize the detections (as show in the figure above), customize projected bounding boxes, or crop and align each face for further processing. See details below.
 
-## Table of contents
-
-<!--ts-->
-- [Paper details](#paper-details)
-  * [Abstract](#abstract)
-  * [Video Spotlight](#video-spotlight)
-  * [Citation](#citation)
-- [Installation](#installation)
-- [Training](#training)
-  * [Prepare WIDER FACE dataset](#prepare-wider-face-dataset)
-  * [Train](#train)
-  * [Training on your own dataset](#training-on-your-own-dataset)
-- [Testing](#testing)
-  * [Visualizing trained model](#visualizing-trained-model)
-  * [WIDER FACE dataset evaluation](#wider-face-dataset-evaluation)  
-  * [AFLW2000-3D dataset evaluation](#aflw2000-3d-dataset-evaluation)
-  * [BIWI dataset evaluation](#biwi-dataset-evaluation)
-  * [Testing on your own images](#testing-on-your-own-images)
-- [Output customization](#output-customization)
-- [Align faces](#align-faces)
-- [Resources](#resources)
-- [License](#license)
-<!--te-->
 
 **Paper details**
 
