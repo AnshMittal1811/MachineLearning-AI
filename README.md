@@ -255,7 +255,7 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 * **Day 46 (02/15/2022)**: [Training a Deep Neural Network on different DL Compilers]()
 
-* **Day 47 (02/16/2022)**: []()
+* **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
 
 * **Day 48 (02/17/2022)**: []()
 
