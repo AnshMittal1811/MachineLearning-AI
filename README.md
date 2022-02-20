@@ -450,9 +450,11 @@ python3 run_face_alignment.py \
 
 Referred from [here](https://github.com/vitoralbiero/img2pose) directly.
 
-* **Day 48 (02/17/2022)**: []()
+* **Day 48 (02/17/2022)**: [Geometric Deep Learning Tutorials Part I](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/048_Geometric_Deep_Learning_Tutorials_I)
+This folder contains the tutorials that I watched and implemented on Day 48th of 100 days of AI. I also referred to some of the papers, medium articles, and distill hub articles to improve my basics of Geometric Deep Learning.
 
-* **Day 49 (02/18/2022)**: []()
+* **Day 49 (02/18/2022)**: [Geometric Deep Learning Tutorials Part II](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/049_Geometric_Deep_Learning_Tutorials_II)
+This was the follow-up for the Geometric Deep Learning that I did on Day 48th. Today I read few research papers from ICML for Geometric Deep Learning and Graph Representation Learning. 
 
 * **Day 50 (02/19/2022)**: []()
 
