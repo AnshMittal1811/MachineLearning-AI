@@ -456,7 +456,7 @@ This folder contains the tutorials that I watched and implemented on Day 48th of
 * **Day 49 (02/18/2022)**: [Geometric Deep Learning Tutorials Part II](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/049_Geometric_Deep_Learning_Tutorials_II)
 This was the follow-up for the Geometric Deep Learning that I did on Day 48th. Today I read few research papers from ICML for Geometric Deep Learning and Graph Representation Learning. 
 
-* **Day 50 (02/19/2022)**: []()
+* **Day 50 (02/19/2022)**: [Contrastive Learning]()
 
 * **Day 51 (02/20/2022)**: []()
 
