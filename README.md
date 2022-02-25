@@ -466,17 +466,17 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 54 (02/23/2022)**: []()
 
-* **Day 55 (02/24/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 55 (02/27/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
-* **Day 56 (02/25/2022)**: [Face Frontalization]()
+* **Day 56 (02/28/2022)**: [Face Frontalization]()
 
-* **Day 57 (02/26/2022)**: [SWIN Transformer Intuition]()
+* **Day 57 (03/01/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 58 (02/27/2022)**: [TransDepth Intuition]()
+* **Day 58 (03/02/2022)**: [TransDepth Intuition]()
 
-* **Day 59 (02/28/2022)**: [TansPose Intuition]()
+* **Day 59 (03/03/2022)**: [TansPose Intuition]()
 
-* **Day 60 (03/01/2022)**: [Scene Understanding]()
+* **Day 60 (03/04/2022)**: [Scene Understanding]()
 
 
 
