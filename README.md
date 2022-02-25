@@ -450,31 +450,33 @@ python3 run_face_alignment.py \
 
 Referred from [here](https://github.com/vitoralbiero/img2pose) directly.
 
-* **Day 48 (02/17/2022)**: []()
+* **Day 48 (02/17/2022)**: [Geometric Deep Learning Tutorials Part I](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/048_Geometric_Deep_Learning_Tutorials_I)
+This folder contains the tutorials that I watched and implemented on Day 48th of 100 days of AI. I also referred to some of the papers, medium articles, and distill hub articles to improve my basics of Geometric Deep Learning.
 
-* **Day 49 (02/18/2022)**: []()
+* **Day 49 (02/18/2022)**: [Geometric Deep Learning Tutorials Part II](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/049_Geometric_Deep_Learning_Tutorials_II)
+This was the follow-up for the Geometric Deep Learning that I did on Day 48th. Today I read few research papers from ICML for Geometric Deep Learning and Graph Representation Learning. 
 
-* **Day 50 (02/19/2022)**: []()
+* **Day 50 (02/19/2022)**: [Multimodal Learning]()
 
-* **Day 51 (02/20/2022)**: []()
+* **Day 51 (02/20/2022)**: [Contrastive Learning in Computer Vision]()
 
-* **Day 52 (02/21/2022)**: []()
+* **Day 52 (02/21/2022)**: [Semantic Segmentation using pre-trained models]()
 
 * **Day 53 (02/22/2022)**: []()
 
 * **Day 54 (02/23/2022)**: []()
 
-* **Day 55 (02/24/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 55 (02/27/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
-* **Day 56 (02/25/2022)**: [Face Frontalization]()
+* **Day 56 (02/28/2022)**: [Face Frontalization]()
 
-* **Day 57 (02/26/2022)**: [SWIN Transformer Intuition]()
+* **Day 57 (03/01/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 58 (02/27/2022)**: [TransDepth Intuition]()
+* **Day 58 (03/02/2022)**: [TransDepth Intuition]()
 
-* **Day 59 (02/28/2022)**: [TansPose Intuition]()
+* **Day 59 (03/03/2022)**: [TansPose Intuition]()
 
-* **Day 60 (03/01/2022)**: [Scene Understanding]()
+* **Day 60 (03/04/2022)**: [Scene Understanding]()
 
 
 
