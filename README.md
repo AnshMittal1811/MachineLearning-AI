@@ -456,15 +456,21 @@ This folder contains the tutorials that I watched and implemented on Day 48th of
 * **Day 49 (02/18/2022)**: [Geometric Deep Learning Tutorials Part II](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/049_Geometric_Deep_Learning_Tutorials_II)
 This was the follow-up for the Geometric Deep Learning that I did on Day 48th. Today I read few research papers from ICML for Geometric Deep Learning and Graph Representation Learning. 
 
-* **Day 50 (02/19/2022)**: [Multimodal Learning]()
+* **Day 50 (02/19/2022)**: [Topic Modelling using LSI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/050_Topic_Modelling_using_LSI)
 
-* **Day 51 (02/20/2022)**: [Contrastive Learning in Computer Vision]()
+* **Day 51 (02/20/2022)**: [Semantic Segmentation using Multimodal Learning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/051_Semantic_Segmentation_using_Multimodal_Learning)
 
-* **Day 52 (02/21/2022)**: [Semantic Segmentation using pre-trained models]()
+* **Day 52 (02/21/2022)**: [Visually Indicated Sound-Generation Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/052_Visually_Indicated_Sound_Generation)
 
-* **Day 53 (02/22/2022)**: []()
+* **Day 53 (02/22/2022)**: [Diverse and Specific Image Captioning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/053_Diverse_and_Specific_Image_Captioning)
 
-* **Day 54 (02/23/2022)**: []()
+* **Day 54 (02/23/2022)**: [Brain Activity Classification and Regressive Analysis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/054_Brain_activity_CAR)
+
+* **Day 55 (02/24/2022)**: 
+
+* **Day 56 (02/25/2022)**: []()
+
+* **Day 57 (02/26/2022)**: []()
 
 * **Day 55 (02/27/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
