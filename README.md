@@ -253,7 +253,7 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
-* **Day 46 (02/15/2022)**: [Training a Deep Neural Network on different DL Compilers]()
+* **Day 46 (02/15/2022)**: [Topic Modelling in Natural Language Processing]()
 
 * **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
 
@@ -466,13 +466,17 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 54 (02/23/2022)**: [Brain Activity Classification and Regressive Analysis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/054_Brain_activity_CAR)
 
-* **Day 55 (02/24/2022)**: 
+* **Day 55 (02/24/2022)**: [Unsupervised Learning in Image Processing]()
 
 * **Day 56 (02/25/2022)**: []()
 
 * **Day 57 (02/26/2022)**: []()
 
-* **Day 55 (02/27/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 58 (02/27/2022)**: []()
+
+* **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
+
+* **Day 61 (03/02/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
 * **Day 56 (02/28/2022)**: [Face Frontalization]()
 
