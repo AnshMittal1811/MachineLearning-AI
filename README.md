@@ -253,7 +253,7 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
-* **Day 46 (02/15/2022)**: [Training a Deep Neural Network on different DL Compilers]()
+* **Day 46 (02/15/2022)**: [Topic Modelling in Natural Language Processing]()
 
 * **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
 
@@ -456,17 +456,27 @@ This folder contains the tutorials that I watched and implemented on Day 48th of
 * **Day 49 (02/18/2022)**: [Geometric Deep Learning Tutorials Part II](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/049_Geometric_Deep_Learning_Tutorials_II)
 This was the follow-up for the Geometric Deep Learning that I did on Day 48th. Today I read few research papers from ICML for Geometric Deep Learning and Graph Representation Learning. 
 
-* **Day 50 (02/19/2022)**: [Multimodal Learning]()
+* **Day 50 (02/19/2022)**: [Topic Modelling using LSI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/050_Topic_Modelling_using_LSI)
 
-* **Day 51 (02/20/2022)**: [Contrastive Learning in Computer Vision]()
+* **Day 51 (02/20/2022)**: [Semantic Segmentation using Multimodal Learning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/051_Semantic_Segmentation_using_Multimodal_Learning)
 
-* **Day 52 (02/21/2022)**: [Semantic Segmentation using pre-trained models]()
+* **Day 52 (02/21/2022)**: [Visually Indicated Sound-Generation Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/052_Visually_Indicated_Sound_Generation)
 
-* **Day 53 (02/22/2022)**: []()
+* **Day 53 (02/22/2022)**: [Diverse and Specific Image Captioning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/053_Diverse_and_Specific_Image_Captioning)
 
-* **Day 54 (02/23/2022)**: []()
+* **Day 54 (02/23/2022)**: [Brain Activity Classification and Regressive Analysis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/054_Brain_activity_CAR)
 
-* **Day 55 (02/27/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 55 (02/24/2022)**: [Unsupervised Learning in Image Processing]()
+
+* **Day 56 (02/25/2022)**: []()
+
+* **Day 57 (02/26/2022)**: []()
+
+* **Day 58 (02/27/2022)**: []()
+
+* **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
+
+* **Day 61 (03/02/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
 * **Day 56 (02/28/2022)**: [Face Frontalization]()
 
