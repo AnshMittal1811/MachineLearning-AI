@@ -466,9 +466,9 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 54 (02/23/2022)**: [Brain Activity Classification and Regressive Analysis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/054_Brain_activity_CAR)
 
-* **Day 55 (02/24/2022)**: [Unsupervised Learning in Image Processing]()
+* **Day 55 (02/24/2022)**: [Singular Value Decomposition applications in Image Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/055_SVD_in_Computer_Vision)
 
-* **Day 56 (02/25/2022)**: []()
+* **Day 56 (02/25/2022)**: [Knowledge Distillation Introduction]()
 
 * **Day 57 (02/26/2022)**: []()
 
