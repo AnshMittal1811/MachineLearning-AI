@@ -476,17 +476,28 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
+* **Day 60 (03/01/2022)**: []()
+
 * **Day 61 (03/02/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
 
-* **Day 56 (02/28/2022)**: [Face Frontalization]()
+* **Day 62 (03/03/2022)**: [Face Frontalization]()
 
-* **Day 57 (03/01/2022)**: [SWIN Transformer Intuition]()
+* **Day 63 (03/04/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 58 (03/02/2022)**: [TransDepth Intuition]()
+* **Day 64 (03/05/2022)**: [TransDepth Intuition]()
 
-* **Day 59 (03/03/2022)**: [TansPose Intuition]()
+* **Day 65 (03/06/2022)**: [TansPose Intuition]()
 
-* **Day 60 (03/04/2022)**: [Scene Understanding]()
+* **Day 66 (03/07/2022)**: [Scene Understanding]()
+
+* **Day 67 (03/08/2022)**: []()
+
+* **Day 68 (03/09/2022)**: []()
+
+* **Day 69 (03/10/2022)**: []()
+
+* **Day 70 (03/11/2022)**: []()
+* 
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
