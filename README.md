@@ -569,15 +569,15 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [Named Entity Recognition and Slot Filling]()
+* **Day 57 (02/26/2022)**: [Named Entity Recognition]()
 
-* **Day 58 (02/27/2022)**: []()
+* **Day 58 (02/27/2022)**: [Slot Filling]()
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: [Pix2Pix GANs for Geospatial Analysis]()
+* **Day 60 (03/01/2022)**: []()
 
-* **Day 61 (03/02/2022)**: [CycleGAN: How it interprets different images and how it merges style]()
+* **Day 61 (03/02/2022)**: []()
 
 * **Day 62 (03/03/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_LIDAR_and_3D_Computer_Vision/Papers%2BReadings)
 
