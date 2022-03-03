@@ -581,7 +581,7 @@ https://github.com/bearpaw/pytorch-classification
 
 * **Day 62 (03/03/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_LIDAR_and_3D_Computer_Vision/Papers%2BReadings)
 
-* **Day 63 (03/04/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Human_Activity_Recognition)
+* **Day 63 (03/04/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_Human_Activity_Recognition)
 
 * **Day 64 (03/05/2022)**: []()
 
