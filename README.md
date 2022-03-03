@@ -470,6 +470,7 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 56 (02/25/2022)**: [Knowledge Distillation Introduction](ing-AI/tree/master/056_Knowledge_distillation_in_Pytorch_on_MNIST_Intuition)
 
+
 **knowledge-distillation-pytorch**
 * Exploring knowledge distillation of DNNs for efficient hardware solutions
 * Author Credits: Haitong Li
@@ -567,7 +568,8 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 
 https://github.com/bearpaw/pytorch-classification
 
-* **Day 57 (02/26/2022)**: []()
+
+* **Day 57 (02/26/2022)**: [Detection of Smell in Chemical Compounds using SMILE]()
 
 * **Day 58 (02/27/2022)**: []()
 
