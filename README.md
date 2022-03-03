@@ -579,7 +579,7 @@ https://github.com/bearpaw/pytorch-classification
 
 * **Day 61 (03/02/2022)**: [CycleGAN: How it interprets different images and how it merges style]()
 
-* **Day 62 (03/03/2022)**: [LiDAR-based application for 3D Computer Vision]()
+* **Day 62 (03/03/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_LIDAR_and_3D_Computer_Vision/Papers%2BReadings)
 
 * **Day 63 (03/04/2022)**: []()
 
