@@ -575,9 +575,9 @@ https://github.com/bearpaw/pytorch-classification
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: []()
+* **Day 60 (03/01/2022)**: [Markov Decision Processes, POMDPs, and Q Learning (Reinforcement Learning)]()
 
-* **Day 61 (03/02/2022)**: []()
+* **Day 61 (03/02/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition]()
 
 * **Day 62 (03/03/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_LIDAR_and_3D_Computer_Vision/Papers%2BReadings)
 
