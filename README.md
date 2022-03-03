@@ -569,33 +569,33 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [Detection of Smell in Chemical Compounds using SMILE]()
+* **Day 57 (02/26/2022)**: [LiDAR-based application for 3D Computer Vision]()
 
 * **Day 58 (02/27/2022)**: []()
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: []()
+* **Day 60 (03/01/2022)**: [Pix2Pix GANs for Geospatial Analysis]()
 
-* **Day 61 (03/02/2022)**: [LiDAR-based application for Computer Vision in Self-Driving Cars]()
+* **Day 61 (03/02/2022)**: [CycleGAN: How it interprets different images and how it merges style]()
 
-* **Day 62 (03/03/2022)**: [Face Frontalization]()
+* **Day 62 (03/03/2022)**: []()
 
-* **Day 63 (03/04/2022)**: [SWIN Transformer Intuition]()
+* **Day 63 (03/04/2022)**: []()
 
-* **Day 64 (03/05/2022)**: [TransDepth Intuition]()
+* **Day 64 (03/05/2022)**: []()
 
-* **Day 65 (03/06/2022)**: [TansPose Intuition]()
+* **Day 65 (03/06/2022)**: []()
 
-* **Day 66 (03/07/2022)**: [Scene Understanding]()
+* **Day 66 (03/07/2022)**: [Face Frontalization]()
 
-* **Day 67 (03/08/2022)**: []()
+* **Day 67 (03/08/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 68 (03/09/2022)**: []()
+* **Day 68 (03/09/2022)**: [TransDepth Intuition]()
 
-* **Day 69 (03/10/2022)**: []()
+* **Day 69 (03/10/2022)**: [TansPose Intuition]()
 
-* **Day 70 (03/11/2022)**: []()
+* **Day 70 (03/11/2022)**: [Scene Understanding]()
 * 
 
 
