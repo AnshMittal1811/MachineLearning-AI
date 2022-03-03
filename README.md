@@ -569,7 +569,7 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [Named Entity Recognition and Slot Filling]()
+* **Day 57 (02/26/2022)**: [3D Morphable Face Models]()
 
 * **Day 58 (02/27/2022)**: [Federated Learning]()
 
@@ -583,7 +583,7 @@ https://github.com/bearpaw/pytorch-classification
 
 * **Day 63 (03/04/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_Human_Activity_Recognition)
 
-* **Day 64 (03/05/2022)**: []()
+* **Day 64 (03/05/2022)**: [Named Entity Recognition and Slot Filling]()
 
 * **Day 65 (03/06/2022)**: []()
 
