@@ -569,7 +569,7 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [LiDAR-based application for 3D Computer Vision]()
+* **Day 57 (02/26/2022)**: [Named Entity Recognition and Slot Filling]()
 
 * **Day 58 (02/27/2022)**: []()
 
@@ -579,7 +579,7 @@ https://github.com/bearpaw/pytorch-classification
 
 * **Day 61 (03/02/2022)**: [CycleGAN: How it interprets different images and how it merges style]()
 
-* **Day 62 (03/03/2022)**: []()
+* **Day 62 (03/03/2022)**: [LiDAR-based application for 3D Computer Vision]()
 
 * **Day 63 (03/04/2022)**: []()
 
