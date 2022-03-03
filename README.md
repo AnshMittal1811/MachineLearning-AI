@@ -468,7 +468,7 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 55 (02/24/2022)**: [Singular Value Decomposition applications in Image Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/055_SVD_in_Computer_Vision)
 
-* **Day 56 (02/25/2022)**: [Knowledge Distillation Introduction]()
+* **Day 56 (02/25/2022)**: [Knowledge Distillation Introduction](ing-AI/tree/master/056_Knowledge_distillation_in_Pytorch_on_MNIST_Intuition)
 
 * **Day 57 (02/26/2022)**: []()
 
