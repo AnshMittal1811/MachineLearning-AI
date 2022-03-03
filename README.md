@@ -569,9 +569,9 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [Named Entity Recognition]()
+* **Day 57 (02/26/2022)**: [Named Entity Recognition and Slot Filling]()
 
-* **Day 58 (02/27/2022)**: [Slot Filling]()
+* **Day 58 (02/27/2022)**: [Federated Learning]()
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
