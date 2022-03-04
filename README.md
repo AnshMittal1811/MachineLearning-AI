@@ -43,8 +43,8 @@ Chair      | TBA   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/b
 
 Dataset         |  Loss Curve         | Accuracy Curve        
 :-------------------------:|:-------------------------:|:-------------------------:
-YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_1.png)  
-YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Network/accuracy_2.png)
+YouChoose-Click          | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Networks/loss_1.png)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Networks/accuracy_1.png)  
+YouChoose-Buy      | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Networks/loss_2.png)   |  ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/005_Graph_Neural_Networks/accuracy_2.png)
 
 * **Day 6 (01/06/2022)**: [Graph neural Network for Recommnedation Systems](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/006_Graph_Neural_Network_for_Recommender_System)
 * **Day 7 (01/07/2022)**: [Vision Transformers for efficient Image Classification](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/007_Vision_Transformer)
