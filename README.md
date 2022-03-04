@@ -726,11 +726,9 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [3D Morphable Face Models Intuition]()
+* **Day 57 (02/26/2022)**: [3D Morphable Face Models Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/057_3D_Morphable_Face_Models)
 
-* **Day 58 (02/27/2022)**: [Federated Learning]()
-
-# Federated-Learning (PyTorch)
+* **Day 58 (02/27/2022)**: [Federated Learning in Pytorch](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/058_Federated_Learning)
 
 Implementation of the vanilla federated learning paper : [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629). Reference github respository [here](https://github.com/AshwinRJ/Federated-Learning-PyTorch).  
 
@@ -746,7 +744,7 @@ pip install -r requirements.txt
 ```
 
 
-## Data
+**Data**
 * Download train and test datasets manually or they will be automatically downloaded from torchvision datasets.
 * Experiments are run on Mnist, Fashion Mnist and Cifar.
 * To use your own dataset: Move your dataset to data directory and write a wrapper on pytorch dataset class.
