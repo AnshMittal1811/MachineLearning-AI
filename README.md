@@ -569,21 +569,21 @@ https://github.com/cs230-stanford/cs230-stanford.github.io
 https://github.com/bearpaw/pytorch-classification
 
 
-* **Day 57 (02/26/2022)**: [3D Morphable Face Models]()
+* **Day 57 (02/26/2022)**: [3D Morphable Face Models Intuition]()
 
 * **Day 58 (02/27/2022)**: [Federated Learning]()
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: [Markov Decision Processes, POMDPs, and Q Learning (Reinforcement Learning)]()
+* **Day 60 (03/01/2022)**: [Named Entity Recognition and Slot Filling]()
 
-* **Day 61 (03/02/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition]()
+* **Day 61 (03/02/2022)**: [Markov Decision Processes, POMDPs, and Q Learning (Reinforcement Learning)]()
 
-* **Day 62 (03/03/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_LIDAR_and_3D_Computer_Vision/Papers%2BReadings)
+* **Day 62 (03/03/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_View_Synthesis_using_Neural_Radiance_Fields)
 
-* **Day 63 (03/04/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_Human_Activity_Recognition)
+* **Day 63 (03/04/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_LIDAR_and_3D_Computer_Vision)
 
-* **Day 64 (03/05/2022)**: [Named Entity Recognition and Slot Filling]()
+* **Day 64 (03/05/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Human_Activity_Recognition)
 
 * **Day 65 (03/06/2022)**: []()
 
