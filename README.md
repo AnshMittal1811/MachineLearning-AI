@@ -460,7 +460,10 @@ This was the follow-up for the Geometric Deep Learning that I did on Day 48th. T
 
 * **Day 51 (02/20/2022)**: [Semantic Segmentation using Multimodal Learning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/051_Semantic_Segmentation_using_Multimodal_Learning)
 
-**Diverse and Specific Image Captioning**
+
+* **Day 52 (02/21/2022)**: [Visually Indicated Sound-Generation Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/052_Visually_Indicated_Sound_Generation)
+
+* **Day 53 (02/22/2022)**: [Diverse and Specific Image Captioning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/053_Diverse_and_Specific_Image_Captioning)
 
 This contains the code for __*Generating Diverse and Meaningful Captions: Unsupervised Specificity Optimization for Image Captioning (Lindh et al., 2018)*__ to appear in *Artificial Neural Networks and Machine Learning - ICANN 2018*.
 
@@ -549,16 +552,11 @@ To test the baseline or the latest version of a model (instead of the one marked
 The --loss_function option will only decide which internal loss function to report the result for. No extra training will be carried out, and the other results won't be affected by this choice.  
 
 
-* **Day 52 (02/21/2022)**: [Visually Indicated Sound-Generation Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/052_Visually_Indicated_Sound_Generation)
-
-* **Day 53 (02/22/2022)**: [Diverse and Specific Image Captioning Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/053_Diverse_and_Specific_Image_Captioning)
-
 * **Day 54 (02/23/2022)**: [Brain Activity Classification and Regressive Analysis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/054_Brain_activity_CAR)
 
 * **Day 55 (02/24/2022)**: [Singular Value Decomposition applications in Image Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/055_SVD_in_Computer_Vision)
 
 * **Day 56 (02/25/2022)**: [Knowledge Distillation Introduction](ing-AI/tree/master/056_Knowledge_distillation_in_Pytorch_on_MNIST_Intuition)
-
 
 **knowledge-distillation-pytorch**
 * Exploring knowledge distillation of DNNs for efficient hardware solutions
