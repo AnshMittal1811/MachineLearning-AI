@@ -473,7 +473,9 @@ Do the following steps after you download the dataset before you proceed and tra
 1. run preprocess/process.sh         (renames images)
 2. run preprocess/text_file_gen.py   (generates txt files for train,val,test used in data generator)
 3. run preprocess/aug_gen.py         (generates augmented image files beforehand the training, dynamic augmentation in runtime is slow an often hangs the training process)
+
 ---
+
 The Following list describes the files :
 
 Improved Architecture with Augmentation & Dropout
@@ -487,15 +489,17 @@ Old Architecture without Augmentation & Dropout
 4. late_fusion_old.py                  (late_fusion  FCN TRAINING FILE, Augmentation= No, Dropout= No)
 5. late_fusion_old_predict.py()        (predict with old architecture)
 6. late_fusion_improved_saved_model.hdf5 (Architecture & weights of old model)
+
 ---
 
 
-### Architecture:
-![Alt text](/Arc.png)
+**Architecture:**
+![Alt text](/051_Semantic_Segmentation_using_Multimodal_Learning/Arc.png)
 Architecture Reference (first two models in this link): http://deepscene.cs.uni-freiburg.de/index.html
 
 ---
-***Dataset:***
+
+**Dataset:**
 ![Alt text](/DS.png)
 Dataset Reference (Freiburg forest multimodal/spectral annotated): http://deepscene.cs.uni-freiburg.de/index.html#datasets
 
@@ -504,17 +508,20 @@ Images are transformed geometrically with a combination of transsformations and 
 ![Alt text](/Aug.png)
 
 ---
-***Training:***
+
+**Training:**
 Loss : Categorical Cross Entropy
 
 Optimizer : Stochastic gradient descent with lr = 0.008, momentum = 0.9, decay=1e-6
 
 ---
-***Results:***
+
+**Results:**
 ![Alt text](/051_Semantic_Segmentation_using_Multimodal_Learning/Res.png)
+
 ---
 
-***NOTE:***
+**NOTE:**
 This following files in the repository ::
 
 1.Deepscene/nir_rgb_segmentation_arc_1.py :: ("CHANNEL-STACKING MODEL") 
