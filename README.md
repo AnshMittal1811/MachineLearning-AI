@@ -796,9 +796,9 @@ Find the papers and reading that I had done for understanding this topic more in
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: [Slot Filling and Named Entity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/060_Slot_Filling_NER_ID_Intuition_and_WorkDone)
+* **Day 60 (03/01/2022)**: [Slot Filling, Named Entity Recognition, Intent Detection: An Intuition and Review](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/060_Slot_Filling_NER_ID_Intuition_and_WorkDone)
 
-* **Day 61 (03/02/2022)**: [Markov Decision Processes)]()
+* **Day 61 (03/02/2022)**: [Markov Decision Processes]()
 
 * **Day 62 (03/03/2022)**: [POMDPs]()
 
