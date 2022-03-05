@@ -796,7 +796,7 @@ Find the papers and reading that I had done for understanding this topic more in
 
 * **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
 
-* **Day 60 (03/01/2022)**: [Named Entity Recognition and Slot Filling]()
+* **Day 60 (03/01/2022)**: [Slot Filling and Named Entity Recognition]()
 
 * **Day 61 (03/02/2022)**: [Markov Decision Processes, POMDPs, and Q Learning (Reinforcement Learning)]()
 
