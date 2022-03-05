@@ -798,11 +798,11 @@ Find the papers and reading that I had done for understanding this topic more in
 
 * **Day 60 (03/01/2022)**: [Slot Filling and Named Entity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/060_Slot_Filling_NER_ID_Intuition_and_WorkDone)
 
-* **Day 61 (03/02/2022)**: [Markov Decision Processes, POMDPs, and Q Learning (Reinforcement Learning)]()
+* **Day 61 (03/02/2022)**: [Markov Decision Processes)]()
 
-* **Day 62 (03/03/2022)**: []()
+* **Day 62 (03/03/2022)**: [POMDPs]()
 
-* **Day 63 (03/04/2022)**: []()
+* **Day 63 (03/04/2022)**: [Q Learning]()
 
 * **Day 64 (03/05/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
 
