@@ -798,28 +798,33 @@ Find the papers and reading that I had done for understanding this topic more in
 
 * **Day 60 (03/01/2022)**: [Slot Filling, Named Entity Recognition, Intent Detection: An Intuition and Review](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/060_Slot_Filling_NER_ID_Intuition_and_WorkDone)
 
-* **Day 61 (03/02/2022)**: [Markov Decision Processes]()
+* **Day 61 (03/02/2022)**: [Super Resolution in Remote Sensing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/061_Super_Resolution_for_Remote_Sensing)
 
-* **Day 62 (03/03/2022)**: [POMDPs]()
+I worked at a Remote Sensing company and one of my proposed idea over there was to utilize Deep Learning for saving on the budget. This was because it gets very expensive to purchase High Resolution Imagery from the satellite companies. So, I proposed to utilize Super Resolution based Deep Learning for increasing the Resolution from Low Resolution Imagery. Here, I am going to implement a repository for the same and have the visualization for the same in a Graphical Interchange Format.
 
-* **Day 63 (03/04/2022)**: [Q Learning]()
+* **Day 62 (03/03/2022)**: [Markov Decision Processes]()
 
-* **Day 64 (03/05/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 63 (03/04/2022)**: [POMDPs]()
 
-* **Day 65 (03/06/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/065_LIDAR_and_3D_Computer_Vision)
+* **Day 64 (03/05/2022)**: [Q Learning]()
+
+* **Day 65 (03/06/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
 
 * **Day 66 (03/07/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Human_Activity_Recognition)
 
-* **Day 67 (03/08/2022)**: [Face Frontalization]()
+* **Day 67 (03/08/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/065_LIDAR_and_3D_Computer_Vision)
 
-* **Day 68 (03/09/2022)**: [SWIN Transformer Intuition]()
+* **Day 68 (03/09/2022)**: []()
 
-* **Day 69 (03/10/2022)**: [TransDepth Intuition]()
+* **Day 69 (03/10/2022)**: [Face Frontalization]()
 
-* **Day 70 (03/11/2022)**: [TansPose Intuition]()
+* **Day 70 (03/11/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 71 (03/12/2022)**: [Scene Understanding]()
+* **Day 71 (03/12/2022)**: [TransDepth Intuition]()
 
+* **Day 72 (03/13/2022)**: [TansPose Intuition]()
+
+* **Day 73 (03/14/2022)**: [Scene Understanding]()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
