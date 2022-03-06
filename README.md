@@ -833,6 +833,5 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
  -->
 <!-- * **Day 31 (01/22/2022)**: [News Text Summarization using Transformers]()
  -->
- 
  <!--[StyleGANs]()-->
  <!---* **Day 100** (04/10/2022)**: DINO and PAWS implementation for GeoSpatial Imagery--->
