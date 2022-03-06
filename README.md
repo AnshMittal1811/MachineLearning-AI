@@ -802,11 +802,11 @@ Find the papers and reading that I had done for understanding this topic more in
 
 I worked at a Remote Sensing company and one of my proposed idea over there was to utilize Deep Learning for saving on the budget. This was because it gets very expensive to purchase High Resolution Imagery from the satellite companies. So, I proposed to utilize Super Resolution based Deep Learning for increasing the Resolution from Low Resolution Imagery. Here, I am going to implement a repository for the same and have the visualization for the same in a Graphical Interchange Format.
 
-* **Day 62 (03/03/2022)**: [Markov Decision Processes]()
+* **Day 62 (03/03/2022)**: [Deep Dreaming in Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_Deep_Dreaming_in_Computer_Vision)
 
-* **Day 63 (03/04/2022)**: [POMDPs]()
+* **Day 63 (03/04/2022)**: [View Synthesis using Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision)
 
-* **Day 64 (03/05/2022)**: [Q Learning]()
+* **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
 * **Day 65 (03/06/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
 
