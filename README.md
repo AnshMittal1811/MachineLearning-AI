@@ -816,7 +816,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 68 (03/09/2022)**: []()
 
-* **Day 69 (03/10/2022)**: [Transformer Intuition]()
+* **Day 69 (03/10/2022)**: [Transformer: A Comprehensive Intuition]()
 
 * **Day 70 (03/11/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Human_Activity_Recognition)
 
