@@ -808,15 +808,15 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
-* **Day 65 (03/06/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 65 (03/06/2022)**: 
 
-* **Day 66 (03/07/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Human_Activity_Recognition)
+* **Day 66 (03/07/2022)**: [Face Frontalization]()
 
-* **Day 67 (03/08/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/065_LIDAR_and_3D_Computer_Vision)
+* **Day 67 (03/08/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Human_Activity_Recognition)
 
-* **Day 68 (03/09/2022)**: []()
+* **Day 68 (03/09/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/067_LIDAR_and_3D_Computer_Vision)
 
-* **Day 69 (03/10/2022)**: [Face Frontalization]()
+* **Day 69 (03/10/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_View_Synthesis_using_Neural_Radiance_Fields)
 
 * **Day 70 (03/11/2022)**: [SWIN Transformer Intuition]()
 
