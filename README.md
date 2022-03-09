@@ -808,7 +808,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
-* **Day 65 (03/06/2022)**: []()
+* **Day 65 (03/06/2022)**: [Molecular Chemistry using Machine Learning]()
 
 * **Day 66 (03/07/2022)**: [Face Frontalization]()
 
