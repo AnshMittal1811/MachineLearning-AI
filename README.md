@@ -824,13 +824,13 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 72 (03/13/2022)**: [Face Frontalization]()
 
-* **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition]()
+* **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
-* **Day 74 (03/15/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Human_Activity_Recognition)
+* **Day 74 (03/15/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/074_Human_Activity_Recognition)
 
-* **Day 75 (03/16/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_LIDAR_and_3D_Computer_Vision)
+* **Day 75 (03/16/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_LIDAR_and_3D_Computer_Vision)
 
-* **Day 76 (03/17/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 76 (03/17/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_View_Synthesis_using_Neural_Radiance_Fields)
 
 * **Day 77 (03/18/2022)**: [SWIN Transformer Intuition]()
 
