@@ -810,27 +810,57 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 65 (03/06/2022)**: [Molecular Chemistry using Machine Learning]()
 
-* **Day 66 (03/07/2022)**: [Face Frontalization]()
+* **Day 66 (03/07/2022)**: []()
 
 * **Day 67 (03/08/2022)**: []()
 
 * **Day 68 (03/09/2022)**: []()
 
-* **Day 69 (03/10/2022)**: [Transformer: A Comprehensive Intuition]()
+* **Day 69 (03/10/2022)**: []()
 
-* **Day 70 (03/11/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Human_Activity_Recognition)
+* **Day 70 (03/11/2022)**: []()
 
-* **Day 71 (03/12/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_LIDAR_and_3D_Computer_Vision)
+* **Day 71 (03/12/2022)**: [SemanticStyleGAN]() 
 
-* **Day 72 (03/13/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 72 (03/13/2022)**: [Face Frontalization]()
 
-* **Day 73 (03/14/2022)**: [SWIN Transformer Intuition]()
+* **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition]()
 
-* **Day 74 (03/15/2022)**: [TransDepth Intuition]()
+* **Day 74 (03/15/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Human_Activity_Recognition)
 
-* **Day 75 (03/16/2022)**: [TansPose Intuition]()
+* **Day 75 (03/16/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_LIDAR_and_3D_Computer_Vision)
 
-* **Day 76 (03/17/2022)**: [Scene Understanding]()
+* **Day 76 (03/17/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_View_Synthesis_using_Neural_Radiance_Fields)
+
+* **Day 77 (03/18/2022)**: [SWIN Transformer Intuition]()
+
+* **Day 78 (03/19/2022)**: [TransDepth Intuition]()
+
+* **Day 79 (03/20/2022)**: [TansPose Intuition]()
+
+* **Day 80 (03/21/2022)**: [Scene Understanding]()
+
+* **Day 81 (03/22/2022)**: []()
+
+* **Day 82 (03/23/2022)**: []()
+
+* **Day 83 (03/24/2022)**: []()
+
+* **Day 84 (03/25/2022)**: []()
+
+* **Day 85 (03/26/2022)**: []()
+
+* **Day 86 (03/27/2022)**: []()
+
+* **Day 87 (03/28/2022)**: []()
+
+* **Day 88 (03/29/2022)**: []()
+
+* **Day 89 (03/30/2022)**: []()
+
+* **Day 90 (03/31/2022)**: []()
+
+
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
