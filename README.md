@@ -810,7 +810,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 65 (03/06/2022)**: [Molecular Chemistry using Machine Learning]()
 
-* **Day 66 (03/07/2022)**: []()
+* **Day 66 (03/07/2022)**: [Face Frontalization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Face_Frontalization)
 
 * **Day 67 (03/08/2022)**: []()
 
@@ -822,7 +822,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 71 (03/12/2022)**: [SemanticStyleGAN]() 
 
-* **Day 72 (03/13/2022)**: [Face Frontalization]()
+* **Day 72 (03/13/2022)**: []()
 
 * **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
