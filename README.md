@@ -812,15 +812,15 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 66 (03/07/2022)**: [Face Frontalization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Face_Frontalization)
 
-* **Day 67 (03/08/2022)**: []()
+* **Day 67 (03/08/2022)**: [ECCV2020 Papers and Implementations](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/067_ECCV2020_Papers_and_Implementations_I)
 
-* **Day 68 (03/09/2022)**: []()
+* **Day 68 (03/09/2022)**: [SemanticStyleGAN](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/068_SemanticStyleGAN)
 
-* **Day 69 (03/10/2022)**: []()
+* **Day 69 (03/10/2022)**: [Cross Lingual Language Models]()
 
-* **Day 70 (03/11/2022)**: []()
+* **Day 70 (03/11/2022)**: [Augmentation in Language Models]()
 
-* **Day 71 (03/12/2022)**: [SemanticStyleGAN]() 
+* **Day 71 (03/12/2022)**: []() 
 
 * **Day 72 (03/13/2022)**: []()
 
