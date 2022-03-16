@@ -822,7 +822,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 71 (03/12/2022)**: []() 
 
-* **Day 72 (03/13/2022)**: []()
+* **Day 72 (03/13/2022)**: [Revisiting Bsic ML Algos]()
 
 * **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
