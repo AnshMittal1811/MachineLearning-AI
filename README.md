@@ -814,39 +814,39 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 67 (03/08/2022)**: [ECCV2020 Papers and Implementations](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/067_ECCV2020_Papers_and_Implementations_I)
 
-* **Day 68 (03/09/2022)**: [SemanticStyleGAN](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/068_SemanticStyleGAN)
+* **Day 68 (03/09/2022)**: []()
 
-* **Day 69 (03/10/2022)**: [Cross Lingual Language Models]()
+* **Day 69 (03/10/2022)**: []()
 
-* **Day 70 (03/11/2022)**: [Augmentation in Language Models]()
+* **Day 70 (03/11/2022)**: []()
 
 * **Day 71 (03/12/2022)**: [GFlowNet: An Intuition and Implementation]() 
 
-* **Day 72 (03/13/2022)**: [Revisiting Bsic ML Algos]()
+* **Day 72 (03/13/2022)**: []()
 
-* **Day 73 (03/14/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
+* **Day 73 (03/14/2022)**: [SemanticStyleGAN](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/068_SemanticStyleGAN)
 
-* **Day 74 (03/15/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/074_Human_Activity_Recognition)
+* **Day 74 (03/15/2022)**: [Cross Lingual Language Models]()
 
-* **Day 75 (03/16/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_LIDAR_and_3D_Computer_Vision)
+* **Day 75 (03/16/2022)**: [Revisiting Bsic ML Algos]()
 
-* **Day 76 (03/17/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 76 (03/17/2022)**: [Augmentation in Language Models]()
 
-* **Day 77 (03/18/2022)**: [SWIN Transformer Intuition]()
+* **Day 77 (03/18/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
-* **Day 78 (03/19/2022)**: [TransDepth Intuition]()
+* **Day 78 (03/19/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/074_Human_Activity_Recognition)
 
-* **Day 79 (03/20/2022)**: [TansPose Intuition]()
+* **Day 79 (03/20/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_LIDAR_and_3D_Computer_Vision)
 
-* **Day 80 (03/21/2022)**: [Scene Understanding]()
+* **Day 80 (03/21/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_View_Synthesis_using_Neural_Radiance_Fields)
 
-* **Day 81 (03/22/2022)**: []()
+* **Day 81 (03/22/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 82 (03/23/2022)**: []()
+* **Day 82 (03/23/2022)**: [TransDepth Intuition]()
 
-* **Day 83 (03/24/2022)**: []()
+* **Day 83 (03/24/2022)**: [TansPose Intuition]()
 
-* **Day 84 (03/25/2022)**: []()
+* **Day 84 (03/25/2022)**: [Scene Understanding]()
 
 * **Day 85 (03/26/2022)**: []()
 
