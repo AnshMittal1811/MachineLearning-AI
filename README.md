@@ -838,9 +838,9 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 79 (03/20/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_LIDAR_and_3D_Computer_Vision)
 
-* **Day 80 (03/21/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 80 (03/21/2022)**: [SWIN Transformer Intuition]() 
 
-* **Day 81 (03/22/2022)**: [SWIN Transformer Intuition]()
+* **Day 81 (03/22/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/081_View_Synthesis_using_Neural_Radiance_Fields)
 
 * **Day 82 (03/23/2022)**: [TransDepth Intuition]()
 
