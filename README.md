@@ -820,7 +820,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 70 (03/11/2022)**: [Augmentation in Language Models]()
 
-* **Day 71 (03/12/2022)**: []() 
+* **Day 71 (03/12/2022)**: [GFlowNet: An Intuition and Implementation]() 
 
 * **Day 72 (03/13/2022)**: [Revisiting Bsic ML Algos]()
 
