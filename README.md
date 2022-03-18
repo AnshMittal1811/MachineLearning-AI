@@ -828,9 +828,9 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 74 (03/15/2022)**: [Cross Lingual Language Models]()
 
-* **Day 75 (03/16/2022)**: [Revisiting Bsic ML Algos]()
+* **Day 75 (03/16/2022)**: [Revisiting Basic ML Algos]()
 
-* **Day 76 (03/17/2022)**: [Augmentation in Language Models]()
+* **Day 76 (03/17/2022)**: [Language Models Augmentation]()
 
 * **Day 77 (03/18/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
