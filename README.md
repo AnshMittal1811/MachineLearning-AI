@@ -727,6 +727,8 @@ https://github.com/bearpaw/pytorch-classification
 
 
 * **Day 57 (02/26/2022)**: [3D Morphable Face Models Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/057_3D_Morphable_Face_Models)
+They are using Mobilenet to regress sparse 3D Morphable face models (by default (by using only 40 best shape parameters, 10 best shape base parameters (using PCA), 12 parameters for rotational and translation in the equation)) (that seem like landmarks) and then these are then optimized using 2 cost functions (the WPDC and VDC) through an adaptive k-step lookahead (which is the meta-joint optimization). Here, we can see the differences between different Morphable Face Models.
+
 
 * **Day 58 (02/27/2022)**: [Federated Learning in Pytorch](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/058_Federated_Learning)
 
