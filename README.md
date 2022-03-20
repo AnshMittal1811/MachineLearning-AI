@@ -807,11 +807,12 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 * **Day 62 (03/03/2022)**: [Deep Dreaming in Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/062_Deep_Dreaming_in_Computer_Vision)
 
 * **Day 63 (03/04/2022)**: [View Synthesis using Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision)
+<!--Novel View Synthesis Example 1,  Scene Editing Example 1, Novel View Synthesis Example 2,  Scene Editing Example 2-->
 
 | Novel View Synthesis | Scene Editting + No NVS + GT Depth |
 | -------------------- | ---------------------------------- |
-| [Novel View Synthesis Example 1](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_1.gif) | [Scene Editing Example 1](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_1.gif) |
-| [Novel View Synthesis Example 2](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_2.gif) | [Scene Editing Example 2](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_2.gif) |
+| ![](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_1.gif) | ![](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_1.gif) |
+| ![](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_2.gif) | ![](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_2.gif) |
 
 * **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
