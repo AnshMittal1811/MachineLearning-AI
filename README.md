@@ -253,7 +253,7 @@ Referred from: RESCAN by Xia Li et al. The CUDA extension references pyinn by Se
 
 * **Day 45 (02/14/2022)**: [G-SimCLR Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/045_G-SimCLR%20Intuition)
 
-* **Day 46 (02/15/2022)**: [Topic Modelling in Natural Language Processing]()
+* **Day 46 (02/15/2022)**: [Topic Modelling in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/046_Topic_Modelling)
 
 * **Day 47 (02/16/2022)**: [img2pose: Face Alignment and Detection via 6DoF, Face Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/047_img2pose_Intuition) This repository draws directly from the one mentioned here. I've tried implementing it on different datasets such as the BIWI ad AWFL dataset. Furthermore, the models weren't trained from scratch. The run was meant to be a way to report the numbers in the paper.
 
@@ -810,7 +810,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
-* **Day 65 (03/06/2022)**: [Molecular Chemistry using Machine Learning]()
+* **Day 65 (03/06/2022)**: [Molecular Chemistry using Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/065_Molecular_Chemistry_using_Machine_Learning/)
 
 * **Day 66 (03/07/2022)**: [Face Frontalization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/066_Face_Frontalization)
 
@@ -818,7 +818,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 68 (03/09/2022)**: [Textured 3D generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/068_Textured_3D_GANs)
 
-* **Day 69 (03/10/2022)**: []()
+* **Day 69 (03/10/2022)**: [Hyperbolic Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/069_Hyperbolic_Learning/)
 
 * **Day 70 (03/11/2022)**: [Critically-damped Langevin Diffusion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Critically_damped_Langevin_Diffusion)
 
@@ -830,19 +830,19 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 74 (03/15/2022)**: [Cross Lingual Language Models (XLM) and Meta Agnostic Meta-Learning (MAML)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/074_Cross_Lingual_Language_Model)
 
-* **Day 75 (03/16/2022)**: []()
+* **Day 75 (03/16/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_Manifold_Learning/)
 
-* **Day 76 (03/17/2022)**: [Language Models Augmentation]()
+* **Day 76 (03/17/2022)**: []()
 
 * **Day 77 (03/18/2022)**: []()
 
-* **Day 78 (03/19/2022)**: [GFlowNet: An Intuition and Implementation]()
+* **Day 78 (03/19/2022)**: []()
 
-* **Day 79 (03/20/2022)**: []
+* **Day 79 (03/20/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
-* **Day 80 (03/21/2022)**: [SWIN Transformer Intuition]() 
+* **Day 80 (03/21/2022)**: []() 
 
-* **Day 81 (03/22/2022)**: []
+* **Day 81 (03/22/2022)**: [SWIN Transformer Intuition]()
 
 * **Day 82 (03/23/2022)**: [TransDepth Intuition]()
 
