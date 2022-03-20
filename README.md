@@ -1038,17 +1038,17 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 * **Day 74 (03/15/2022)**: [Cross Lingual Language Models (XLM) and Meta Agnostic Meta-Learning (MAML)](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/074_Cross_Lingual_Language_Model)
 
-* **Day 75 (03/16/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_Manifold_Learning/)
+* **Day 75 (03/16/2022)**: [µTransfer HP Tuning of Enormous Neural Nets](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_%C2%B5Transfer_HP_tuning_of_enormous_neural_nets)
 
-* **Day 76 (03/17/2022)**: [Data Augmentation in Natural Language Processing]()
+* **Day 76 (03/17/2022)**: [Data Augmentation in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_Data_Augmentation_in_Natural_Language_Processing)
 
 * **Day 77 (03/18/2022)**: [Introduction to MediaPipe](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_Introduction_to_MediaPipe/)
 
-* **Day 78 (03/19/2022)**: []()
+* **Day 78 (03/19/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_Manifold_Learning/)
 
-* **Day 79 (03/20/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
+* **Day 79 (03/20/2022)**: []()
 
-* **Day 80 (03/21/2022)**: []() 
+* **Day 80 (03/21/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
 * **Day 81 (03/22/2022)**: [SWIN Transformer Intuition]()
 
