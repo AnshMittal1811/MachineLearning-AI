@@ -816,15 +816,15 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 67 (03/08/2022)**: [ECCV2020 Papers and Implementations](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/067_ECCV2020_Papers_and_Implementations_I)
 
-* **Day 68 (03/09/2022)**: []()
+* **Day 68 (03/09/2022)**: [Textured 3D generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/068_Textured_3D_GANs)
 
 * **Day 69 (03/10/2022)**: []()
 
-* **Day 70 (03/11/2022)**: []()
+* **Day 70 (03/11/2022)**: [Critically-damped Langevin Diffusion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Critically_damped_Langevin_Diffusion)
 
-* **Day 71 (03/12/2022)**: [GFlowNet: An Intuition and Implementation]() 
+* **Day 71 (03/12/2022)**: [Vector Quantized Variational Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_VQVAE)
 
-* **Day 72 (03/13/2022)**: []()
+* **Day 72 (03/13/2022)**: [Revisiting Basic Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_Revisiting_Basic_Machine_Learning/01_Lending_Club_Analysis)
 
 * **Day 73 (03/14/2022)**: [SemanticStyleGAN](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/073_SemanticStyleGAN)
 
@@ -834,15 +834,15 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 76 (03/17/2022)**: [Language Models Augmentation]()
 
-* **Day 77 (03/18/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
+* **Day 77 (03/18/2022)**: []()
 
-* **Day 78 (03/19/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/078_Human_Activity_Recognition)
+* **Day 78 (03/19/2022)**: [GFlowNet: An Intuition and Implementation]()
 
 * **Day 79 (03/20/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_LIDAR_and_3D_Computer_Vision)
 
 * **Day 80 (03/21/2022)**: [SWIN Transformer Intuition]() 
 
-* **Day 81 (03/22/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/081_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 81 (03/22/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/078_Human_Activity_Recognition)
 
 * **Day 82 (03/23/2022)**: [TransDepth Intuition]()
 
@@ -850,7 +850,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 84 (03/25/2022)**: [Scene Understanding]()
 
-* **Day 85 (03/26/2022)**: []()
+* **Day 85 (03/26/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
 * **Day 86 (03/27/2022)**: []()
 
@@ -862,7 +862,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 
 * **Day 90 (03/31/2022)**: []()
 
-* **Day 91 (04/01/2022)**: []()
+* **Day 91 (04/01/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/091_View_Synthesis_using_Neural_Radiance_Fields)
 
 * **Day 92 (04/02/2022)**: []()
 
