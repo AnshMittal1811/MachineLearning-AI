@@ -810,7 +810,7 @@ I worked at a Remote Sensing company and one of my proposed idea over there was 
 <!--Novel View Synthesis Example 1,  Scene Editing Example 1, Novel View Synthesis Example 2,  Scene Editing Example 2-->
 
 Novel View Synthesis         |  Scene Editting + No NVS + GT Depth        
-:-------------------------:|:-------------------------:|:-------------------------:
+:-------------------------:|:-------------------------:
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_1.gif)  | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_1.gif)  
 ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/063_View_Synthesis_using_Computer_Vision/examples/nvs_example_2.gif) | ![](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/063_View_Synthesis_using_Computer_Vision/examples/scene_editing_example_2.gif)
 
