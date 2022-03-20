@@ -1,0 +1,11 @@
+checkpoints_gan/
+checkpoints_recon/
+tensorboard_gan/
+tensorboard_recon/
+cache/
+datasets/
+output/
+__pycache__/
+.ipynb_checkpoints/
+*.zip
+*.py[cod]
