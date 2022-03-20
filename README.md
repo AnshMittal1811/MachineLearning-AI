@@ -1030,7 +1030,7 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 * **Day 70 (03/11/2022)**: [Critically-damped Langevin Diffusion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Critically_damped_Langevin_Diffusion)
 
-* **Day 71 (03/12/2022)**: [Vector Quantized Variational Auto Encoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_VQVAE)
+* **Day 71 (03/12/2022)**: [Vector Quantized Variational AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_Vector%20Quantized%20Variational%20Autoencoders)
 
 * **Day 72 (03/13/2022)**: [Revisiting Basic Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_Revisiting_Basic_Machine_Learning/01_Lending_Club_Analysis)
 
@@ -1042,11 +1042,11 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 * **Day 76 (03/17/2022)**: [Data Augmentation in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_Data_Augmentation_in_Natural_Language_Processing)
 
-* **Day 77 (03/18/2022)**: [Introduction to MediaPipe](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_Introduction_to_MediaPipe/)
+* **Day 77 (03/18/2022)**: [Introduction to MediaPipe](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Introduction_to_MediaPipe)
 
-* **Day 78 (03/19/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_Manifold_Learning/)
+* **Day 78 (03/19/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/078_Manifold_Learning)
 
-* **Day 79 (03/20/2022)**: []()
+* **Day 79 (03/20/2022)**: [SPD fMRI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_SPD_fMRI)
 
 * **Day 80 (03/21/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
