@@ -1040,9 +1040,9 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 * **Day 75 (03/16/2022)**: [Manifold Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/075_Manifold_Learning/)
 
-* **Day 76 (03/17/2022)**: []()
+* **Day 76 (03/17/2022)**: [Data Augmentation in Natural Language Processing]()
 
-* **Day 77 (03/18/2022)**: []()
+* **Day 77 (03/18/2022)**: [Introduction to MediaPipe](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/076_Introduction_to_MediaPipe/)
 
 * **Day 78 (03/19/2022)**: []()
 
