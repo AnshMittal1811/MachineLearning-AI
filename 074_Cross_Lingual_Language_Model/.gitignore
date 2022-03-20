@@ -1,0 +1,208 @@
+# tools, data, and dumped models
+# /tools
+/data/*
+data/*
+/XLM_original/data
+/XLM_our/data
+/XLM_original/dumped
+/XLM_our/dumped
+/dumped
+/XLM_original/apex
+/XLM_our/apex
+/apex
+
+# Created by https://www.gitignore.io/api/python
+# Edit at https://www.gitignore.io/?templates=python
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+*/__pycache__/
+__pycache__/
+*/*.py[cod]
+*.py[cod]
+*/*$py.class
+*$py.class
+
+# C extensions
+*/*.so
+*.so
+
+# Distribution / packaging
+*/.Python
+.Python
+*/build/
+build/
+*/develop-eggs/
+evelop-eggs/
+*/dist/
+dist/
+*/downloads/
+downloads/
+*/eggs/
+eggs/
+.*/eggs/
+eggs/
+*/lib/
+lib/
+*/lib64/
+lib64/
+*/parts/
+parts/
+*/sdist/
+sdist/
+*/var/
+var/
+*/wheels/
+wheels/
+*/share/python-wheels/
+share/python-wheels/
+*/*.egg-info/
+*.egg-info/
+*/.installed.cfg
+.installed.cfg
+*/*.egg
+*.egg
+*/MANIFEST
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+XLM/*.manifest
+*.manifest
+XLM/*.spec
+*.spec
+
+# Installer logs
+XLM/pip-log.txt
+pip-log.txt
+XLM/pip-delete-this-directory.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+XLM/htmlcov/
+htmlcov/
+.XLM/tox/
+.tox/
+.XLM/nox/
+.nox/
+.XLM/coverage
+.coverage
+.XLM/coverage.*
+.coverage.*
+.XLM/cache
+.cache
+XLM/nosetests.xml
+nosetests.xml
+XLM/coverage.xml
+coverage.xml
+XLM/*.cover
+*.cover
+.XLM/hypothesis/
+.hypothesis/
+.XLM/pytest_cache/
+.pytest_cache/
+
+# Translations
+XLM/*.mo
+*.mo
+XLM/*.pot
+*.pot
+
+# Django stuff:
+XLM/*.log
+*.log
+XLM/local_settings.py
+local_settings.py
+XLM/db.sqlite3
+db.sqlite3
+
+# Flask stuff:
+XLM/instance/
+instance/
+.XLM/webassets-cache
+.webassets-cache
+
+# Scrapy stuff:
+.XLM/scrapy
+.scrapy
+
+# Sphinx documentation
+XLM/docs/_build/
+/docs/_build/
+
+# PyBuilder
+XLM/target/
+target/
+
+# Jupyter Notebook
+.XLM/ipynb_checkpoints
+.ipynb_checkpoints
+
+# IPython
+XLM/profile_default/
+profile_default/
+XLM/ipython_config.py
+ipython_config.py
+
+# pyenv
+.XLM/python-version
+.python-version
+
+# celery beat schedule file
+XLM/celerybeat-schedule
+celerybeat-schedule
+
+# SageMath parsed files
+XLM/*.sage.py
+*.sage.py
+
+# Environments
+.XLM/env
+.env
+.XLM/venv
+.venv
+XLM/env/
+env/
+XLM/venv/
+venv/
+XLM/ENV/
+ENV/
+XLM/env.bak/
+env.bak/
+XLM/venv.bak/
+venv.bak/
+
+# Spyder project settings
+.XLM/spyderproject
+.spyderproject
+.XLM/spyproject
+.spyproject
+
+# Rope project settings
+.XLM/ropeproject
+.ropeproject
+
+# mkdocs documentation
+/XLM/site
+site
+
+# mypy
+.XLM/mypy_cache/
+.mypy_cache/
+.XLM/dmypy.json
+.dmypy.json
+XLM/dmypy.json
+dmypy.json
+
+# Pyre type checker
+.XLM/pyre/
+.pyre/
+
+### Python Patch ###
+.XLM/venv/
+.venv/
+
+# End of https://www.gitignore.io/api/python
+
+
