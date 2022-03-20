@@ -1,0 +1,8 @@
+conda install libpython m2w64-toolchain -c msys2
+
+conda install -c anaconda ephem
+
+conda install -c conda-forge pystan
+
+conda install -c conda-forge fbprophet
+
