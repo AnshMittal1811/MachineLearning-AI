@@ -1,0 +1,15 @@
+name: Zachary karate club
+code: ZA
+url: http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm#zachary
+category: HumanSocial
+description: Member–member ties
+long-description: This is the well-known and much-used Zachary karate club network.  The data was collected from the members of a university karate club by Wayne Zachary in 1977.  Each node represents a member of the club, and each edge represents a tie between two members of the club.  The network is undirected.  An often discussed problem using this dataset is to find the two groups of people into which the karate club split after an argument between two teachers. 
+relationship-names: tie
+extr: ucidata
+cite: konect:ucidata-zachary
+n3-prefix-m: konect_ucidata_zachary: <http://konect.uni-koblenz.de/networks/ucidata-zachary/Member/> .
+n3-type-m: foaf:Person
+n3-edgedata-1: $m foaf:knows $n .
+n3-edgedata-2: $n foaf:knows $m .
+
+entity-names:  member

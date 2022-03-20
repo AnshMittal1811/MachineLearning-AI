@@ -1,0 +1,10 @@
+name:  Political books
+code:  PB
+category:  Misc
+long-description:  This is "[a] network of books about US politics published around the time of the 2004 presidential election and sold by the online bookseller Amazon.com.  Edges between books represent frequent copurchasing of books by the same buyers.  The network was compiled by V. Krebs and is unpublished, but can found on Krebs' web site (http://www.orgnet.com/). Thanks to Valdis Krebs for permission to post these data on this web site."  
+entity-names:  book
+relationship-names:  co-purchase
+extr:  dimacs10
+url:  https://www.cc.gatech.edu/dimacs10/archive/clustering.shtml
+timeiso:  2004
+tags:  #missingmultiplicity #kcore #join #incomplete 

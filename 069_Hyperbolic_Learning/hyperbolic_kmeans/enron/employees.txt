@@ -1,0 +1,184 @@
+albert.meyers	Albert Meyers       Employee           Specialist
+a..martin	Thomas Martin           Vice President
+andrea.ring	Andrea Ring         N/A
+andrew.lewis	Andrew Lewis            Director
+andy.zipper	Andy Zipper            Vice President     Enron Online
+a..shankman	Jeffrey Shankman       President          Enron Global Mkts
+barry.tycholiz	Barry Tycholiz          Vice President
+benjamin.rogers	Benjamin Rogers        Employee           Associate
+bill.rapp	Bill Rapp              N/A
+bill.williams	xxx
+brad.mckay	Bradley Mckay           Employee
+brenda.whitehead	xxx
+b..sanders	Richard Sanders     Vice President    Enron WholeSale Services
+cara.semperger	Cara Semperger      Employee           Senior Analyst Cash
+c..giron	Daron Giron         Employee
+charles.weldon	Charles Weldon      N/A
+chris.dorland	Chris Dorland       Manager
+chris.germany	Chris Germany       Employee
+clint.dean	xxx
+cooper.richey	Cooper Richey       Manager
+craig.dean	Craig Dean          Trader
+dana.davis	Dana Davis             Vice President     Term
+dan.hyvl	Dan Hyvl            Employee
+danny.mccarty	Danny McCarty          Vice President
+daren.farmer	Daren Farmer        Manager            Logistics Manager
+darrell.schoolcraft	Darrell Schoolcraft    N/A
+darron.giron	Daron Giron         Employee
+david.delainey	David Delainey         CEO                Enron North America and Enron Enery Services
+debra.bailey	Susan Bailey           N/A
+debra.perlingiere	xxx
+diana.scholtes	Diana Scholtes      Trader
+d..martin	Thomas Martin           Vice President
+don.baughman	Don Baughman        Trader
+drew.fossum	Drew Fossum         Vice President
+d..steffes	James Steffes          Vice President     Government Affairs
+d..thomas	xxx
+dutch.quigley	xxx
+e..haedicke	Mark Haedicke          Managing Director  Legal Department
+elizabeth.sager	Elizabeth Sager        Employee
+eric.bass	Eric Bass               Trader
+eric.saibi	Eric Saibi          Trader
+errol.mclaughlin	Errol McLaughlin    Employee
+e.taylor	Mark Taylor            Employee
+f..brawner	Sandra Brawner          Director
+f..campbell	Larry Campbell         Employee           Senior Specialist
+f..keavey	Peter Keavey           Employee
+fletcher.sturm	Fletcher Sturm          Vice President
+frank.ermis	Frank Ermis             Director
+geir.solberg	Geir Solberg        Employee           Analyst
+geoff.storey	Geoffery Storey         Director
+gerald.nemec	Gerald Nemec           N/A
+greg.whalley	Greg Whalley           President
+gretel.smith	xxx
+harry.arora	Harpreet Arora          Vice President
+h..lewis	Andrew Lewis            Director
+holden.salisbury	Holden Salisbury    Employee           Cash Analyst
+hunter.shively	Hunter Shively          Vice President
+james.derrick	James Derrick       In House Lawyer
+james.steffes	James Steffes          Vice President     Government Affairs
+jane.tholt	Jane Tholt              Vice President
+jason.williams	xxx
+jason.wolfe	Jason Wolfe            N/A
+jay.reitmeyer	Jay Reitmeyer          Employee
+jeff.dasovich	Jeff Dasovich          Employee           Government Relation Executive
+jeff.king	Jeff King           Manager
+jeffrey.hodge	John Hodge          Managing Director
+jeffrey.shankman	Jeffrey Shankman       President          Enron Global Mkts
+jeff.skilling	Jeffery Skilling    CEO
+j..farmer	Daren Farmer        Manager            Logistics Manager
+j.harris	xxx
+jim.schwieger	Jim Schwieger          Trader
+j..kaminski	Vince Kaminski      Manager            Risk Management Head
+j.kaminski	Vince Kaminski      Manager            Risk Management Head
+j..kean	Steven Kean            Vice President     Vice President & Chief of Staff
+joannie.williamson	xxx
+joe.parks	Joe Parks           N/A
+joe.quenet	Joe Quenet             Trader
+joe.stepenovitch	Joe Stepenovitch       Vice President     Enery marketting and trading Florida
+john.arnold	John Arnold             Vice President
+john.forney	John Forney            Manager            Real time Trading Desk
+john.griffith	xxx
+john.hodge	John Hodge          Managing Director
+john.lavorato	John Lavorato          CEO                Enron America
+john.zufferli	John Zufferli          Vice President
+jonathan.mckay	Jonathan Mckay          Director
+j..sturm	Fletcher Sturm          Vice President
+juan.hernandez	Juan Hernandez         Employee           Senior Specialist Logistics
+judy.hernandez	xxx
+judy.townsend	Judy Townsend       Employee
+k..allen	Philip Allen        Manager
+kam.keiser	Kam Keiser          Employee
+kate.symes	Kate Symes          Employee
+kay.mann	Kay Mann               Employee
+keith.holst	Keith Holst         Director
+kenneth.lay	Kenneth Lay         CEO
+kevin.hyatt	Kevin Hyatt            Director           Pipeline Business
+kevin.presto	Kevin Presto            Vice President
+kevin.ruscitti	Kevin Ruscitti          Trader
+kimberly.watson	Kimberly Watson        N/A
+kim.ward	Kim Ward               N/A
+larry.campbell	Larry Campbell         Employee           Senior Specialist
+larry.may	Lawrence May            Director
+l..gay	Randall Gay            N/A
+lindy.donoho	Lindy Donoho           Employee
+lisa.gang	xxx
+liz.taylor	xxx
+l..mims	Patrice Mims        N/A
+louise.kitchen	Louise Kitchen      President          Enron Online
+lynn.blair	Lynn Blair          N/A
+margaret.carson	xxx
+marie.heard	Marie Heard         N/A
+mark.e.haedicke	Mark Haedicke          Managing Director  Legal Department
+mark.haedicke	Mark Haedicke          Managing Director  Legal Department
+mark.mcconnell	xxx
+mark.taylor	Mark Taylor            Employee
+mark.whitt	Mark Whitt          N/A
+martin.cuilla	Martin Cuilla           Manager
+mary.fischer	Mary Fischer        Employee
+matthew.lenhart	Matthew Lenhart        Employee
+matt.motley	Matthew Motley          Director
+matt.smith	xxx
+m..forney	John Forney            Manager            Real time Trading Desk
+michele.lokay	Michelle Lokay         Employee           Administrative Asisstant
+michelle.cash	Michelle Cash       N/A
+michelle.lokay	Michelle Lokay         Employee           Administrative Asisstant
+mike.carson	Mike Carson         Manager
+mike.grigsby	Michael Grigsby         Manager
+mike.maggi	Michael Maggi           Director
+mike.mcconnell	xxx
+mike.swerzbin	Mike Swerzbin       Trader
+m..love	Phillip Love        N/A
+monika.causholli	Monika Causholli    Employee          Analyst Risk Management
+monique.sanchez	xxx
+m..presto	Kevin Presto            Vice President
+m..scott	Susan Scott            N/A
+m..smith	xxx
+m..tholt	Jane Tholt              Vice President
+patrice.mims	Patrice Mims        N/A
+paul.thomas	Paul Thomas         N/A
+peter.keavey	Peter Keavey           Employee
+phillip.allen	Philip Allen        Manager
+phillip.love	Phillip Love        N/A
+phillip.platter	Phillip Platter     Employee           Sr.Specialist
+randall.gay	Randall Gay            N/A
+richard.ring	Richard Ring           Employee
+richard.sanders	Richard Sanders     Vice President    Enron WholeSale Services
+richard.shapiro	Richard Shapiro        Vice President     Regulatory Affairs
+rick.buy	Rick Buy            Manager            Chief Risk Management Officer
+robert.badeer	Robert Badeer           Director
+robert.benson	Robert Benson           Director
+rob.gay	xxx
+rod.hayslett	Rod Hayslett           Vice President     Also Chief Financial Officer and Treasurer
+ryan.slinger	Ryan Slinger        Trader
+sally.beck	Sally Beck          Employee           Chief Operating Officer
+sandra.brawner	Sandra Brawner          Director
+sara.shackleton	xxx
+scott.hendrickson	xxx
+scott.neal	Scott Neal              Vice President
+shelley.corman	Shelley Corman         Vice President     Regulatory Affairs
+s..shively	Hunter Shively          Vice President
+stacy.dickson	Stacy Dickson          Employee
+stanley.horton	Stanley Horton         President          Enron Gas Pipeline
+stephanie.panus	Stephanie Panus        Employee
+steven.kean	Steven Kean            Vice President     Vice President & Chief of Staff
+steven.south	xxx
+susan.bailey	Susan Bailey           N/A
+susan.pereira	Susan Pereira          Employee
+susan.scott	Susan Scott            N/A
+s..ward	Kim Ward               N/A
+tana.jones	Tana Jones             N/A
+teb.lokey	Teb Lokey              Manager            Regulatory Affairs
+theresa.staab	Theresa Staab          Employee
+t..hodge	John Hodge          Managing Director
+thomas.martin	Thomas Martin           Vice President
+t..lucci	Paul Lucci          Employee
+tom.donohoe	Tom Donohoe            N/A
+tori.kuykendall	Tori Kuykendall        Trader
+tracy.geaccone	Tracy Geaccone         Employee
+vince.kaminski	Vince Kaminski      Manager            Risk Management Head
+vladi.pimenov	Vladi Pimenov       N/A
+v.weldon	Charles Weldon      N/A
+w..delainey	David Delainey         CEO                Enron North America and Enron Enery Services
+w..pereira	Susan Pereira          Employee
+w..white	Stacey White        N/A
