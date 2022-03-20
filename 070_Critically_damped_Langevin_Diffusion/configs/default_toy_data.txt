@@ -1,0 +1,47 @@
+# Data
+is_image             = false
+data_dim             = 2
+
+# Training
+snapshot_freq        = 10000
+snapshot_threshold   = 1
+log_freq             = 5000
+eval_freq            = 20000
+likelihood_threshold = 2000000
+likelihood_freq      = 50000
+n_eval_batches       = 1
+n_likelihood_batches = 1
+n_warmup_iters       = 0
+n_train_iters        = 800000
+save_freq            = 50000
+save_threshold       = 300000
+
+# Sampling
+sampling_method      = ode
+sampling_eps         = 1e-3
+denoising            = true
+
+# Model
+name                = mlp
+ema_rate            = 0.999
+numerical_eps       = 1e-6
+
+# SDE
+sde                 = cld
+beta_type           = linear
+beta0               = 4.0
+beta1               = 0.0
+m_inv               = 4.0
+gamma               = 0.04
+
+# Optimization
+optimizer           = Adam
+learning_rate       = 1e-3
+grad_clip           = 1.0
+dropout             = 0.1
+weight_decay        = 0.0
+
+# Objective
+cld_objective       = hsm
+loss_eps            = 1e-5
+weighting           = reweightedv2

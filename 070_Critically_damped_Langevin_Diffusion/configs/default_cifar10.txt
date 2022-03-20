@@ -1,0 +1,32 @@
+# Data
+dataset             = cifar10
+is_image            = true
+image_size          = 32
+center_image        = true
+image_channels      = 3
+
+# Training
+snapshot_freq        = 10000
+snapshot_threshold   = 1
+log_freq             = 5000
+eval_freq            = 20000
+likelihood_threshold = 2000000
+likelihood_freq      = 50000
+fid_freq             = 50000
+fid_threshold        = 100000
+fid_samples_training = 20000
+n_eval_batches       = 1
+n_likelihood_batches = 1
+n_warmup_iters       = 100000
+n_train_iters        = 800000
+save_freq            = 50000
+save_threshold       = 300000
+
+# Autocast
+autocast_train       = true
+autocast_eval        = true
+
+# Sampling
+sampling_method      = ode
+sampling_eps         = 1e-3
+denoising            = true
