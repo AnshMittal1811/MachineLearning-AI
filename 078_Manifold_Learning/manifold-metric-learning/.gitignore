@@ -1,0 +1,7 @@
+
+*ipynb_checkpoints*
+*images*
+*__pycache__*
+*.ini
+*.bz2
+*.pyc
