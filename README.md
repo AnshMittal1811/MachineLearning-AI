@@ -1030,6 +1030,8 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 * **Day 70 (03/11/2022)**: [Critically-damped Langevin Diffusion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Critically_damped_Langevin_Diffusion)
 
+TBA
+
 * **Day 71 (03/12/2022)**: [Vector Quantized Variational AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_Vector%20Quantized%20Variational%20Autoencoders)
 
 * **Day 72 (03/13/2022)**: [Revisiting Basic Machine Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/072_Revisiting_Basic_Machine_Learning/01_Lending_Club_Analysis)
