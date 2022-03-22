@@ -817,9 +817,9 @@ Novel View Synthesis         |  Scene Editting + No NVS + GT Depth
 
 * **Day 64 (03/05/2022)**: [Deep Reinforcement Learning in Atari Games](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/064_Deep_Reinforcement_Learning_in_Atari_Games)
 
-<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Breakout_756.gif" width="200"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Breakout_425.gif" width="200"> <img src="figures_for_README/Pong_21.gif" width="200"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Pong_16.gif" width="200">
+<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Breakout_756.gif" width="200"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Breakout_425.gif" width="200"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Pong_21.gif" width="200"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Pong_16.gif" width="200">
 
-<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Iterations:5000000-Time:03-30-2020-02-57-22.jpg" width="400"> <img src="figures_for_README/Iterations:1200000-Time:04-08-2020-22-06-38.jpg" width="400">
+<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Iterations:5000000-Time:03-30-2020-02-57-22.jpg" width="400"> <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/064_Deep_Reinforcement_Learning_in_Atari_Games/figures_for_README/Iterations:1200000-Time:04-08-2020-22-06-38.jpg" width="400">
 
 # RL-Atari-gym
 Reinforcement Learning on Atari Games and Control
@@ -1029,6 +1029,8 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 
 * **Day 70 (03/11/2022)**: [Critically-damped Langevin Diffusion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/070_Critically_damped_Langevin_Diffusion)
+
+TBA
 
 * **Day 71 (03/12/2022)**: [Vector Quantized Variational AutoEncoders](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/071_Vector%20Quantized%20Variational%20Autoencoders)
 
