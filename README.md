@@ -1050,19 +1050,19 @@ TBA
 
 * **Day 79 (03/20/2022)**: [SPD fMRI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_SPD_fMRI)
 
-* **Day 80 (03/21/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
+* **Day 80 (03/21/2022)**: []()
 
-* **Day 81 (03/22/2022)**: [SWIN Transformer Intuition]()
+* **Day 81 (03/22/2022)**: []()
 
-* **Day 82 (03/23/2022)**: [TransDepth Intuition]()
+* **Day 82 (03/23/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
-* **Day 83 (03/24/2022)**: [TansPose Intuition]()
+* **Day 83 (03/24/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 84 (03/25/2022)**: [Scene Understanding]()
+* **Day 84 (03/25/2022)**: [TransDepth Intuition]()
 
-* **Day 85 (03/26/2022)**: []()
+* **Day 85 (03/26/2022)**: [TansPose Intuition]()
 
-* **Day 86 (03/27/2022)**: []()
+* **Day 86 (03/27/2022)**: [Scene Understanding]()
 
 * **Day 87 (03/28/2022)**: []()
 
