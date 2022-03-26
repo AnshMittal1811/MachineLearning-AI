@@ -1,0 +1,13 @@
+logs
+train_data
+data
+ckpt
+__pycache__
+.DS_Store
+.idea
+*.pyc
+*.pt
+*.pth
+*.png
+*.dat
+*.log
