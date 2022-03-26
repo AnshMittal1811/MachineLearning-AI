@@ -796,7 +796,9 @@ Find the papers and reading that I had done for understanding this topic more in
 * [Google AI Blog Post](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
  -->
 
-* **Day 59 (02/28/2022)**: [Deep Learning compilation and how does it work?]()
+* **Day 59 (02/28/2022)**: [Removing Features from Images](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/059_Removing_Features_from_Images)
+
+<!-- Deep Learning compilation and how does it work? -->
 
 * **Day 60 (03/01/2022)**: [Slot Filling, Named Entity Recognition, Intent Detection: An Intuition and Review](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/060_Slot_Filling_NER_ID_Intuition_and_WorkDone)
 
@@ -1050,11 +1052,11 @@ TBA
 
 * **Day 79 (03/20/2022)**: [SPD fMRI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_SPD_fMRI)
 
-* **Day 80 (03/21/2022)**: []()
+* **Day 80 (03/21/2022)**: [Reinforcement Learning using Deep Learning]()
 
-* **Day 81 (03/22/2022)**: []()
+* **Day 81 (03/22/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
 
-* **Day 82 (03/23/2022)**: [Generating Informative Drawings]()
+* **Day 82 (03/23/2022)**: [Generating Informative Drawings](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/082_Generating_Informative_Drawings)
 
 * **Day 83 (03/24/2022)**: [SWIN Transformer Intuition]()
 
