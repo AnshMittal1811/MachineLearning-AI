@@ -1014,9 +1014,9 @@ TBA
 
 * **Day 79 (03/20/2022)**: [SPD fMRI](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_SPD_fMRI)
 
-* **Day 80 (03/21/2022)**: [Reinforcement Learning using Deep Learning]()
+* **Day 80 (03/21/2022)**: [MPS-Net: 3D Human PoseShape from Videos](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/080_MPS_Net_3D_human_poseshape_from_video)
 
-* **Day 81 (03/22/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
+* **Day 81 (03/22/2022)**: [Mask Transfiner High Quality Instance Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/081_Mask_Transfiner_High_Quality_Instance_Segmentation)
 
 * **Day 82 (03/23/2022)**: [Generating Informative Drawings](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/082_Generating_Informative_Drawings)
 
@@ -1024,15 +1024,15 @@ TBA
 
 * **Day 84 (03/25/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
-* **Day 85 (03/26/2022)**: [TansPose Intuition]()
+* **Day 85 (03/26/2022)**: [Reinforcement Learning using Deep Learning]() 
 
-* **Day 86 (03/27/2022)**: [Scene Understanding]()
+* **Day 86 (03/27/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
 
 * **Day 87 (03/28/2022)**: [TransDepth Intuition]()
 
-* **Day 88 (03/29/2022)**: []()
+* **Day 88 (03/29/2022)**: [TansPose Intuition]()
 
-* **Day 89 (03/30/2022)**: []()
+* **Day 89 (03/30/2022)**: [Scene Understanding]()
 
 * **Day 90 (03/31/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
