@@ -1022,17 +1022,17 @@ TBA
 
 * **Day 83 (03/24/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 84 (03/25/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
+* **Day 84 (03/25/2022)**: [A brief introduction to Reinforcement Learning]()
 
-* **Day 85 (03/26/2022)**: [Reinforcement Learning using Deep Learning]() 
+* **Day 85 (03/26/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
 
-* **Day 86 (03/27/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
+* **Day 86 (03/27/2022)**: [Basics of Data Mining (DSCI 553)]()
 
-* **Day 87 (03/28/2022)**: [TransDepth Intuition]()
+* **Day 87 (03/28/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
-* **Day 88 (03/29/2022)**: [TansPose Intuition]()
+* **Day 88 (03/29/2022)**: [TransDepth Intuition]()
 
-* **Day 89 (03/30/2022)**: [Scene Understanding]()
+* **Day 89 (03/30/2022)**: [TansPose Intuition]()
 
 * **Day 90 (03/31/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
 
@@ -1042,7 +1042,7 @@ TBA
 
 * **Day 93 (04/03/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/078_Human_Activity_Recognition)
 
-* **Day 94 (04/04/2022)**: []()
+* **Day 94 (04/04/2022)**: [Scene Understanding]()
 
 * **Day 95 (04/05/2022)**: []()
 
