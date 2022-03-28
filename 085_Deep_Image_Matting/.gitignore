@@ -1,0 +1,8 @@
+.idea
+__pycache__/
+BEST_checkpoint.tar
+checkpoint.tar
+nohup.out
+runs/
+train_names.txt
+valid_names.txt
