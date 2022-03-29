@@ -1,0 +1,19 @@
+# directories
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# extensions
+*.pyc
+*.log
+*.sh
+*.tar
+*.zip
+*.tar
+*.sublime*
+*.swp
+*.out
+
+# placeholders to keep directories
+!.keep

@@ -1,0 +1,16 @@
+{
+    "batch_size": 32,
+    "data_size": [
+        9,
+        128
+    ],
+    "dataset": "har",
+    "epochs": 20,
+    "is_eval_only": false,
+    "is_standardized": true,
+    "lr": 0.0005,
+    "model_type": "Cnn2",
+    "name": "HAR_Cnn2_StdTrue",
+    "no_test": false,
+    "num_classes": 6
+}
