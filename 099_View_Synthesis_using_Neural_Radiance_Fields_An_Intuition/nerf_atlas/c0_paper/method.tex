@@ -1,0 +1,85 @@
+\section*{Method}
+
+Our approach imposes structure on top of machine learning
+approaches, enforcing properties on the reconstructed values. For functions \[ f(p, t)\to\mathbb{R}^n, t\in[0,1], \] we decompose $f(p,t)$ into a function: 
+\begin{align}
+    f(p)\to\mathbb{R}^{n\times O}, B_O(f(p), t)\to\mathbb{R}^n
+\end{align}
+Where
+$O$ is the order of the Bezier spline, $f(p)$ is the learned control points, and $B_O(f(p), \cdot)$ is the evaluation
+of the $O$th order Bezier spline with control points defined by $f(p)$.
+
+\subsection*{Architecture}
+
+For dynamic NeRF, we define $f(p)$ as
+$\text{MLP}(x,y,z)\to\mathbb{R}^{3\times O}$. We ray march from a camera with known position and
+view direction through the scene, and at every point we compute the set of control points for a Bezier curve. We then evaluate the Bezier curve at a given time, and deform the ray by the result, producing some $\Delta_0(x)$. The number of spline points for the Bezier curve is a  hyperparameter, and our experiments use 5 spline points. In order to evaluate the Bezier curve in a numerically stable way, we use De Casteljau's algorithm. 
+
+De Casteljau's algorithm evaluated at time $t$ is defined by the recurrence relation:
+\begin{align}
+  \beta_i^{(0)} &= \beta_i \nonumber \\
+  \beta_i^{j} &= (1-t)\beta_i^{(j-1)} + t\beta_{i-1}^{(j-1)}
+\end{align}
+which can be thought of as linearly interpolating between adjacent control points until there is only a single fixed point. This takes $O(n^2)$ operations to evaluate, where $n$ is the number of control points. For a small $n$, i.e. 5 spline points which is what we evaluate on, this is negligible.
+
+We are also interested in constructing a reasonable canonical NeRF, and without loss of generality select $t = 0$ to be canonical. From this, we are interested in Bezier Curves where $B_O(0) = \overrightarrow{0}$. This can be achieved in two different ways, either by assigning $p_0 = \overrightarrow{0}$, and only computing the other control points: $f(p) = p_{1\cdots O-1}$. Then, we can use the Bezier spline with the control points as the concatenation of $\overrightarrow{0}$ with the other control points: $[\overrightarrow{0}, p_{1\cdots O-1}]$. Alternatively, we can compute $p_{0\cdots O-1}$ and use the Bezier spline with control points but subtract the first predicted point from all of them: $[p_{0\cdots O-1}]-p_0$, and the final change in position is $\Delta_0(x) = B_O(f(p)-f(p)_0,t)+p_0$. While both formulations are theoretically equivalent, we find it better to explicitly compute $p_0$, otherwise the initial frame will have deformations. In our evaluation, we do not subtract the first point at all, allowing movement in the first frame, but this can be subtracted out later from all points in a post-processing step.
+
+\noindent
+A diagram of the spline component for ray-bending can be seen in Fig.~\ref{fig:arch_diagram}.
+
+Following NR-NeRF, we also learn how rigid each point in space is, allowing for efficient categorization of fixed regions. This rigidity is computed as a function of position:
+\begin{align}
+  \text{r}\in[0,1] =\sigma(\text{MLP}(x))\label{eq:rigidity_defn}
+\end{align}
+where $\sigma$ is defined as the sigmoid function $\frac{1}{1+e^{-x}}$, and this MLP is shared\footnote{This differs from NR-NeRF which uses two separate MLPs.} with computing the Bezier control points. Rigidity $\in[0,1]$ rescales the
+difficulty of learning movement, making it easy to handle static scene
+objects, where even slight motion would look incorrect in new views. The final change in position is defined as $\Delta(x) = \text{r}
+\Delta_0(x)$.
+
+In order to reconstruct RGB values, we also diverge from the original NeRF and NR-NeRF. Instead of only allowing for fully positional or view-dependent colors, we allow a small amount of linear scaling as a function of the view direction.
+\begin{align}
+  \text{RGB}_{pos} &= \sigma(\text{MLP}(x)) \nonumber \\
+  \text{RGB} &= (1-\sigma(\text{MLP}(v))/2)\text{RGB}_{pos} \label{eq:refl_defn}
+\end{align}
+Because of the low number of
+samples for a moving object at a given view, it is more difficult to learn specular
+reflection, but it is often the case there are lighting changes which are necessary to model. Motivation for this modification can be found under the section on limitations(\ref{sec:refl_disc}).
+
+\subsection*{Training}
+
+For training, we sample random crops of random frames, computing the loss and back-propagating through both the NeRF and spline network. We use gradient descent to optimize control points and the canonical NeRF jointly, but note that there are also classical approaches to optimizing control points which could lead to faster optimization in the future. We use the Adam optimizer~\cite{Kingma2015AdamAM} with cosine simulated annealing~\cite{loshchilov2017sgdr} to go from $\num{2e-4}$ to $\num{5e-5}$ over the course of two days, and start with a low resolution $32\times32$ training image size as initialization before scaling to $256\times256$. We develop our approach on an NVIDIA GTX 1060, but run each experiment on one Tesla P100.
+
+For some scenes, we are able to have higher learning rates at $\num{3e-4}$, but for much darker scenes it's necessary to lower the learning rate to $\num{1e-4}$ to converge, and find that if the scene is too dark, specifically the \textit{Hellwarrior} scene, we revert back to using only positionally dependent RGB, but still have difficulty converging since it is too dark.
+
+Despite the guarantees of our method, it is still crucial to apply offset and divergence regularization defined in NR-NeRF~\cite{tretschk2021nonrigid} as:
+\begin{align}
+\ell_{\text{off}} = \frac{1}{|C|} \sum_{j\in C} \alpha_j \
+    (\lVert \Delta_0(x_j) \rVert_2^{2-\text{r}}+\lambda_r \text{r})
+\end{align}
+\begin{align}
+    \ell_{\text{div}} = \frac{1}{|C|} \sum_{j\in C} \omega_j' |\nabla\cdot(\Delta(x_j))|^2
+\end{align}
+
+Where $r$ is rigidity as defined in Eq.\ref{eq:rigidity_defn}, and $\lambda_r$ is a hyper-parameter, set to 0.3, and $\alpha_j$ refers to the accumulated visibility weight along a ray $T$, as defined in Eq.~\ref{eq:nerf}. We defer to NR-NeRF~\cite{tretschk2021nonrigid} for a complete explanation of these losses.
+
+Our complete loss function is thus:
+
+\begin{align}
+    \ell = \sum\limits_{r\in\text{GT}}\lVert\text{GT} - f(r_o, r_d, t)\rVert_2^2 + \lambda_{\text{div}}\ell_\text{div} + \lambda_\text{off}\ell_\text{off}
+\end{align}
+
+Where we assign $\lambda_\text{div} = 0.3, \lambda_\text{off} = 30$, and $f$ is the rendering the described model at time $t$ with the rays from the known camera.
+
+\subsection*{Voxel Spline-NeRF}
+
+In addition to a model that uses an MLP to predict the control points, we demonstrate that using control points is also possible with a voxel-based approach, leading to much faster reconstruction times. Our formulation is identical to the MLP model, but instead of querying an MLP, the model trilinearly interpolates between the surrounding set of control points. We demonstrate the possibility of using a voxelized approach for reconstructing dynamic scenes in our experiments, but do not precisely measure how much faster it is than the MLP based approach, since it is heavily implementation-dependent, for example a voxel based approach would do well from using a handwritten CUDA extension, while our implementation is only written in Pytorch. We do note that training is faster and much less memory-intensive than the MLP based approach, allowing for an order of magnitude higher batch size while training, and converging faster. As compared to the MLP-based approach though, there is a degradation in quality. We expect there to be a need for additional regularization terms as compared to both previous voxel and dynamic reconstruction approaches.
+
+Our voxel approach closely resembles the MLP based approach, only differing in storing a set of spline control points at every voxel position, as well as spherical harmonic coefficients in order to compute the linear color rescaling. Our simple implementation also does not differ significantly from our dynamic NeRF approach, differing by around 50 LOC. We defer to the supplementary material for results on the voxel model.
+
+In order for our voxel approach to converge, we use losses introduced in NR-NeRF~\cite{tretschk2021nonrigid} and also find it necessary to apply total variational loss as used in Plenoxels~\cite{yu2021plenoxels}:
+
+\begin{align}
+    \ell_{TV} = \frac{1}{|V|} \sum_{v\in V} \sqrt{\sum_{d\in \{x,y,z\}} \Delta^2_d(v)}
+\end{align}
+
+Where $\Delta^2_d(v)$ is the difference between one of a voxel's value and one of its neighbor on the $d$ axis's corresponding values. This guarantees that there is relative consistency in the voxel grid. We note that we apply this to all components stored in the voxel grid, including the spline control points, rigidity, density, and the RGB. As in Plenoxels~\cite{yu2021plenoxels}, we stochastically sample this at each step.

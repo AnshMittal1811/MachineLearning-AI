@@ -1,0 +1,7 @@
+\section*{Discussion}
+
+Learned Bezier splines produce coherent movement in objects and are able to converge with equal to speed as prior work. Our method demonstrates smooth interpolation, as enforced by the structure of our approach. We are thus able to super-sample between frames at arbitrary resolution while guaranteeing smoothness. In addition, because of the analytic nature of splines, we are better able to understand the movement of objects within a scene.
+
+Another computational benefit of our approach is that for a single view, we only need to evaluate the deformation MLP \textit{once} to compute the Bezier spline at each point, then we can sample the Bezier spline at an arbitrary number of times to compute a video. This should allow for efficient single view video reconstruction, but we leave future work for this.
+
+Finally, even without the above optimization, our model runs approximately as fast as NR-NeRF, but can be optimized further, either by introducing voxels, or using other approaches such as a different optimization scheme for splines.

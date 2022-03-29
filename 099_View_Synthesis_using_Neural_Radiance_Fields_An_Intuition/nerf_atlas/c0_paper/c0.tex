@@ -1,0 +1,58 @@
+\documentclass[runningheads]{llncs}
+
+\usepackage[colorlinks=true,linkcolor = blue,urlcolor = blue]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage[accsupp]{axessibility}
+\usepackage[table]{xcolor}
+
+% comment out for final submission
+%\usepackage{ruler}
+%\usepackage[width=122mm,left=12mm,paperwidth=146mm,height=193mm,top=12mm,paperheight=217mm]{geometry}
+
+\begin{document}
+\pagestyle{headings}
+\mainmatter
+\def\ECCVSubNumber{6195}
+
+\title{Spline-NeRF: $C^0$-Continuous Dynamic NeRF}
+\author{Julian Knodt}
+\institute{Princeton University}
+
+\maketitle
+
+\begin{abstract}
+The problem of reconstructing continuous functions over time is important for problems such as reconstructing moving scenes, and interpolating between time steps.
+Previous approaches that use deep-learning rely on regularization to ensure that reconstructions are approximately continuous, which works well on short sequences. As sequence length grows, though, it becomes more difficult to regularize, and it becomes less feasible to learn only through regularization.
+
+We propose a new architecture for function reconstruction based on classical Bezier splines, which ensures $C^0$ and $C^1$-continuity, where $C^0$ continuity is that $\forall c:\lim\limits_{x\to c} f(x) = f(c)$, or more intuitively that there are no breaks at any point in the function. In order to demonstrate our architecture, we reconstruct dynamic scenes using Neural Radiance Fields, but hope it is clear that our approach is general and can be applied to a variety of problems. We recover a Bezier spline $B(\beta, t\in[0,1])$,
+parametrized by the control points $\beta$. Using Bezier splines ensures reconstructions have $C^0$ and $C^1$ continuity, allowing for guaranteed interpolation over time. We reconstruct $\beta$ with a multi-layer perceptron (MLP), blending machine learning with classical animation techniques. All code is available at
+\url{https://github.com/JulianKnodt/nerf_atlas}, and datasets are from prior work.
+
+\end{abstract}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\textwidth]{teaser}
+    \caption{
+    \label{fig:intro_figure}
+    \textbf{Overview of approach.} Conceptually, our approach models movement as interpolation along a high-dimensional bezier spline, where each control point is an object. This is done by learning a function which maps from $x\in\mathbb{R}^3$ to a Bezier spline with $N$ control points. In the figure above, only the first and last control points are visible while rendering. Using this classical formulation, we impose a strong prior on continuity of movement, while enforcing that it is smooth. We compare our model to an implementation of NR-NeRF~\cite{tretschk2021nonrigid}, and find our model is on par qualitatively and produces more coherent movement. A qualitative difference can also be seen in videos comparing the two reconstructions, due to the difference in the velocity of movement.
+    }
+    \vspace{-3mm}
+\end{figure}
+
+\input{intro}
+\input{background}
+\input{method}
+\input{results}
+\input{discussion}
+\input{conclusion}
+
+{\small
+    \bibliographystyle{splncs04}
+    \bibliography{ref}
+}
+
+\end{document}
