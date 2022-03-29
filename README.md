@@ -1022,11 +1022,11 @@ TBA
 
 * **Day 83 (03/24/2022)**: [WISE-FT: Robust Fine-tuning of Zero-Shot Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/083_WISE_FT_Robust_Fine_Tuning_of_Zero_Shot_Model)
 
-* **Day 84 (03/25/2022)**: []()
+* **Day 84 (03/25/2022)**: [Explainable AI in GANs](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/084_Explainable_AI_in_GANs)
 
-* **Day 85 (03/26/2022)**: [A brief introduction to Reinforcement Learning]()
+* **Day 85 (03/26/2022)**: [Deep Image Matting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/085_Deep_Image_Matting)
 
-* **Day 86 (03/27/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
+* **Day 86 (03/27/2022)**: []()
 
 * **Day 87 (03/28/2022)**: [SWIN Transformer Intuition]()
 
@@ -1034,13 +1034,13 @@ TBA
 
 * **Day 89 (03/30/2022)**: [Basics of Data Mining (DSCI 553)]()
 
-* **Day 90 (03/31/2022)**: [Transformer: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/077_Transformer_A_Comprehensive_Intuition/Papers%2BReadings)
+* **Day 90 (03/31/2022)**: []()
 
-* **Day 91 (04/01/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/091_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 91 (04/01/2022)**: []()
 
-* **Day 92 (04/02/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_LIDAR_and_3D_Computer_Vision)
+* **Day 92 (04/02/2022)**: [A brief introduction to Reinforcement Learning]()
 
-* **Day 93 (04/03/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/078_Human_Activity_Recognition)
+* **Day 93 (04/03/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
 
 * **Day 94 (04/04/2022)**: [Scene Understanding]()
 
@@ -1048,13 +1048,13 @@ TBA
 
 * **Day 96 (04/06/2022)**: [TansPose Intuition]()
 
-* **Day 97 (04/07/2022)**: []()
+* **Day 97 (04/07/2022)**: [Transformers: A Comprehensive Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/097_Transformer_A_Comprehensive_Intuition)
 
-* **Day 98 (04/08/2022)**: []()
+* **Day 98 (04/08/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/098_Human_Activity_Recognition)
 
-* **Day 99 (04/09/2022)**: []()
+* **Day 99 (04/09/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/099_View_Synthesis_using_Neural_Radiance_Fields)
 
-* **Day 100 (04/10/2022)**: []()
+* **Day 100 (04/10/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_LIDAR_and_3D_Computer_Vision)
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
