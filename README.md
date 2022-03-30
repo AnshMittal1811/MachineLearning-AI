@@ -1028,13 +1028,13 @@ TBA
 
 * **Day 86 (03/27/2022)**: []()
 
-* **Day 87 (03/28/2022)**: [SWIN Transformer Intuition]()
+* **Day 87 (03/28/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/087_View_Synthesis_using_Neural_Radiance_Fields) 
 
-* **Day 88 (03/29/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
+* **Day 88 (03/29/2022)**: [SWIN Transformer Intuition]()
 
-* **Day 89 (03/30/2022)**: [Basics of Data Mining (DSCI 553)]()
+* **Day 89 (03/30/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
 
-* **Day 90 (03/31/2022)**: []()
+* **Day 90 (03/31/2022)**: [Basics of Data Mining (DSCI 553)]()
 
 * **Day 91 (04/01/2022)**: []()
 
@@ -1052,9 +1052,9 @@ TBA
 
 * **Day 98 (04/08/2022)**: [Human Activity Recognition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/098_Human_Activity_Recognition)
 
-* **Day 99 (04/09/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/099_View_Synthesis_using_Neural_Radiance_Fields)
+* **Day 99 (04/09/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_LIDAR_and_3D_Computer_Vision)
 
-* **Day 100 (04/10/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_LIDAR_and_3D_Computer_Vision)
+* **Day 100 (04/10/2022)**: 
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
