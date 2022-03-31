@@ -1,0 +1,59 @@
+experiment_name = temp
+dataset_path = ./data/unity/challenger2_45_specular
+init_sphere = 1
+dataset_name = nlr
+
+opt_sdf_onsurface 0
+opt_sdf_offsurface = 0
+opt_sdf_normal = 0
+opt_sdf_eikonal = 1
+opt_sdf_front = 0
+opt_sdf_rear = 0
+opt_render_shape = 0
+opt_render_softmask = 0
+
+train_decoder_sdf = 1
+train_image_encoder = 1
+train_feature_decoder = 1
+train_feature_blending = 1
+
+feature_type = learned
+feature_aggregation_method = learned
+occlusion_method = raytrace
+source_views_per_target = 6
+total_number_source_views = -1
+image_batch_size = 4
+source_view_selection_mode = random
+
+lr = 5e-4
+lr_encdec_decay_steps = 2000
+lr_sdf = 1e-4
+lr_sdf_decay_steps = 500
+opt_sdf_eikonal_w = 3.0
+model_image_encoder_features = 16
+
+rt_num_steps = 8
+model_hidden_layers_sdf = 3
+model_hidden_dims_sdf = 256
+feature_vector = 0
+rt_num_mask_steps = 40
+
+rt_mask_alpha = 50
+rt_mask_alpha_period = 2000
+rt_mask_alpha_period_max = 3
+regularize_weights_sdf = 0
+rt_mask_loss_weight = 0.03
+
+color_loss = l1
+loss_eikonal_metric = l2
+use_pcd = 0
+
+lr_decay_factor = 0.5
+
+load_3D_point_buffers = 1
+precomputed_3D_point_buffers = ./assets/precomputed/nlr_SCAN_buffers.pth
+save_3D_point_buffers = 1
+load_model_poses = 1
+
+im_scale = 1
+load_im_scale = 0.2

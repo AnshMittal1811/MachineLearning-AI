@@ -1,0 +1,6 @@
+__pycache__
+checkpoints
+*.so
+*.o
+*.pyc
+models/atlasnet/ops/build
