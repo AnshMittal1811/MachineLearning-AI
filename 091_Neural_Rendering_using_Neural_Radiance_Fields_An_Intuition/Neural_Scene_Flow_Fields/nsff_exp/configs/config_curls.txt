@@ -1,0 +1,43 @@
+expname = curls_ndc_5f_unify
+
+basedir = ./logs
+datadir = /phoenix/S7/zl548/nerfie/curls/dense
+
+dataset_type = llff
+
+factor = 2
+llffhold = 10
+
+N_rand = 1024
+N_samples = 128
+N_importance = 0
+netwidth = 256
+
+use_viewdirs = True
+raw_noise_std = 1e0
+no_ndc = False
+lindisp = False
+no_batching = True
+spherify = False
+decay_depth_w = True
+decay_optical_flow_w = True
+use_motion_mask = True
+num_extra_sample = 512
+
+lrate_decay = 500
+
+w_depth = 0.04
+w_optical_flow = 0.02
+w_sm = 0.1
+w_sf_reg = 0.1
+w_cycle = 1.0
+w_prob_reg = 0.1
+w_entropy = 1e-3
+
+start_frame = 0
+end_frame = 56
+decay_iteration = 60
+
+final_height = 480
+chain_sf = True
+
