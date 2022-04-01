@@ -1,0 +1,108 @@
+method: CaDeX-ST
+gpu: 0
+modes: ["test"]
+
+model:
+  model_name: cadex_dt4d
+
+  loss_recon: true
+  loss_corr: true
+  corr_weight: 8.0
+
+  compress_cdc: true # the cdc is compressed by a sigmoid
+
+  h_encoder_type: "t-pointnet" # "traj" or "per-frame" or "t-pointnet"
+
+  use_rnn: false
+  use_t_rnn: false
+
+  homeomorphism_encoder:
+    c_dim: 256
+    hidden_dim: 256
+  canonical_geometry_encoder:
+    c_dim: 128
+    hidden_dim: 128
+  canonical_geometry_decoder:
+    c_dim: 128
+    hidden_size: 128
+  homeomorphism_decoder:
+    n_layers: 6
+    feature_dims: 256
+    hidden_size: [128, 64, 32, 32, 32]
+    proj_dims: 128
+    code_proj_hidden_size: [256, 256, 128]
+    proj_type: simple
+    block_normalize: False
+    normalization: False # coupling block
+    explicit_affine: True
+    hardtanh_range: [-3.0, 3.0] #default
+
+dataset:
+  pin_mem: False
+  dataset_name: dt4d_animal_v3
+  data_root: ./resource/data/dt4d_v3
+  dataset_proportion: [1.0, 1.0] #  [0.1, 0.1]
+  num_workers: 2
+
+  occ_n_chunk: 5
+  corr_n_chunk: 5
+  chunk_size: 10000
+
+  # customized setting
+  sub_cate: "" # or all ""
+  input_type: "pcl" # can be "scan", "static" or "pcl"
+  # only used when input camera view obs
+  num_view: 2 # how many views to use
+  withhold_view: true # not use some view0 as they are used for Unseen viewpoint
+
+  split:
+    train: train.json
+    val: val.json
+    withhold_view: test_uv.json
+    test: test_us.json
+
+  seq_len: 17
+  num_training_frames: 8
+  num_input_pts: 512
+  input_noise: 0.001
+  num_query_uni: 256
+  num_query_ns: 256
+  num_corr_pts: 100
+  n_query_sample_eval: 50000
+
+training:
+  optim:
+    all:
+      lr: 0.0001
+      decay_schedule: 200
+      decay_factor: 0.5
+      lr_min: 0.00000001
+
+  total_epoch: 1
+  batch_size: 48
+  initialize_network_file:
+    ["./resource/checkpoints/dt4d/dt4d_pcl.pt"]
+  initialize_network_name: ["all"]
+
+evaluation:
+  eval_every_epoch: 1
+  iou_threshold: 0.5
+  batch_size: 1
+  project_to_final_mesh: false
+
+logging:
+  log_dir: dt4d_test/test_cadex_dt4d_pcl_unseen_seq
+  loggers: ["mesh", "image", "hist", "video", "xls"]
+  viz_training_batch_interval: 400 # 20
+  viz_nontrain_batch_interval: 100
+  viz_epoch_interval: 1
+  checkpoint_epoch: 1 #20
+  mesh_viz_interval: 3
+
+  model_select_metric: iou
+  model_select_larger: true
+
+generation:
+  occ_if_meshing_cfg:
+    batch_pts: 30000
+    threshold: 0.5

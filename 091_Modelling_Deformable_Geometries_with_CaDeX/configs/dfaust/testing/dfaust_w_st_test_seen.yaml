@@ -1,0 +1,109 @@
+method: CaDeX-ST
+gpu: 0
+modes: ["test"]
+
+model:
+  model_name: cadex_dfaust
+
+  loss_recon: true
+  loss_corr: true
+
+  compress_cdc: true # the cdc is compressed by a sigmoid
+
+  t_perm_inv: false # if true, use PointNet for each frame separately
+
+  homeomorphism_encoder:
+    c_dim: 128
+    hidden_dim: 128
+  canonical_geometry_encoder:
+    c_dim: 128
+    hidden_dim: 128
+  canonical_geometry_decoder:
+    c_dim: 128
+    hidden_size: 128
+  homeomorphism_decoder:
+    n_layers: 6
+    feature_dims: 128
+    hidden_size: [128, 64, 32, 32, 32]
+    proj_dims: 128
+    code_proj_hidden_size: [128, 128, 128]
+    proj_type: simple
+    block_normalize: False
+    normalization: False
+
+
+dataset:
+  dataset_name: oflow_data
+  dataset_proportion: [1.0]
+  num_workers: 4
+  n_query_sample_eval: 100000
+  n_training_frames: 8
+  oflow_config:
+    # custom
+    training_all_steps: false
+    training_multi_files: false
+
+    path: resource/data/Humans
+    # path: /tmp/leijh/Humans_multi
+
+    dataset: Humans
+    input_type: pcl_seq
+    classes: ["D-FAUST"]
+    train_split: train
+    val_split: val
+    test_split: test
+    dim: 3
+    n_training_points: 512
+    points_unpackbits: true
+    n_training_pcl_points: 100
+    input_pointcloud_n: 300
+    input_pointcloud_noise: 0.001
+    input_pointcloud_corresponding: true
+    n_views: 24
+    img_size: 224
+    img_with_camera: false
+    img_augment: false
+    length_sequence: 17
+    offset_sequence: 15
+    n_files_per_sequence: -1
+    points_file: points.npz
+    mesh_seq_folder: mesh_seq
+    points_iou_seq_folder: points_seq
+    pointcloud_seq_folder: pcl_seq
+    img_seq_folder: img
+    generation_interpolate: false
+
+training:
+  optim:
+    all:
+      lr: 0.0001
+      decay_schedule: 200
+      decay_factor: 0.5
+      lr_min: 0.00000001
+
+  total_epoch: 1
+  batch_size: 48
+  initialize_network_file: ["./resource/checkpoints/dfaust/dfaust_w_st.pt"]
+  initialize_network_name: ["all"]
+
+evaluation:
+  eval_every_epoch: 1
+  iou_threshold: 0.3
+  batch_size: 1
+  project_to_final_mesh: false
+
+logging:
+  log_dir: dfaust_test/test_cadex_dfaust_w_st_seen
+  loggers: ["mesh", "image", "hist", "video", "xls"]
+  viz_training_batch_interval: 400 # 20
+  viz_nontrain_batch_interval: 100
+  viz_epoch_interval: 1
+  checkpoint_epoch: 1
+  mesh_viz_interval: 3
+
+  model_select_metric: iou
+  model_select_larger: true
+
+generation:
+  occ_if_meshing_cfg:
+    batch_pts: 30000

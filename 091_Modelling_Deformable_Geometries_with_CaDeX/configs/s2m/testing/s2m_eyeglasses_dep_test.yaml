@@ -1,0 +1,113 @@
+
+method: CaDeX-ATC
+gpu: 0
+modes: ["test"]
+
+model:
+  model_name: cadex_s2m
+
+  loss_recon: true
+  loss_corr: true
+  corr_weight: 1.0
+  corr_square: true
+
+  compress_cdc: true # the cdc is compressed by a sigmoid
+
+  homeomorphism_encoder:
+    c_dim: 256
+    hidden_dim: 256
+    ci_dim: 256
+  ci_decoder:
+    ci_dim: 256
+    c_dim: 256
+    amp_dim: 256
+    hidden_dim: 256
+  canonical_geometry_encoder:
+    c_dim: 256
+    hidden_dim: 256
+  canonical_geometry_decoder:
+    c_dim: 256
+    hidden_size: 256
+  homeomorphism_decoder:
+    n_layers: 3
+    feature_dims: 256
+    hidden_size: [256, 128, 64, 64, 32, 32]
+    proj_dims: 256
+    code_proj_hidden_size: [256, 256, 256]
+    proj_type: simple
+    block_normalize: False
+    normalization: False # coupling block
+    explicit_affine: False
+    # hardtanh_range: [-3.0, 3.0] #default 10.0
+
+dataset:
+  pin_mem: False
+  dataset_name: shape2motion
+  data_root: ./resource/data/s2m/eyeglasses
+  dataset_proportion: [1.0]
+  num_workers: 2
+
+  num_atc: 2
+
+  occ_n_chunk: 10
+  corr_n_chunk: 10
+  chunk_size: 10000
+
+  # customized setting
+  input_type: "dep" # can be "dep" or "pcl"
+
+  split:
+    train: train.json
+    val: val.json
+    test: test.json
+
+  set_size: 8
+  input_num: 4
+
+  pcl_traj: false
+  camera_frame: false # whether to use camera frame for depth obs
+  
+  num_input_pts: 300
+  input_noise: 0.003
+  num_query_uni: 256
+  num_query_ns: 256
+  num_corr_pts: 100
+  n_query_sample_eval: 100000 # this is for val, for testing set to 100000
+
+training:
+  optim:
+    all:
+      lr: 0.0001
+      decay_schedule: 200
+      decay_factor: 0.5
+      lr_min: 0.00000001
+
+  total_epoch: 1
+  batch_size: 48
+  initialize_network_file: ["./resource/checkpoints/s2m/s2m_dep_eyeglasses.pt"]
+  initialize_network_name: ["all"]
+
+evaluation:
+  eval_every_epoch: 1
+  iou_threshold: 0.5
+  batch_size: 1
+  project_to_final_mesh: false
+
+logging:
+  log_dir: s2m_dep_test/test_cadex_s2m_eyeglasses_dep
+  loggers: ["mesh", "image", "hist", "video", "xls"]
+  viz_training_batch_interval: 400 # 20
+  viz_nontrain_batch_interval: 20
+  viz_epoch_interval: 1
+  checkpoint_epoch: 1 #20
+  mesh_viz_interval: 1
+
+  model_select_metric: iou
+  model_select_larger: true
+
+generation:
+  occ_if_meshing_cfg:
+    batch_pts: 30000
+    threshold: 0.5
+
+      

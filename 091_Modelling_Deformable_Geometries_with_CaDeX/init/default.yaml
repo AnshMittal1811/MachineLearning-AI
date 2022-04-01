@@ -1,0 +1,86 @@
+method: default
+root: unknown
+gpu: all
+resume: None
+modes: ["train", "val"] # 'test' can only be these three
+runner: solver
+rand_seed: 12345
+
+#----------------------------------------------------------
+
+dataset:
+  pin_mem: True
+  use_dataset: True
+  dataset_name: default
+  ram_cache: False
+  dataset_root: resource/data/XXXX
+  indices:
+    train_index: None
+    val_index: None
+    test_index: None
+  num_workers: 8
+  dataset_proportion: 1.0 # or [1.0,0.1,0.5]
+
+#-----------------------------------------------------------------------------
+
+model:
+  model_name: default
+
+#-----------------------------------------------------------------------------
+
+training:
+  batch_size: 2
+  clear_phase_cache: false # true
+  optim: {}
+  grad_clip: -1.0
+  loss_clip: -1.0
+  #   e.g.:
+  #    encoder:
+  #      lr: 0.0001
+  #      decay_schedule: 50
+  #      decay_factor: 0.5
+  #      lr_min: 0.00000001
+  #    decoder:
+  #      lr: 0.0001
+  #      decay_schedule: [10, 20, 30]
+  #      decay_factor: [0.5, 0.5, 0.1]
+  #      lr_min: 0.00000001
+  total_epoch: 10
+  # initialization
+  initialize_network_file: [] # resume > initialize from file
+  initialize_network_name: [] # resume > initialize from file
+
+#-----------------------------------------------------------------------------
+
+evaluation:
+  eval_every_epoch: 1
+  batch_size: -1
+
+#-----------------------------------------------------------------------------
+
+logging: # logger, visualization, model saving, print...
+  debug_mode: False
+  log_dir: debug
+  loggers: []
+  checkpoint_epoch: 100 # or list specifying epoch to save e.g[10,500]
+  backup_files: ["run.py"]
+  viz_training_batch_interval: 30
+  viz_nontrain_batch_interval: 5
+  viz_epoch_interval: 1 # for any phase
+  viz_one_per_batch: True
+  # for model selection
+  model_select_metric: batch_loss
+  model_select_larger: false
+#  mesh_min_epoch: 1 # only log after this minimum trained epoch
+#----------------------------------------------------------------------------
+
+generation:
+  # * this is from oflow
+  occ_if_meshing_cfg:
+    threshold: 0.3
+    resolution_0: 32
+    upsampling_steps: 2
+    use_sampling: false
+    simplify_nfaces: None
+    batch_pts: 1000000
+    refinement_step: 0

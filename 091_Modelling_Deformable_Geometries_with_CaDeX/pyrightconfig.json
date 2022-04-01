@@ -1,0 +1,12 @@
+{
+    "exclude": [
+        "data",
+        "resource/data",
+        "resource/checkpoints",
+        "resource/utils/DeformingThings4D/",
+        "build",
+        "log",
+        "**/__pycache__",
+        "extern"
+    ]
+}
