@@ -1,0 +1,41 @@
+{
+    "gqn_params": {
+        "representation_params": {},
+        "generator_params": {}
+    },
+    "cgqn_params": {
+        "representation_params": {},
+        "generator_params": {}
+    },
+    "sgqn_params": {
+        "vocab_dim": 5000,
+        "representation_params": {},
+        "generator_params": {}
+    },
+    "agqn_params": {
+        "representation_params": {},
+        "generator_params": {}
+    },
+    "optimizer_params": {
+        "lr": 5e-4
+    },
+    "lr_scheduler_params": {
+        "mu_i": 5e-4,
+        "mu_f": 5e-5,
+        "n": 1.6e6
+    },
+    "sigma_scheduler_params": {
+        "init": 2.0,
+        "final": 0.7,
+        "constant": 1.0,
+        "steps": 250000,
+        "pretrain": 50000
+    },
+    "beta_scheduler_params": {
+        "init": 1.0,
+        "final": 1.0,
+        "constant": 0.0,
+        "steps": 250000,
+        "pretrain": 50000
+    }
+}

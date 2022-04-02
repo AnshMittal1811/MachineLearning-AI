@@ -1,0 +1,8 @@
+.pytest_cache/
+.venv/
+.vscode/
+data/
+neuralprocess.egg-info/
+logs/
+notes/
+__pycache__/
