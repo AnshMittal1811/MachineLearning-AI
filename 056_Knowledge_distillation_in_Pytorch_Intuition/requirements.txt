@@ -1,5 +1,5 @@
 scipy==1.0.0
-numpy==1.14.0
+numpy==1.21.0
 Pillow==9.0.1
 tabulate==0.8.2
 tensorflow==2.5.3
