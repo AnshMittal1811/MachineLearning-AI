@@ -24,7 +24,7 @@ holidays==0.10.4
 htmlmin==0.1.12
 importlib-metadata==3.3.0
 ipykernel==5.4.2
-ipython==7.19.0
+ipython==7.31.1
 ipython-genutils==0.2.0
 ipywidgets==7.6.3
 isort==4.3.21
