@@ -60,7 +60,7 @@ pandocfilters==1.4.3
 parso==0.8.1
 phik==0.9.9
 pickleshare==0.7.5
-Pillow==8.1.0
+Pillow==9.0.1
 plotly==4.14.1
 prometheus-client==0.9.0
 prompt-toolkit==3.0.9
