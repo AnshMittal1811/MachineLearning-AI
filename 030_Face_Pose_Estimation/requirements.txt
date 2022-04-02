@@ -94,7 +94,7 @@ setuptools==60.5.0
 six==1.16.0
 tensorboard==2.2.1
 tensorboard-plugin-wit==1.6.0
-tensorflow==2.1.0
+tensorflow==2.5.3
 tensorflow-estimator==2.1.0
 termcolor==1.1.0
 tf-slim==1.1.0
