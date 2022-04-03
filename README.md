@@ -997,7 +997,7 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-with-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-with-1)
  -->
-# <p align="center">Score-Based Generative Modeling <br> with Critically-Damped Langevin Diffusion <br><br> ICLR 2022 (spotlight)</p>
+<!-- # <p align="center">Score-Based Generative Modeling <br> with Critically-Damped Langevin Diffusion <br><br> ICLR 2022 (spotlight)</p>
 
 <div align="center">
   <a href="https://timudk.github.io/" target="_blank">Tim&nbsp;Dockhorn</a> &emsp; <b>&middot;</b> &emsp;
@@ -1006,10 +1006,10 @@ __[7]__ Clough JR, Evans TS (2017) Embedding graphs in Lorentzian spacetime. PLo
   <br> <br>
   <a href="https://arxiv.org/abs/2112.07068" target="_blank">Paper</a> &emsp;
   <a href="https://nv-tlabs.github.io/CLD-SGM/" target="_blank">Project&nbsp;Page</a> 
-</div>
+</div> -->
 <br><br>
 <p align="center">
-    <img width="750" alt="Animation" src="assets/animation.gif"/>
+    <img width="750" alt="Animation" src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/070_Critically_damped_Langevin_Diffusion/assets/animation.gif"/>
 </p>
 
 **Requirements**
