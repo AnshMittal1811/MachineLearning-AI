@@ -1,4 +1,4 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-with-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-with-1)
+<!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-with-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-with-1)
 
 # <p align="center">Score-Based Generative Modeling <br> with Critically-Damped Langevin Diffusion <br><br> ICLR 2022 (spotlight)</p>
 
@@ -143,4 +143,4 @@ This work is made available under the NVIDIA Source Code License. Please see our
 
 For any code dependencies related to StyleGAN2, the license is the  Nvidia Source Code License-NC by NVIDIA Corporation, see [StyleGAN2 LICENSE](https://nvlabs.github.io/stylegan2/license.html).
 
-This code it built on the excellent ScoreSDE codebase by Song et al., which can be found [here](https://github.com/yang-song/score_sde_pytorch). For any code dependencies related to ScoreSDE, the license is the Apache License 2.0, see [ScoreSDE LICENSE](https://github.com/yang-song/score_sde_pytorch/blob/main/LICENSE).
+This code it built on the excellent ScoreSDE codebase by Song et al., which can be found [here](https://github.com/yang-song/score_sde_pytorch). For any code dependencies related to ScoreSDE, the license is the Apache License 2.0, see [ScoreSDE LICENSE](https://github.com/yang-song/score_sde_pytorch/blob/main/LICENSE). -->
