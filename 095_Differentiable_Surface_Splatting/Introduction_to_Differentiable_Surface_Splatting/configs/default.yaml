@@ -1,0 +1,82 @@
+name: "demo"
+data:
+  type: MVR
+  data_dir: "example_data"
+  data_dict: "data_dict.npz"
+  img_folder: image
+  mask_folder: mask
+  depth_folder: depth
+  img_extension: png
+  img_extension_input: jpg
+  mask_extension: png
+  img_with_camera: true
+  img_with_mask: true
+  n_imgs: null
+  resolution: [512, 512]
+renderer:
+  is_neural_texture: False
+  renderer_type: DSS.core.renderer.SurfaceSplattingRenderer
+  raster_type: DSS.core.rasterizer.SurfaceSplatting
+  raster_params:
+    backface_culling: false
+    Vrk_isotropic: false
+    bin_size: null
+    clip_pts_grad: 0.05
+    cutoff_threshold: 0.5
+    depth_merging_threshold: 0.05
+    image_size: 512
+    max_points_per_bin: null
+    points_per_pixel: 5
+    radii_backward_scaler: 5
+  compositor_type: pytorch3d.renderer.NormWeightedCompositor
+  composite_params: {}
+  lighting: 'from_data'
+  # 'from_data' | 'default'
+  # from_data: use ground truth lighting (in this case learn_colors should be false)
+  # default: use white ambient light, in this case learn_normals shoudl be false
+model:
+  type: point
+  model_kwargs:
+    learn_points: true
+    learn_normals: true
+    learn_colors: False
+    n_points_per_cloud: 8000
+training:
+  out_dir:  exp
+  # loss when renderer to get predicted image
+  lambda_dr_rgb: 1.0
+  lambda_dr_silhouette: 1.0
+  lambda_dr_proj: 0.1
+  lambda_dr_repel: 0.1
+  batch_size: 1
+  batch_size_val: 1
+  patch_size: 1
+  print_every: 10
+  checkpoint_every: 500
+  visualize_every: 100
+  validate_every: 500
+  debug_every: 500
+  learning_rate: 0.0001
+  scheduler_milestones: [500, 800]
+  scheduler_gamma: 0.5
+  n_workers: 1
+  logfile: train.log
+  overwrite_visualization: false
+  n_debug_points: -1
+  resume_from: model.pt
+  point_file: shape_pts.ply
+  model_selection_metric: chamfer_point
+  model_selection_mode: minimize
+generation:
+  batch_size: 1
+  vis_n_outputs: 30
+  generation_dir: generation
+  refinement_step: -1
+  points_batch_size: 100000
+  with_colors: true
+  with_normals: true
+  mesh_extension: ply
+test:
+  eval_file_name: eval_meshes
+  threshold: 0.0
+  model_file: model_best.pt

@@ -1,0 +1,15 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+easydict==1.9
+imageio==2.8.0
+matplotlib==3.2.1
+plotly==4.7.1
+plyfile==0.7.2
+pytest==6.2.1
+scikit-image==0.16.2
+tensorboard==1.15.0
+tqdm
+trimesh==3.6.34
+point_cloud_utils
+pymeshlab
