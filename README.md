@@ -1026,25 +1026,25 @@ TBA
 
 * **Day 85 (03/26/2022)**: [Deep Image Matting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/085_Deep_Image_Matting)
 
-* **Day 86 (03/27/2022)**: []()
+* **Day 86 (03/27/2022)**: [HybridNets](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/086_HybridNets)
 
-* **Day 87 (03/28/2022)**: [View Synthesis using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/087_View_Synthesis_using_Neural_Radiance_Fields) 
+* **Day 87 (03/28/2022)**: [Introduction to Data Mining and Knowledge Graphs](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/087_Introduction_to_Data_Mining_and_Knowledge_Graphs)
 
-* **Day 88 (03/29/2022)**: [SWIN Transformer Intuition]()
+* **Day 88 (03/29/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/088_Generative_Flow_Networks/)
 
-* **Day 89 (03/30/2022)**: [GFlowNet: An Intuition and Implementation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/079_Generative_Flow_Networks/)
+* **Day 89 (03/30/2022)**: [Neural Rendering: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/089_Neural_Rendering_An_Intuition)
 
-* **Day 90 (03/31/2022)**: [Basics of Data Mining (DSCI 553)]()
+* **Day 90 (03/31/2022)**: [Scene Representation Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/090_Scene_Representation_Networks)
 
-* **Day 91 (04/01/2022)**: []()
+* **Day 91 (04/01/2022)**: [Generative Query Network](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/091_Generative_Query_Network)
 
-* **Day 92 (04/02/2022)**: [A brief introduction to Reinforcement Learning]()
+* **Day 92 (04/02/2022)**: [Neural Volumes](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/092_Neural_Volumes)
 
-* **Day 93 (04/03/2022)**: [Multi-Agent Reinforcement Learning using Deep Learning]()
+* **Day 93 (04/03/2022)**: [Modelling Deformable Geometries with CaDeX](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/093_Modelling_Deformable_Geometries_with_CaDeX)
 
-* **Day 94 (04/04/2022)**: [Scene Understanding]()
+* **Day 94 (04/04/2022)**: [Neural Rendering using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/094_Neural_Rendering_using_Neural_Radiance_Fields_An_Intuition)
 
-* **Day 95 (04/05/2022)**: [TransDepth Intuition]()
+* **Day 95 (04/05/2022)**: [Differential Surface Splatting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/095_Differentiable_Surface_Splatting)
 
 * **Day 96 (04/06/2022)**: [TansPose Intuition]()
 
