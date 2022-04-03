@@ -11,7 +11,7 @@
   <a href="https://nv-tlabs.github.io/CLD-SGM/" target="_blank">Project&nbsp;Page</a> 
 </div>
 <br><br>
-<p align="center">
+<!-- <p align="center"> -->
     <img width="750" alt="Animation" src="assets/animation.gif"/>
 </p>
 
@@ -143,4 +143,5 @@ This work is made available under the NVIDIA Source Code License. Please see our
 
 For any code dependencies related to StyleGAN2, the license is the  Nvidia Source Code License-NC by NVIDIA Corporation, see [StyleGAN2 LICENSE](https://nvlabs.github.io/stylegan2/license.html).
 
-This code it built on the excellent ScoreSDE codebase by Song et al., which can be found [here](https://github.com/yang-song/score_sde_pytorch). For any code dependencies related to ScoreSDE, the license is the Apache License 2.0, see [ScoreSDE LICENSE](https://github.com/yang-song/score_sde_pytorch/blob/main/LICENSE). -->
+This code it built on the excellent ScoreSDE codebase by Song et al., which can be found [here](https://github.com/yang-song/score_sde_pytorch). For any code dependencies related to ScoreSDE, the license is the Apache License 2.0, see [ScoreSDE LICENSE](https://github.com/yang-song/score_sde_pytorch/blob/main/LICENSE).
+ -->
