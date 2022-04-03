@@ -1045,6 +1045,7 @@ TBA
 * **Day 94 (04/04/2022)**: [Neural Rendering using Neural Radiance Fields: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/094_Neural_Rendering_using_Neural_Radiance_Fields_An_Intuition)
 
 * **Day 95 (04/05/2022)**: [Differential Surface Splatting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/095_Differentiable_Surface_Splatting)
+
 **DSS: Differentiable Surface Splatting**
 | [Paper PDF](https://igl.ethz.ch/projects/differentiable-surface-splatting/DSS-2019-SA-Yifan-etal.pdf) | [Project page](https://igl.ethz.ch/projects/differentiable-surface-splatting/) |
 | ----------------------------------------- | ------------------------------------------------------------------------------ |
