@@ -1304,7 +1304,7 @@ This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
 
 * **Day 99 (04/09/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_LIDAR_and_3D_Computer_Vision)
 
-* **Day 100 (04/10/2022)**: 
+* **Day 100 (04/10/2022)**: [Unified Contrastive Learning in Image-Text-Label Space](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_Unified_Contrastive_Learning_in_Image_Text_LabelSpace)
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
