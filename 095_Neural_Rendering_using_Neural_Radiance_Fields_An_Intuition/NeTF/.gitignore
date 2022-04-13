@@ -1,0 +1,15 @@
+**/.ipynb_checkpoints
+**/__pycache__
+*.png
+*.mp4
+*.npy
+*.npz
+*.dae
+logs/*
+.vscode/*
+model/*
+figure/*
+volumeregressionmodel/*
+image_regression_model/*
+*.mat
+*.hdf5

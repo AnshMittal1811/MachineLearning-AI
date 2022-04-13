@@ -1,0 +1,110 @@
+rng = 0
+datadir = ./data/zaragozadataset/zaragoza256_preprocessed.mat
+    # zaragoza bunny 256: zaragozadataset/zaragoza256_preprocessed.mat
+    # lct: LCT_mannequin_preprocessed.mat
+    # fk: fk_statue_meas_180_min_256_preprocessed.mat
+    # nonconfocal: zaragoza_nonconfocal_256_preprocessed.mat
+dataset_type = zaragoza256
+    # zaragoza256,lct,fk,specular,zaragoza_nonconfocal
+gt_times = 100
+    # zaragoza: 100
+    # zaragoza bunny ward: 0.01
+    # fk, lct, specular: 0.01
+    # conv_S: 0.001
+two_stage = True
+new_model = True
+first_stage_epoch = 1
+    # 256:1, 64:16
+last_compute_epoch = 99
+prior = False
+prior_para = 1
+
+save_fig = True
+save_mat = True
+    # if running Low-resolution data, it is better False, or several GB results data will be generated
+cuda = 0
+occlusion = False
+Down_num = 4
+epoches = 3
+lr_decay = 0.993
+    # 256: 1 epoch ~ 1.6e-4 : 0.993
+    #      3 epoch ~ 1.0e-5 : 0.997
+    #      5 epoch ~ 5.2e-5 : 0.9977
+    #     10 epoch ~ 7.7e-5 : 0.999
+    # 64: 16 epoch: 0.998, 48 epoch: 0.9993, 160 epoch: 0.9997
+    # 32: 64 epoch: 0.999, 192 epoch: 0.9997
+    # 16: 256 epoch: 0.9995, 768 epoches: 0.99982
+    # 8: 1024 epoch:       , 3072 epoches: 0.99991
+    # 4: 4096 epoch:       , 12288 epoches: 0.99996
+
+start = 100
+end = 300 
+    # zaragoza bunny 256: 100 ~ 300
+    # zaragoza concavity: 80 ~ 360
+    # zaragoza usaf: 150 ~ 350
+    # zaragoza zaragoza_semioccluded: 90 ~ 410
+
+    # zaragoza serapis 0.5m: 60 ~ 380
+    # zaragoza serapis 1m: 200 ~ 400, the object is at 0.6m~0.9m in fact, updated on 12.2
+    # zaragoza xyzrgbdragon: 150 ~ 410
+    # zaragoza sports car: 150 ~ 450
+    # zaragoza sphere: 150 ~ 410
+
+    # zaragoza lucy 1m: 250 ~ 450
+    # zaragoza indonesian 1m: 250 ~ 450
+    # zaragoza hairball 1m: 200 ~ 460
+    # zaragoza chinesedragon 1m: 250 ~ 510
+    # zaragoza chestnut 1m: 230 ~ 490
+    # zaragoza bunnyward 1m: 230 ~ 490
+    # zaragoza bunny 1m: 230 ~ 490
+    # zaragoza: 300 ~ 500
+    # lct: 70 ~ 270 (0.34m ~ 1.23m)
+    # fk statue: 80 ~ 240, updated on 12.2
+    # fk dragon: 120 ~ 240
+    # bike: 110 ~ 270, updated on 12.2
+    # teaser 90 ~ 310, updated on 12.2
+    # bunny_test: 60 ~ 220
+
+    # specular bunny: 100 ~ 300
+
+    # zaragoza nonconfocal: 200 ~ 511, data is croped into 512, actually 600 is better
+    # zaragoza nonconfocal Z: 300 ~ 600
+
+    # conv_S: 600 ~ 750
+
+hierarchical_sampling = False
+num_sampling_points = 16
+num_MCMC_sampling_points = 32
+histogram_batchsize = 1
+attenuation = True
+target_volume_size = 64
+final_volume_size = 256
+test_accurate_sampling = True
+no_rho = False
+PCA_dim = 256
+confocal = True
+reflectance = False
+density = False
+
+use_encoding = True
+encoding_dim = 5
+hiddenlayer_dim = 64
+
+expname = blender_paper_lego
+basedir = ./logs
+no_batching = True
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+N_samples = 8
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 500
+precrop_frac = 0.5
+half_res = True
+test_neglect_former_bins = True
+test_neglect_former_nums = 1
+load_groundtruth_volume = True
+
+
