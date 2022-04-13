@@ -2,7 +2,7 @@ einops
 ftfy
 h5py
 imageio
-pytorch-lightning==1.5.4
+pytorch-lightning==1.6.0
 regex
 scikit-video
 tqdm
