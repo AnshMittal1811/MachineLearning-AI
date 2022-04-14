@@ -1952,12 +1952,11 @@ number = {6},
 year = {2019},
 }
 ```
-
+<---
 ## Acknowledgement
-We would like to thank Federico Danieli for the insightful discussion, Phillipp Herholz for the timely feedack, Romann Weber for the video voice-over and Derek Liu for the help during the rebuttal.
+I would like to thank Federico Danieli for the insightful discussion, Phillipp Herholz for the timely feedack, Romann Weber for the video voice-over and Derek Liu for the help during the rebuttal.
 This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
-
-
+--->
 
 * **Day 96 (04/06/2022)**: [TansPose Intuition]()
 
