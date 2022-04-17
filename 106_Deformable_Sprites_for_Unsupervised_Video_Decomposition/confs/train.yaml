@@ -1,0 +1,34 @@
+batch_size: 16
+vis_epochs: 2
+val_epochs: 4
+vis_every: 3000
+val_every: 6000
+vis_grad: True
+
+iters_per_phase:
+    epi: 6000
+    kmeans: 12000
+    planar: 10000
+    deform: 24000
+    refine: 1000
+
+epochs_per_phase:
+    epi: 6
+    kmeans: 12
+    planar: 10
+    deform: 15
+    refine: 1
+
+w_epi: 0.5
+neg_ratio: 0.002
+w_kmeans: 0.05
+w_sparse: 0.001
+w_warp: 0.1
+w_tform: 1
+attach_tform: False
+attach_recon: False
+w_recon: 0.5
+l_recon: 1
+lap_ratio: 0.001
+lap_levels: 3
+w_contr: 0.0005

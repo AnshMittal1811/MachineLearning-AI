@@ -1,0 +1,11 @@
+alpha_pred:
+    net_args:
+        n_levels: 2
+        d_hidden: 24
+        fac: 2
+        norm_fn: "batch"
+        init_std: 0.1
+    lr: 0.0005
+    gamma: 0.99
+
+use_tex: False

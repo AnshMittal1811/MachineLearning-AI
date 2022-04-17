@@ -1,0 +1,6 @@
+root: "/home/vye/data/FBMS_Testset"
+type: "fbms"
+res: "480p"
+seq: "rabbits02"
+scale: 0.25
+flow_gap: 2

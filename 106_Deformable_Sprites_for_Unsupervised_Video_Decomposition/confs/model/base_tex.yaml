@@ -1,0 +1,11 @@
+defaults:
+    - no_tex
+
+use_tex: True
+tex_gen:
+    n_channels: 3
+    n_levels: 4
+    d_hidden: 16
+    scale_fac: 2
+    random_comp: True
+    lr: 0.0005

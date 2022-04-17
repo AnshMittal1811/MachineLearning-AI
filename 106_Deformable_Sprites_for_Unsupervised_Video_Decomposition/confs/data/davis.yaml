@@ -1,0 +1,6 @@
+root: "/home/vye/data/DAVIS"
+type: "davis"
+res: "480p"
+seq: "dog"
+scale: 0.25
+flow_gap: 1

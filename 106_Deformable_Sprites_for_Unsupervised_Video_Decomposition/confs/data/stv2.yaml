@@ -1,0 +1,6 @@
+root: "/home/vye/data/SegTrackv2"
+type: "stv2"
+res: "480p"
+seq: "soldier"
+scale: 0.25
+flow_gap: 2

@@ -1,0 +1,3 @@
+defaults:
+    - transform: rigid
+    - base_tex

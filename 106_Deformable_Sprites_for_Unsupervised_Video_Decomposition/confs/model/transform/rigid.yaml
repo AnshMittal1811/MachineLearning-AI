@@ -1,0 +1,6 @@
+init_bg: True
+fg_scale: 2
+t_step: 2
+local: False
+bg_local: False
+lr: 0.001

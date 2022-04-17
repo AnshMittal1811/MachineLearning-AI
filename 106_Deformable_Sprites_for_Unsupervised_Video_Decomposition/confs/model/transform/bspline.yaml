@@ -1,0 +1,7 @@
+defaults:
+    - rigid
+
+local: True
+xy_step: 4
+bg_local: True
+final_nl: "tanh"

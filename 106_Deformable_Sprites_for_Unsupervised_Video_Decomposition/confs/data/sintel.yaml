@@ -1,0 +1,6 @@
+root: "/home/vye/data/sintel-full/training_480p"
+type: "sintel"
+res: "480p"
+seq: "bamboo_1"
+scale: 0.25
+flow_gap: 1

@@ -1,0 +1,3 @@
+defaults:
+    - transform: bspline
+    - base_tex

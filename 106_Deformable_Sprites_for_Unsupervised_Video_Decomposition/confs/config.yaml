@@ -1,0 +1,15 @@
+defaults:
+    - data: davis
+    - model: deform
+    - train
+    - _self_
+
+n_layers: 2
+resume: True
+preload: True
+log_root: outputs
+exp_name: dev 
+
+hydra:
+    run:
+        dir: ${log_root}/${exp_name}/${data.type}-${data.seq}-gap${data.flow_gap}-${n_layers}l/${now:%m-%d_%H-%M-%S}
