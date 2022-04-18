@@ -31,7 +31,7 @@ mistune==0.7.4
 nbconvert==5.2.1
 nbformat==4.4.0
 notebook==6.4.10
-numpy==1.13.1
+numpy==1.21.0
 pandas==0.20.3
 pandocfilters==1.4.2
 pathlib2==2.3.0
