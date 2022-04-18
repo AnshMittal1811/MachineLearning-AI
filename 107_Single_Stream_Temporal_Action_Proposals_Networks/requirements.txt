@@ -15,7 +15,7 @@ hickle==2.1.0
 html5lib==0.999999999
 idna==2.6
 ipykernel==4.6.1
-ipython==5.4.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 ipywidgets==7.0.0
 Jinja2==2.9.6
