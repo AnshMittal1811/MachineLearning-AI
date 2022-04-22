@@ -1,0 +1,15 @@
+weights/
+.ipynb_checkpoints/
+data/
+.vscode/
+*.sublime-workspace
+.idea/
+*.DS_Store
+*/__pycache__/
+__pycache__/
+*.pth
+*.xml
+*.fuse*
+CC/data
+output/
+externals/

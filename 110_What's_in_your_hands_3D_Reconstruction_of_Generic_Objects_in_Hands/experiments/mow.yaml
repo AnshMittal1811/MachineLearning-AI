@@ -1,0 +1,16 @@
+EXP: rep
+DB:
+  NAME: mow
+  TESTNAME: mow
+  INPUT: rgba
+SOLVER:
+  BASE_LR: 1.0e-5
+LOSS:
+  SMOOTH: 0. 
+  CONTACT: 0.
+  REPULSE: 0. 
+  RECON: 1.
+  EIK: 0.1
+TRAIN:
+  EVAL_EVERY: 250  # x5
+  EPOCH: 20000  # 100,000

@@ -1,0 +1,7 @@
+EXP: rep
+DB:
+  NAME: ho3d_vid
+  TESTNAME: ho3d_vid3fps
+  GT: plus
+SOLVER:
+  BASE_LR: 1.0e-5
