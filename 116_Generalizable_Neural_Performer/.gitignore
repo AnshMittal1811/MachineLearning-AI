@@ -1,0 +1,7 @@
+checkpoints/*
+data/*
+**.ply
+results/*
+sample_images/*
+logs/*
+**/__pycache__/*
