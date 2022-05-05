@@ -1,0 +1,20 @@
+# This section of the file allows to modify the VCS information that is defined
+# in the package sets. Below is an example to change the branch name for a given
+# package
+#
+overrides:
+  - tools/logger:
+      branch: rock-rc
+
+        #  - slam/ceres_solver:
+        #      github: jhidalgocarrio/ceres-solver.git
+        #      branch: $ROCK_BRANCH
+        #      tag: eds
+
+  - slam/ceres_solver:
+      github: ceres-solver/ceres-solver.git
+      branch: $ROCK_BRANCH
+      tag: 2.0.0
+      
+  - tools/pocolog_pybind:
+      branch: eds

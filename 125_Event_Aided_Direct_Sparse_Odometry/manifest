@@ -1,0 +1,32 @@
+#
+# Informations about the manifest of autoproj can be found here:
+# http://www.rock-robotics.org/documentation/autoproj/customization.html
+#
+
+package_sets:
+   - github: rock-core/package_set
+   - github: rock-core/rock-package_set
+   - github: rock-tutorials/tutorials-package_set
+   - github: envire/envire-package_set
+   - github: jhidalgocarrio/e2calib-package_set
+   - github: jhidalgocarrio/eds-package_set
+   - github: rock-core/rock.vscode-package_set
+
+# Layout. Note that the rock.base and orocos.toolchain sets are
+# imported by other rock sets.
+layout:
+   - rock.core
+   - e2calib
+   - eds
+
+# Ignoring packages: same principle than package exclusion, but this time the
+# packages are considered to be installed and up-to-date. This is useful if you
+# want to use an already installed software package.
+#
+# For instance, let's assume the orocos/rtt is already installed on your
+# machine. You would then simply do:
+#
+ignored_packages:
+   - tools/pocolog2msgpack
+
+
