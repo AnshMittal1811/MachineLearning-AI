@@ -1,0 +1,87 @@
+# Config file for training capsules
+
+trainer:
+  file: "trainer_features_all"
+  type: "TrainerFeaturesCanonical"
+  max_epochs: 300
+  regularizer: 
+    layer: "kernel_regularizer"
+    type: "L1"
+    weight: 0.1
+  optimizer: 
+    type: "Adam"
+    args:
+      lr: 6e-4
+  scheduler:
+    steps: [100, 200, 250]  
+    decay_rate: 1e-1
+  monitor:
+    metric: "val_l2_loss"
+  seed: 1234
+
+features:
+  scale:
+    use: true
+    args:
+      factor_min: 0.5
+      factor_max: 1.5
+  rotation:
+    use: true
+  translate:
+    use: true
+  partiality:
+    use: true
+
+
+model:
+  file: "tfn_capsules_multi_frame_scale_translation"
+  type: "TFN_multi_scale_translation"
+  args:
+    num_classes: 1024
+    num_frames: 5
+    num_capsules: 10
+  weights: false
+
+loss:
+  l2_loss: 2.0
+  eq_loss: 1.0
+  loc_loss: 0.5
+  caps_chamf_loss: 2.0
+  orth_loss: 1.0
+  caps_partiality_loss: 1.0
+  directional_loss_partial: 1.0
+  capsule_position_loss: 1.0
+  caps_spatial_loss: 1.0
+  inv_partiality_loss: 1.0
+  chamfer_loss: 1.0
+  hausdorff_loss: 0.0
+  loss_shape_svd: 0.4
+  separation_loss_basis: 0.8
+  caps_scaled_loss: 1.0
+  caps_scaled_l2_loss: 1.0
+  scale_loss: 1.0
+  translation_loss_full: 1.0
+  translation_loss_partial: 1.0
+
+dataset:
+  path: "../../../shapenet_single_class/data_hdf5"
+  batch_size: 16
+  shuffle: True
+  num_points: 1024
+  val_list: [val_chair.h5]
+  train_list: [train_chair.h5]
+  test_list: [test_chair.h5]
+
+# dataset:
+#   path: "/scratch/rahulsajnani/research/brown/test_final/EquiNet/NOCS-dataset-generator/src/"
+#   batch_size: 16
+#   shuffle: True
+#   num_points: 1024
+#   val_list: [cars_nocs_val.h5]
+#   train_list: [cars_nocs_train.h5]
+#   test_list: [cars_nocs_test.h5]
+
+save:
+  path: "./checkpoints"
+utils:
+  eps: 1e-8

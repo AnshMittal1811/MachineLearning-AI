@@ -1,0 +1,110 @@
+
+model:
+  file: "ConDor"
+  type: "ConDor"
+  args:
+    num_capsules: 10 
+    num_frames: 5 
+    sphere_samples: 64 
+    bn_momentum: 0.75
+    mlp_units: [[32, 32], [64, 64], [128, 256]]
+
+
+trainer_file:
+  file: "ConDor_trainer"
+  type: "ConDor_trainer"
+
+optimizer:
+  type: Adam
+  args:
+    lr: 6e-4
+
+
+loss:
+  l2_loss: 2.0
+  eq_loss: 1.0
+  loc_loss: 0.2
+  caps_chamf_loss: 0.2
+  orth_loss: 1.0
+  caps_partiality_loss: 1.0
+  directional_loss_partial: 0.3
+  capsule_position_loss: 0.3
+  caps_spatial_loss: 0.2
+  inv_partiality_loss: 1.0
+  chamfer_loss: 1.0
+  hausdorff_loss: 0.0
+  separation_loss_basis: 0.3
+  caps_scaled_loss: 0.0
+  caps_scaled_l2_loss: 0.0
+  scale_loss: 0.0
+  translation_loss_full: 0.0
+  translation_loss_partial: 1.0
+
+trainer:
+  gpus: -1
+  strategy: "dp"
+  accumulate_grad_batches: 1
+  profiler: False
+  max_epochs: 300
+
+save:
+  path: "./checkpoints"
+utils:
+  eps: 1e-8
+  seed: 1234
+
+
+scheduler:
+  type: MultiStepLR
+  args: 
+    milestones: [100, 200, 250] #[6, 8, 18]
+    gamma: 0.1
+
+dataset:
+  root: "../dataset/ShapeNetAtlasNetH5_1024"
+  file: "h5_dataset"
+  type: "H5Loader"
+  train_files: ["train_plane.h5"]
+  test_files: ["val_plane.h5"]
+  val_files: ["val_plane.h5"]
+  args:
+    n_points: 1024
+  loader:
+    args:
+      batch_size: 12
+      num_workers: 10
+
+feature:
+  rotation:
+    use: True
+  partiality:
+    use: False
+  scale:
+    use: False
+
+callback:
+  model_checkpoint:
+    segmentation:
+      # type: pl.callbacks.ModelCheckpoint
+      args:
+        filename: "model-{epoch}-{val_l2_loss:.4f}-ConDor"
+        monitor: "val_l2_loss"
+        mode: "min"
+        verbose: True
+        dirpath: "./checkpoints"
+        save_top_k: 1
+
+test:
+  weights: 
+  max_iter: 
+  save_directory: "./pointclouds"
+  skip: 10
+  
+logging:
+  type: "WandbLogger"
+  project: "ConDor"
+  args:
+    on_epoch: True 
+    prog_bar: True
+    logger: True
+    on_step: True

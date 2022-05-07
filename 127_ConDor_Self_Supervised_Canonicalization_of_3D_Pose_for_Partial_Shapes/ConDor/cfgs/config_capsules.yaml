@@ -1,0 +1,55 @@
+# Config file for training capsules
+
+trainer:
+  max_epochs: 301
+  regularizer: 
+    layer: "kernel_regularizer"
+    type: "L1"
+    weight: 0.05
+  optimizer: 
+    type: Adam
+    args:
+      lr: 2e-4
+  scheduler:
+    steps: [80, 150, 250]  
+    decay_rate: 1e-1
+
+
+loss:
+  l2_loss: 1.0
+  eq_loss: 1.0
+  loc_loss: 1.0
+  caps_chamf_loss: 2.0
+  orth_loss: 1.0
+  caps_partiality_loss: 1.0
+  directional_loss_partial: 1.0
+  capsule_position_loss: 1.0
+  caps_spatial_loss: 1.0
+  inv_partiality_loss: 1.0
+  chamfer_loss: 1.0
+  hausdorff_loss: 0.0
+  loss_shape_svd: 0.4
+
+
+dataset:
+  path: "../../../../data/shapenet_single_class/data_hdf5"
+  batch_size: 16
+  shuffle: True
+  num_points: 1024
+  val_list: [val_aero.h5]
+  train_list: [train_aero.h5]
+  test_list: [test_aero.h5]
+
+# dataset:
+#   path: "/scratch/rahulsajnani/research/brown/test_final/EquiNet/NOCS-dataset-generator/src/"
+#   batch_size: 16
+#   shuffle: True
+#   num_points: 1024
+#   val_list: [cars_nocs_val.h5]
+#   train_list: [cars_nocs_train.h5]
+#   test_list: [cars_nocs_test.h5]
+
+save:
+  path: "./checkpoints"
+utils:
+  eps: 1e-8

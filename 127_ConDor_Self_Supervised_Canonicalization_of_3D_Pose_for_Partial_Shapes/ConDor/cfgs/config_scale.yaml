@@ -1,0 +1,81 @@
+# Config file for training capsules
+
+trainer:
+  file: "trainer_scale"
+  type: "TrainerScale"
+  max_epochs: 300
+  regularizer: 
+    layer: "kernel_regularizer"
+    type: "L1"
+    weight: 0.1
+  optimizer: 
+    type: "Adam"
+    args:
+      lr: 6e-4
+  scheduler:
+    steps: [100, 200, 250]  
+    decay_rate: 1e-1
+  monitor:
+    metric: "val_l2_loss"
+  seed: 1234
+
+features:
+  scale:
+    use: true
+    args:
+      factor_min: 0.5
+      factor_max: 1.5
+  rotation:
+    use: true
+  translate:
+    use: true
+  partiality:
+    use: true
+
+
+model:
+  file: "tfn_final"
+  type: "TFN_all"
+  args:
+    num_classes: 1024
+    num_frames: 5
+    num_capsules: 10
+  weights: false
+
+loss:
+  l2_loss: 2.0
+  eq_loss: 1.0
+  loc_loss: 0.2
+  caps_chamf_loss: 0.2
+  orth_loss: 1.0
+  caps_partiality_loss: 1.0
+  directional_loss_partial: 0.3
+  capsule_position_loss: 0.3
+  caps_spatial_loss: 0.2
+  inv_partiality_loss: 1.0
+  chamfer_loss: 1.0
+  hausdorff_loss: 0.0
+  loss_shape_svd: 0.4
+  separation_loss_basis: 0.8
+  caps_scaled_loss: 0.0
+  caps_scaled_l2_loss: 0.0
+  scale_loss: 0.3
+  translation_loss_full: 0.0
+  translation_loss_partial: 1.0
+
+dataset:
+  path: "/gpfs/scratch/rsajnani/rsajnani/research/dataset/Atlasnet_core"
+  batch_size: 16
+  shuffle: True
+  num_points: 1024
+  val_list: ["val_table.h5"]
+  train_list: ["train_table.h5"]
+  test_list: ["val_table.h5"]
+  #val_list: ["val_bench.h5","val_cabinet.h5","val_car.h5","val_cellphone.h5","val_chair.h5","val_couch.h5","val_firearm.h5","val_lamp.h5","val_monitor.h5","val_plane.h5","val_speaker.h5","val_table.h5","val_watercraft.h5"]
+  #train_list: ["train_bench.h5","train_cabinet.h5","train_car.h5","train_cellphone.h5","train_chair.h5","train_couch.h5","train_firearm.h5","train_lamp.h5","train_monitor.h5","train_plane.h5","train_speaker.h5","train_table.h5","train_watercraft.h5"]
+  #test_list: ["val_bench.h5","val_cabinet.h5","val_car.h5","val_cellphone.h5","val_chair.h5","val_couch.h5","val_firearm.h5","val_lamp.h5","val_monitor.h5","val_plane.h5","val_speaker.h5","val_table.h5","val_watercraft.h5"]
+
+save:
+  path: "./checkpoints"
+utils:
+  eps: 1e-8
