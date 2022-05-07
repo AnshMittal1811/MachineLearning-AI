@@ -1,0 +1,37 @@
+# @package _global_
+defaults:
+  - /checkpoint: every_n_train_steps
+  - /dataset: lsun
+wandb:
+  name: GAN
+dataset:
+  resolution: ${model.resolution}
+  dataloader:
+    drop_last: true
+model:
+  name: GAN
+  lr: 0.002
+  dim: 512
+  resolution: 256
+  lambda: # Needed for convenience since can't input λ on command line
+    D_real: 1
+    D_fake: 1
+    D_R1: 50
+    G: 1
+    G_path: 2
+  discriminator:
+    name: StyleGANDiscriminator
+    size: ${model.resolution}
+  generator:
+    name: models.networks.stylegan.StyleGANGenerator
+    style_dim: 512
+    dim: 512
+    n_mlp: 8
+    size: ${model.resolution}
+  D_reg_every: 16
+  λ: ${.lambda}
+  log_images_every_n_steps: 200
+trainer:
+  limit_val_batches: 0
+  precision: 32
+  plugins: null

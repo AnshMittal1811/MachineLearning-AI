@@ -1,0 +1,7 @@
+defaults:
+  - imagefolder
+category: bedroom
+basepath: /path/to/lsun  # Must have train, validate, test subfolders (validate/test can be empty)
+path: ${.basepath}/${.category}
+dataloader:
+  batch_size: 32

@@ -1,0 +1,6 @@
+defaults:
+  - multiimagefolder
+categories: [kitchen,living,dining]
+category: null
+dataloader:
+  batch_size: 32

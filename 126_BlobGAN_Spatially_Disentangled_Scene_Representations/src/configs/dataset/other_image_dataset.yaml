@@ -1,0 +1,5 @@
+defaults:
+  - imagefolder
+path: /path/to/images  # Must have train, validate, test subfolders (validate/test can be empty)
+dataloader:
+  batch_size: 16

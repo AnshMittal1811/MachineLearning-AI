@@ -1,0 +1,14 @@
+# @package _global_
+dataset:
+  dataloader:
+    num_workers: 0
+    persistent_workers: false
+    batch_size: 4
+trainer:
+  gpus: 1
+  accelerator: null
+  plugins: null
+  overfit_batches: 20
+wandb:
+  group: debug
+detect_anomalies: true

@@ -1,0 +1,9 @@
+# @package _global_
+dataset:
+  basepath: /path/to/your/lsun  # Change to your path
+trainer:
+  gpus: YOUR_NGPUS  # Change to your number of GPUs
+wandb:  # Fill in your settings
+  group: YOUR_GROUP
+  project: YOUR_PROJECT
+  entity: YOUR_ENTITY

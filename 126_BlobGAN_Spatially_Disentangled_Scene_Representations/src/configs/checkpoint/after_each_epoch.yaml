@@ -1,0 +1,4 @@
+save_top_k: 3
+every_n_epochs: 1
+save_last: true
+monitor: validate_total_loss

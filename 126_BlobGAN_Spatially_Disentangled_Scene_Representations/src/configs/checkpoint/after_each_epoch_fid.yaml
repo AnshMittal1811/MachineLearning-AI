@@ -1,0 +1,6 @@
+save_top_k: -1
+every_n_epochs: 1
+save_last: true
+monitor: train/fid
+save_on_train_epoch_end: true
+auto_insert_metric_name: true

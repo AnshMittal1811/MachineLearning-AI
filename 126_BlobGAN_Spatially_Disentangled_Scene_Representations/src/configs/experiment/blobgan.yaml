@@ -1,0 +1,62 @@
+# @package _global_
+defaults:
+  - /checkpoint: every_n_train_steps
+  - /dataset: lsun
+checkpoint:
+  every_n_train_steps: 1500
+wandb:
+  name: BlobGAN
+dataset:
+  category: bedroom
+  resolution: ${model.resolution}
+  dataloader:
+    batch_size: 16
+    drop_last: true
+model:
+  name: BlobGAN
+  lr: 0.002
+  dim: 512
+  noise_dim: 512
+  resolution: 256
+  lambda: # Needed for convenience since can't input λ on command line
+    D_real: 1
+    D_fake: 1
+    D_R1: 50
+    G: 1
+    G_path: 2
+    G_feature_mean: 10
+    G_feature_variance: 10
+  discriminator:
+    name: StyleGANDiscriminator
+    size: ${model.resolution}
+  generator:
+    name: models.networks.layoutstylegan.LayoutStyleGANGenerator
+    style_dim: ${model.dim}
+    n_mlp: 8
+    size_in: 16
+    c_model: 96
+    spatial_style: ${model.spatial_style}
+    size: ${model.resolution}
+  layout_net:
+    name: models.networks.layoutnet.LayoutGenerator
+    n_features_max: ${model.n_features_max}
+    feature_dim: 768
+    style_dim: ${model.dim}
+    noise_dim: ${model.noise_dim}
+    norm_features: true
+    mlp_lr_mul: 0.01
+    mlp_hidden_dim: 768
+    spatial_style: ${model.spatial_style}
+  D_reg_every: 16
+  G_reg_every: -1
+  λ: ${.lambda}
+  log_images_every_n_steps: 200
+  n_features_min: ${model.n_features}
+  n_features_max: ${model.n_features}
+  n_features: 10
+  spatial_style: true
+trainer:
+  limit_val_batches: 0
+  precision: 32
+  plugins: null
+  deterministic: false

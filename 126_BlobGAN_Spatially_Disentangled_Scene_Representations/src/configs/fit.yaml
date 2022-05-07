@@ -1,0 +1,40 @@
+# @package _global_
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+resume:
+  id: null
+  step: null
+  epoch: null
+  last: true
+  best: false
+  clobber_hparams: false
+  project: ${wandb.project}
+  log_dir: ${wandb.log_dir}
+  model_only: false
+logger: wandb
+wandb:
+  save_code: true
+  offline: false
+  log_dir: ./logs
+  id: ${resume.id}
+trainer:
+  accelerator: ddp
+  benchmark: false
+  deterministic: true
+  gpus: 8
+  precision: 16
+  plugins: null
+  max_steps: 10000000
+  profiler: simple
+  num_sanity_val_steps: 0
+  log_every_n_steps: 50
+dataset:
+  dataloader:
+    prefetch_factor: 2
+    pin_memory: true
+    drop_last: true
+    persistent_workers: true
+mode: fit
+seed: 0

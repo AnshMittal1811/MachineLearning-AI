@@ -1,0 +1,6 @@
+name: ImageFolderDataModule
+resolution: 128
+dataloader:
+  num_workers: 12
+  batch_size: 16
+  drop_last: false
