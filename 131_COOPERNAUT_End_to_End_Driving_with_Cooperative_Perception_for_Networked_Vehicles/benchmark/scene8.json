@@ -1,0 +1,12 @@
+{
+    "route":["AutoCastSim/srunner/data/routes_training_town03_autocast8.xml",
+             "AutoCastSim/srunner/data/towns03_traffic_scenarios_autocast8.json"],
+    "eval":{
+        "EGOSPD":[20],
+        "EGODIST":[6],
+        "COLSPD":[26, 26.25, 26.5, 26.75, 27, 27.5, 28, 28.5, 29],
+        "COLDIST":[0],
+        "COLACCELDIST":[24, 25, 26]
+    },
+    "BGTRAFFIC":0
+}

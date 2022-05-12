@@ -1,0 +1,112 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.11
+    start_time: 1646771431
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 1
+      - 16
+      4: 3.7.11
+      5: 0.12.9
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 32
+checkpoint_frequency:
+  desc: null
+  value: 25
+cpt:
+  desc: null
+  value: true
+daggerdata:
+  desc: null
+  value: null
+data:
+  desc: null
+  value: /u/jxcui/Documents/AutoCast_6/Train/
+device:
+  desc: null
+  value: cuda
+earlyfusion:
+  desc: null
+  value: false
+ego_only:
+  desc: null
+  value: true
+eval_data:
+  desc: null
+  value: /u/jxcui/Documents/AutoCast_6/Val/
+finetune:
+  desc: null
+  value: null
+frame_stack:
+  desc: null
+  value: 1
+init_lr:
+  desc: null
+  value: 0.0001
+input_dim:
+  desc: null
+  value: 3
+max_num_neighbors:
+  desc: null
+  value: 3
+nblocks:
+  desc: null
+  value: 2
+nneighbor:
+  desc: null
+  value: 16
+npoints:
+  desc: null
+  value: 2048
+num_commands:
+  desc: null
+  value: 6
+num_dataloader_workers:
+  desc: null
+  value: 32
+num_epochs:
+  desc: null
+  value: 101
+num_hidden:
+  desc: null
+  value: 256
+num_output:
+  desc: null
+  value: 3
+num_steps_per_log:
+  desc: null
+  value: 100
+project:
+  desc: null
+  value: cvpr-cpt
+shared:
+  desc: null
+  value: false
+transformer_dim:
+  desc: null
+  value: 32
+uniform:
+  desc: null
+  value: false
+use_lidar:
+  desc: null
+  value: false
+visualize:
+  desc: null
+  value: false
