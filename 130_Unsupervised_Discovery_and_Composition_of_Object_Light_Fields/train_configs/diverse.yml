@@ -1,0 +1,6 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_diverse_train/"
+val_root: "/nobackup/users/camsmith/colf_files/room_diverse_test/"
+logging_root: "/nobackup/users/camsmith/logs/tmp/diverse"
+img_sidelength: 64
+checkpoint_path: "/nobackup/users/camsmith/colf_files/diverse_chair.pth"
+num_phi: 5

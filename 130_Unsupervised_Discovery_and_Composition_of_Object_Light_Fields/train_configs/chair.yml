@@ -1,0 +1,6 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_chair_train/"
+val_root:  "/nobackup/users/camsmith/colf_files/room_chair_test/"
+logging_root: "/nobackup/users/camsmith/logs/tmp/chair"
+img_sidelength: 64
+checkpoint_path: "/nobackup/users/camsmith/colf_files/chair.pth"
+num_phi: 5

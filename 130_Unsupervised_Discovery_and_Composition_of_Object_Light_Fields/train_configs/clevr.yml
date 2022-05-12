@@ -1,0 +1,6 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_clevr_train/"
+val_root:  "/nobackup/users/camsmith/colf_files/room_clevr_test/"
+logging_root: "/nobackup/users/camsmith/logs/tmp/clevr"
+img_sidelength: 64
+checkpoint_path: "/nobackup/users/camsmith/colf_files/room_clevr.pth"
+num_phi: 8

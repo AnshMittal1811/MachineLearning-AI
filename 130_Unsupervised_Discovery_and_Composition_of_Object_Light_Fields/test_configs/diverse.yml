@@ -1,0 +1,7 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_diverse_test/"
+logging_root: "/nobackup/users/camsmith/colf_files/evaldiverse/eval"
+img_sidelength: 128
+checkpoint_path: "/nobackup/users/camsmith/logs/solid_copies/diverse_hiresfinal.pth"
+gtseg_path: "/nobackup/users/camsmith/colf_files/gt_room_masks/diverse_chair/"
+num_phi: 5
+zero_bg: False

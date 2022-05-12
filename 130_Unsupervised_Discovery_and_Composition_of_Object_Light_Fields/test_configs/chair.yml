@@ -1,0 +1,7 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_chair_test/"
+logging_root: "/nobackup/users/camsmith/logs/eval/chair"
+img_sidelength: 128
+checkpoint_path: "/nobackup/users/camsmith/colf_files/chair.pth"
+gtseg_path: "/nobackup/users/camsmith/colf_files/gt_room_masks/chair/"
+num_phi: 5
+zero_bg: False

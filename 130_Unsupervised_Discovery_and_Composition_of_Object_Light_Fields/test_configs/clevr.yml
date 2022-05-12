@@ -1,0 +1,7 @@
+data_root: "/nobackup/users/camsmith/colf_files/room_clevr_test"
+logging_root: "/nobackup/users/camsmith/logs/eval/clevr"
+img_sidelength: 128
+checkpoint_path: "/nobackup/users/camsmith/colf_files/room_clevr.pth"
+gtseg_path: "/nobackup/users/camsmith/colf_files/gt_room_masks/clevr/"
+num_phi: 8
+zero_bg: True
