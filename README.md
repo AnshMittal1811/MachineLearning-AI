@@ -1,4 +1,4 @@
-# 100 days of Artificial Intelligence
+# 200 days of Artificial Intelligence
 
 This is the 100 days of Machine Learning, Deep Learning, AI, and Optimization mini-projects that I picked up at the start of January 2022. I have used various environments and Google Colab for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
@@ -1967,6 +1967,28 @@ This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
 * **Day 99 (04/09/2022)**: [LiDAR and 3D Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_LIDAR_and_3D_Computer_Vision)
 
 * **Day 100 (04/10/2022)**: [Unified Contrastive Learning in Image-Text-Label Space](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/100_Unified_Contrastive_Learning_in_Image_Text_LabelSpace)
+
+* **Day 101 (04/11/2022)**: 
+
+* **Day 102 (04/12/2022)**: 
+
+* **Day 103 (04/13/2022)**: 
+
+* **Day 104 (04/14/2022)**: 
+
+* **Day 105 (04/15/2022)**: 
+
+* **Day 106 (04/16/2022)**: 
+
+* **Day 107 (04/17/2022)**: 
+
+* **Day 108 (04/18/2022)**: 
+
+* **Day 109 (04/19/2022)**: 
+
+* **Day 110 (04/20/2022)**: 
+
+* **Day 111 (04/21/2022)**: 
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
