@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This page of sample code is intended to demonstrate how to use the JSON puzzle format described at www.xwordinfo.com.
+It can be freely used but please credit Jim Horne and xwordinfo.com and let me know if you end up using it.
+Email info {at} xwordinfo.com  -->
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berkeley Crossword Solver</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body {font-family: Calibri,Tahoma, Helvetica, Sans-Serif; background-color:#ffffff; font-size:14px; }
+        h2 { padding-left: 10px; color:#000000; margin-top: 0px; margin-bottom: 10px;}
+        a { color:#0c519f; text-decoration:none; }
+        a:hover { color:#cc0000; text-decoration:underline; }
+        .links { margin-bottom:20px; font-size:12px; }
+        .links a { margin-left: 4px; margin-right: 4px; }
+        #puzNotepad { background-color: #ffffe0; max-width:800px; padding:4px; border:1px solid #808080; margin-bottom:8px; display:none; }
+        #puzTable { width: 500px; height:  500px; float: left; border-collapse:collapse; border-spacing: 0; }
+        #puzTable td { width:26px;  text-align:center; font-size:18px; border:1px solid #000000; background-color:White; padding: 0; }
+        #puzTable .black { background-color:Black; }
+        #puzTable .circle { background-color:yellow; }
+        #puzTable .shade { background-color: lightgray; }
+        .grid { font-size:10px; text-align:left; padding-left:1px; height:9px}
+        .letter { height:22px; vertical-align:baseline; font-weight:bold; }
+        .clue { padding-left: 10px; padding-top: 3px; padding-bottom: 3px;}
+        .clue:hover { background-color: lightskyblue; cursor: pointer; }
+        .copy {  font-size:11px; color:#303030; font-style:italic; margin-top:2px; }
+        .clues { float:left; background-color:#ffffff; max-width:300px; font-size:15x; height: 462px; overflow-y: scroll;}
+        .column { float:left; max-width:300px; margin-left:30px;}
+        .cluenumber { font-weight:  bold; float:left; }
+        .cluetext { padding-left: 30px; }
+        #header {
+            width: 600px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: Calibri;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .names {
+            padding-left: 60px;
+            padding-right: 60px;
+            text-align: center;
+        }
+
+        .name {
+            font-family: Calibri;
+            display: inline-block;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .names1 > .name {
+            width: 24%;
+        }
+
+        .names2 > .name {
+            width: 32%;
+        }
+
+        #emails {
+            font-family: Courier;
+            font-size: 12px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        
+        #content {
+            margin: auto;
+            width: 1200px;
+        }
+
+        #selectBox {
+            padding-top: 15px;
+        }
+
+        #infoBlock {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+
+        .info {
+            width: 32%;
+            display: inline-block;
+        }
+
+        #playbackControls {
+            float: down;
+            justify-content: center;
+        }
+
+
+        /* latin */
+        @font-face {
+          font-family: 'Calibri';
+          font-style: italic;
+          font-weight: 400;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btPMDoTpA&skey=36a3d5758e0e2f58&v=v15) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Calibri';
+          font-style: italic;
+          font-weight: 700;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7aYnpV-BGlaFfdAhLQgUp5aHRgejiMIKQ&skey=8b00183e5f6700b6&v=v15) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Calibri';
+          font-style: normal;
+          font-weight: 400;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY67FIEjg&skey=a1029226f80653a8&v=v15) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Calibri';
+          font-style: normal;
+          font-weight: 700;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v15) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="application/javascript">
+        window.onload = function() {
+        const solveButton = $("#puzzleSolve")[0];
+        const puzzleSelector = $("#puzzleName")[0];
+        solveButton.onclick = function() {
+            $('body').off("keyup");
+            $('#playbackControls').css("display", "flex");
+            $.getJSON(puzzleSelector.value + "_puzzle.json", function(json) {
+                var answer_lengths = {};
+
+                across = json["clues"]["across"];
+                var acrossHTML = "";
+                for (var clueNumber in across) {
+                    if (across.hasOwnProperty(clueNumber)) {
+                        var clue = across[clueNumber][0];
+                        var answer_length = across[clueNumber][1].replace(/\s/g, "").length;
+                        answer_lengths[clueNumber + "across"] = answer_length;
+                        acrossHTML += "<div class='clue' id='" + clueNumber + "across'><div class='cluenumber'>" + clueNumber + "</div><div class='cluetext'>" + clue + "</div></div>";
+                    }
+                }
+                document.getElementById("across").innerHTML = acrossHTML;
+
+                down = json["clues"]["down"];
+                var downHTML = "";
+                for (var clueNumber in down) {
+                    if (down.hasOwnProperty(clueNumber)) {
+                        var clue = down[clueNumber][0];
+                        var answer_length = down[clueNumber][1].replace(/\s/g, "").length;
+                        answer_lengths[clueNumber + "down"] = answer_length;
+                        downHTML += "<div class='clue' id='" + clueNumber + "down'><div class='cluenumber'>" + clueNumber + "</div><div class='cluetext'>" + clue + "</div></div>";
+                    }
+                }
+                document.getElementById("down").innerHTML = downHTML;
+
+                var clue_cells = {};
+                var cell_clues = {};
+
+                var puzzle = json["grid"];
+                for (row_idx = 0; row_idx < puzzle.length; row_idx += 1) {
+                    cell_clues[row_idx] = {};
+                    row = puzzle[row_idx]
+                    for (col_idx = 0; col_idx < row.length; col_idx += 1) {
+                        cell_clues[row_idx][col_idx] = [];
+                    }
+                }
+                for (row_idx = 0; row_idx < puzzle.length; row_idx += 1) {
+                    row = puzzle[row_idx]
+                    for (col_idx = 0; col_idx < row.length; col_idx += 1) {
+                        val = parseInt(row[col_idx][0]);
+                        if (!isNaN(val)) {
+                            if (answer_lengths.hasOwnProperty(val + "across")) {
+                                clue_cells[val + "across"] = [];
+                                for (ans_idx = 0; ans_idx < answer_lengths[val + "across"]; ans_idx += 1) {
+                                    clue_cells[val + "across"].push([row_idx, col_idx + ans_idx]);
+                                    cell_clues[row_idx][col_idx + ans_idx].push(val + "across");
+                                }
+                            }
+                            if (answer_lengths.hasOwnProperty(val + "down")) {
+                                clue_cells[val + "down"] = [];
+                                for (ans_idx = 0; ans_idx < answer_lengths[val + "down"]; ans_idx += 1) {
+                                    clue_cells[val + "down"].push([row_idx + ans_idx, col_idx]);
+                                    cell_clues[row_idx + ans_idx][col_idx].push(val + "down");
+                                }
+                            }
+                        }
+                    }
+                }
+                $("#puzTable tr").remove();
+                var pt = $("#puzTable")[0];
+                for (row_idx = 0; row_idx < puzzle.length; row_idx += 1) {
+                    thisRow = pt.insertRow(row_idx);
+                    row = puzzle[row_idx]
+                    for (col_idx = 0; col_idx < row.length; col_idx += 1) {
+                        val = row[col_idx];
+                        cell = thisRow.insertCell(col_idx);
+                        if (val === "BLACK") {
+                            cell.className = "black";
+                        }
+                        else {
+                            cellClass1 = cell_clues[row_idx][col_idx][0] + "-cell";
+                            cellClass2 = cell_clues[row_idx][col_idx][1] + "-cell";
+                            cell.className = "cell " + cellClass1 + " " + cellClass2
+                            cell.id = row_idx + "x" + col_idx  
+                            // cell.innerHTML = "<div class='grid'"+ "id=" + val[0] + ">" + val[0] + "</div>" + "<div class='letter'>" + val[1] + "</div>";
+                            cell.innerHTML = "<div class='grid'"+ "id=" + val[0] + ">" + val[0] + "</div>" + "<div class='letter' id='" + row_idx + "_" + col_idx + "'></div>";
+                        }
+                    }
+                }
+
+                function highlight(id, color) {
+                    document.getElementById(id).scrollIntoView({block: "nearest"});
+                    document.getElementById(id).style.backgroundColor = color;
+                    var selects = document.getElementsByClassName(id + '-cell');
+                    for (var j = 0, il = selects.length;j<il; j++) {
+                        selects[j].style.backgroundColor = color;
+                    }
+                }
+
+                var highlighted = false;
+                $(".clue").on('click', function () {
+                    // Remove previous highlight:
+                    if (highlighted) {
+                        highlight(previous, "white");
+                        if (String(previous) == String(this.id)) {
+                            highlight(this.id, "white");
+                            highlighted = false;
+                        } else {
+                            // Add new highlight:
+                            highlighted = true;
+                            highlight(this.id, "lightskyblue");
+                            previous = this.id;
+                        }
+                    } else {
+                        // Add new highlight:
+                        highlighted = true;
+                        highlight(this.id, "lightskyblue");
+                        previous = this.id;
+                    }
+                    
+                });
+
+                $(".cell").on('click', function () {
+                    classes = this.className.split(" ");
+                    if (highlighted) {
+                        highlight(previous, "white");
+                        if (previous == classes[2].slice(0, -5)) {
+                            highlight(classes[1].slice(0, -5), "lightskyblue");
+                            previous = classes[1].slice(0, -5);
+                        } else {
+                            highlight(classes[2].slice(0, -5), "lightskyblue");
+                            previous = classes[2].slice(0, -5);
+                        }
+                    } else {
+                        highlight(classes[2].slice(0, -5), "lightskyblue");
+                        previous = classes[2].slice(0, -5);
+                    }
+                    highlighted = true;
+                });
+
+                var solution = {};
+                var cell_visible = {};
+
+                for (row_idx = 0; row_idx < puzzle.length; row_idx += 1) {
+                    solution[row_idx] = {};
+                    cell_visible[row_idx] = {};
+                    for (col_idx = 0; col_idx < row.length; col_idx += 1) {
+                        solution[row_idx][col_idx] = "";
+                        cell_visible[row_idx][col_idx] = false;
+                    }
+                }
+
+                $.getJSON(puzzleSelector.value + "_state.json", function(states) {
+                    var previous_num_letters = 0;
+                    var num_letters = 0;
+                    var pause_counter = 0;
+                    var idx = 0;
+
+                    stepForward = function() {
+                        refresh(32);
+                    };
+
+                    stepBackward = function() {
+                        refresh(8);
+                    };
+
+                    Beginning = function() {
+                        refresh(81);
+                    };
+
+                    End = function() {
+                        refresh(69);
+                    };
+
+                    var refresh = function(keyCode){
+                        console.log(keyCode);
+                    if(keyCode == 8){
+                            idx -= 1;
+                            if (idx < 0) { idx = 0; }
+                            // user has pressed backspace
+                            // array.pop();
+                            // console.log("back");
+                    }
+                    if(keyCode == 32){
+                            idx += 1;
+                            // user has pressed space
+                            // console.log("forward");
+                    }
+                    if(keyCode == 69) {
+                            idx = states.length - 1;
+                    }
+                    if(keyCode == 81) {
+                            idx = 0;
+                    }
+                    if (keyCode == 8 || keyCode == 32 || keyCode == 81 || keyCode == 69) {
+                            var grid = states[idx - pause_counter];
+                            var new_cells = [];
+                            for (row_idx = 0; row_idx < grid.length; row_idx += 1) {
+                                row = grid[row_idx];
+                                for (col_idx = 0; col_idx < row.length; col_idx += 1) {
+                                    val = row[col_idx];
+                                    if (val !== solution[row_idx][col_idx]) {
+                                        solution[row_idx][col_idx] = val;
+                                        // cell_visible[row_idx][col_idx] = true;
+                                        new_cells.push([row_idx, col_idx]);
+                                        try {document.getElementById(row_idx + "_" + col_idx).innerHTML = val;}
+                                        catch (error) {}
+                                    }
+                                }
+                            }
+                            if (idx >= 0) {
+                                var possible_clues = [];
+                                for (let cell_idx = 0; cell_idx <  new_cells.length; cell_idx += 1) {
+                                    new_cell = new_cells[cell_idx];
+                                    var possible_clue = cell_clues[new_cell[0]][new_cell[1]];
+                                    // First: 
+                                    for (let clue_idx = 0; clue_idx <= 1; clue_idx++) {
+                                        // console.log(possible_clue[clue_idx]);
+                                        var possible_cells = clue_cells[possible_clue[clue_idx]];
+                                        var all_true = true;
+                                        for (let cell_idx = 0; cell_idx < possible_cells.length; cell_idx++) {
+                                            var possible_cell = possible_cells[cell_idx]
+                                            // console.log(possible_cell)
+                                            // console.log()
+                                            if (grid[possible_cell[0]][possible_cell[1]] == "") {
+                                                all_true = false;
+                                            }
+                                        }
+                                        if (all_true) {
+                                            possible_clues.push(possible_clue[clue_idx]);
+                                            // console.log(clue);
+                                        } else {
+                                        }
+                                    }
+                                }
+                                // console.log(possible_clues)
+                                var arr = possible_clues;
+                                var clue = arr.sort((a,b) => arr.filter(v => v===a).length - arr.filter(v => v===b).length).pop();
+                                // var clue = possible_clues.reduce((a, b) => a.filter(c => b.includes(c)))[0];
+                                var num_clues = Object.keys(across).length + Object.keys(down).length;
+                                // var num_characters = solution.flat().join('').length;
+                                // alert(num_characters);
+                                if (highlighted) {
+                                    highlight(previous, "white");
+                                } 
+                                highlight(clue, "lightskyblue");
+                                highlighted = true;
+
+                                previous = clue;
+                                previous_num_letters = num_letters;
+                            }
+                    }};
+                    $('body').keyup(e => refresh(e.keyCode));
+                });
+            });
+        };
+        };
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>The Berkeley Crossword Solver</h1>
+        <div class="names names1">
+            <span class="name">Eric Wallace*</span>
+            <span class="name">Nicholas Tomlin*</span>
+            <span class="name">Albert Xu*</span>
+            <span class="name">Kevin Yang*</span>
+        </div>
+        <div class="names names2">
+            <span class="name">Eshaan Pathak*</span>
+            <span class="name">Matthew L. Ginsberg</span>
+            <span class="name">Dan Klein</span>
+        </div>
+        <div id="emails">
+            {ericwallace, nicholas_tomlin, albertxu3, yangk, eshaanpathak}@berkeley.edu
+        </div>
+        <div id="infoBlock">
+            <span class="info"><a href="">Paper</a></span>
+            <span class="info"><a href="">Blog</a></span>
+            <span class="info"><a href="">GitHub</a></span>
+        </div>
+
+        We built an automated crossword solver using state-of-the-art neural network models for open-domain question-answering and assorted techniques for constraint satisfaction solving. Our system, known as the Berkeley Crossword Solver, is designed to solve American-style crossword puzzles like <a href="https://en.wikipedia.org/wiki/The_New_York_Times_crossword_puzzle">The New York Times Crossword</a>. These crosswords often involve challenging themes, puns, and world knowledge and typically range in grid size from 15x15 to 21x21.
+        
+        <div id="selectBox">
+            Try our demo on a New York Times puzzle:
+            <select name="puzzleName" id="puzzleName">
+                <option value="8-11-2021">Wednesday 8/11/2021</option>
+                <option value="8-12-2021">Thursday 8/12/2021</option>
+                <option value="8-13-2021">Friday 8/13/2021</option>
+                <option value="8-14-2021">Saturday 8/14/2021</option>
+            </select>
+            <button id="puzzleSolve">Solve</button>
+        </div>
+    </div>
+    <div id="content">
+        <h2 id="puzTitle"></h2>
+        <p id="puzAuthor"></p>
+        <div id="puzNotepad"></div>
+        <table id="puzTable"></table>
+        <div id="puzCopy" class="copy"></div>
+        <div class="column"><h2>Across</h2><div class="clues"><div id="across"></div></div></div>
+        <div class="column"><h2>Down</h2><div class="clues"><div id="down"></div></div></div>
+        <br style="clear:both" />
+    </div>
+    <div id="playbackControls" style="display: none;">
+        <button onclick="Beginning()" class="btn btn-secondary"> <i class="fa fa-fast-backward"></i> </button>
+        <button onclick="stepBackward()" class="btn btn-secondary"> <i class="fa fa-step-backward"></i> </button>
+        <button onclick="Play()" class="btn btn-secondary" id="btn-play"> <i class="fa fa-play"></i></button>
+        <button onclick="stepForward()" class="btn btn-secondary"> <i class="fa fa-step-forward"></i> </button>
+        <button onclick="End()" class="btn btn-secondary"> <i class="fa fa-fast-forward"></i></button>
+    </div>
+</body>
+</html>
+

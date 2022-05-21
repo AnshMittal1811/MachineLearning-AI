@@ -1,0 +1,5 @@
+data/
+checkpoints/
+logs/
+__pycache__/
+demo/*.json

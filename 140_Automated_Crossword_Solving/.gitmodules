@@ -1,0 +1,6 @@
+[submodule "DPR"]
+	path = DPR
+	url = https://github.com/albertkx/DPR
+[submodule "DrQA"]
+	path = DrQA
+	url = https://github.com/albertkx/DrQA
