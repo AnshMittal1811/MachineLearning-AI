@@ -2002,6 +2002,20 @@ This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
 	
 * **Day 117 (04/27/2022)**: 
 	
+* **Day 118 (04/28/2022)**: 
+	
+* **Day 119 (04/29/2022)**: 
+	
+* **Day 120 (04/30/2022)**: 
+	
+* **Day 121 (05/01/2022)**: 
+	
+* **Day 122 (05/02/2022)**: 
+	
+* **Day 123 (05/03/2022)**: 
+	
+* **Day 124 (05/04/2022)**: 
+	
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
