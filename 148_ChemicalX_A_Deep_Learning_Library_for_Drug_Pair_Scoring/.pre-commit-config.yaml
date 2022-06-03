@@ -1,0 +1,26 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: black
+        stages: [commit]
+        language: system
+        entry: black -l 120 -t py38 ./chemicalx/. ./tests/. setup.py
+        types: [python]
+
+      - id: flake8
+        name: flake8
+        stages: [commit]
+        language: system
+        entry: flake8 --max-line-length 120
+        types: [python]
+        files: ./chemicalx/. ./tests/. setup.py
+
+
+      - id: flake8-isort
+        name: flake8-isort
+        stages: [commit]
+        language: system
+        entry: isort
+        types: [python]
+        files: ./chemicalx/. ./tests/. setup.py
