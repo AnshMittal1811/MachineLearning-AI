@@ -2063,8 +2063,10 @@ This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
 >
 > CVPR 2022
 
+	
 ![demo_vid](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/143_OneShot_Object_Pose/assets/onepose-github-teaser.gif)
 
+	
 ## Brewing🍺, code coming soon.
 ## Citation
 
