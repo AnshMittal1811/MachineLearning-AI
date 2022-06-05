@@ -1,6 +1,6 @@
 # 200 days of Artificial Intelligence
 
-This is the 100 days of Machine Learning, Deep Learning, AI, and Optimization mini-projects that I picked up at the start of January 2022. I have used various environments and Google Colab for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
+This is the 200 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
 * **Day 1 (01/01/2022)**: [GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/001_GradCAM_basics)
 
@@ -2181,9 +2181,9 @@ limitations under the License.
 	
 * **Day 153 (06/02/2022)**: [Sparse-R-CNN: End-to-End Object Detection with Learnable Proposals](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/153_Sparse_R-CNN_End-to-End_Object_Detection_with_Learnable_Proposals)
 	
-* **Day 154 (06/03/2022)**: []()
+* **Day 154 (06/03/2022)**: [Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/154_Regressing_Robust_and_Discriminative_3D_Morphable_Models_with_a_very_Deep_Neural_Network)
 	
-* **Day 155 (06/04/2022)**: []()
+* **Day 155 (06/04/2022)**: [ExpNet: Landmark-Free, Deep, 3D Facial Expressions](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/155_ExpNet_Landmark_Free_Deep_3D_Facial_Expression)
 
 
 
