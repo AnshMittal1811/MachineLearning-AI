@@ -2048,28 +2048,81 @@ This work was supported in part by gifts from Adobe, Facebook and Snap, Inc.
 	
 * **Day 140 (05/20/2022)**: [Automated Crossword Solving by Berkeley](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/140_Automated_Crossword_Solving)
 	
-* **Day 141 (05/21/2022)**: []()
+* **Day 141 (05/21/2022)**: [AvatarCLIP: Zero-Shot Text-driven Generation and Animation of 3D Avatars](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/141_AvatarCLIP_ZeroShot_TextDriven_Generation_Animation_3D_Avatars)
 	
-* **Day 142 (05/22/2022)**: []()
+* **Day 142 (05/22/2022)**: [FCA: Learning a 3D Full-Coverage Vehicle Camouflage for Multi-View Physical Adversarial Attack](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/142_Full_Camouflage_Adversarial_coverage)
 	
-* **Day 143 (05/23/2022)**: []()
+* **Day 143 (05/23/2022)**: [OnePose: One-Shot Pose Estimation without CAD Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/143_OneShot_Object_Pose)
+
+### [Project Page](https://zju3dv.github.io/onepose) | [Paper](https://arxiv.org/pdf/2205.12257.pdf)
+<br/>
+
+> OnePose: One-Shot Object Pose Estimation without CAD Models
+>
+> [Jiaming Sun](https://jiamingsun.ml)<sup>\*</sup>, [Zihao Wang](http://zihaowang.xyz/)<sup>\*</sup>, [Siyu Zhang](https://derizsy.github.io/)<sup>\*</sup>, [Xingyi He](https://github.com/hxy-123/), [Hongcheng Zhao](https://github.com/HongchengZhao), [Guofeng Zhang](http://www.cad.zju.edu.cn/home/gfzhang/), [Xiaowei Zhou](https://xzhou.me)  
+>
+> CVPR 2022
+
+![demo_vid](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/143_OneShot_Object_Pose/assets/onepose-github-teaser.gif)
+
+## Brewing🍺, code coming soon.
+## Citation
+
+If you find this code useful for your research, please use the following BibTeX entry.
+
+```bibtex
+@article{sun2022onepose,
+	title={{OnePose}: One-Shot Object Pose Estimation without {CAD} Models},
+	author = {Sun, Jiaming and Wang, Zihao and Zhang, Siyu and He, Xingyi and Zhao, Hongcheng and Zhang, Guofeng and Zhou, Xiaowei},
+	journal={CVPR},
+	year={2022},
+}
+```
+
+## Copyright
+This work is affiliated with ZJU-SenseTime Joint Lab of 3D Vision, and its intellectual property belongs to SenseTime Group Ltd.
+
+```
+Copyright SenseTime. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
 	
-* **Day 144 (05/24/2022)**: []()
+* **Day 144 (05/24/2022)**: [Nystromformer: An Nystrom-based Algorithm for Approximating Self-Attention](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/144_Nystromformer_An_Intuition)
 	
-* **Day 145 (05/25/2022)**: []()
+* **Day 145 (05/25/2022)**: [Towards Total Recall in Industrial Anomalies](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/145_Towards_Total_Recall_in_Industrial_Anomaly_Detection)
 	
-* **Day 146 (05/26/2022)**: []()
+* **Day 146 (05/26/2022)**: [DeVRF: Deformable Voxel Radiance Fields for Dynamic Scenes](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/146_DeVRF_Deformable_Voxel_Radiance_Fields_for_Dynamic_Scenes/paper)
 	
-* **Day 147 (05/27/2022)**: []()
+* **Day 147 (05/27/2022)**: [Text2Human: Text-driven Controllable Human Generation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/147_Text2Human_Text_Driven_Controllable_Human_Image_Generation)
 	
-* **Day 148 (05/28/2022)**: []()
+* **Day 148 (05/28/2022)**: [ChemicalX: A Deep Learning Library for Drug Pair Scoring](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/148_ChemicalX_A_Deep_Learning_Library_for_Drug_Pair_Scoring)
 	
-* **Day 149 (05/29/2022)**: []()
+* **Day 149 (05/29/2022)**: [Super Vision Transformer](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/149_Super_Vision_Transformer)
 	
-* **Day 150 (05/30/2022)**: []()
+* **Day 150 (05/30/2022)**: [EfficientTransformer: Vision Transformer at MobileNet Speed](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/150_EfficientTransformer_Vision_Transformers_at_MobileNet_Speed)
 	
-* **Day 151 (05/31/2022)**:
+* **Day 151 (05/31/2022)**: [TransFuser: Imitation with Transformer-based Sensor Fusion for Autonomous Driving](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/151_TransFuser_Imitation_with_TansformerBased_Sensor_Fusion_for_Autonomous_Driving)
 	
+* **Day 152 (06/01/2022)**: [SeFA: Finding Semantic Vectors in Latent Space for GANs](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/152_SeFa__Finding_Semantic_Vectors_in_Latent_Space_for_GANs)
+	
+* **Day 153 (06/02/2022)**: [Sparse-R-CNN: End-to-End Object Detection with Learnable Proposals](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/153_Sparse_R-CNN_End-to-End_Object_Detection_with_Learnable_Proposals)
+	
+* **Day 154 (06/03/2022)**: []()
+	
+* **Day 155 (06/04/2022)**: []()
+
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
