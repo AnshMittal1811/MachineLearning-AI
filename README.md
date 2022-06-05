@@ -1865,7 +1865,7 @@ This code it built on the excellent ScoreSDE codebase by Song et al., which can 
 | [Paper PDF](https://igl.ethz.ch/projects/differentiable-surface-splatting/DSS-2019-SA-Yifan-etal.pdf) | [Project page](https://igl.ethz.ch/projects/differentiable-surface-splatting/) |
 | ----------------------------------------- | ------------------------------------------------------------------------------ |
 
-![bunny](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/095_Differentiable_Surface_Splatting/Introduction_to_Differentiable_Surface_Splatting/images/teaser.png)
+![bunny](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/098_Differentiable_Surface_Splatting/Introduction_to_Differentiable_Surface_Splatting/images/teaser.png)
 
 code for paper Differentiable Surface Splatting for Point-based Geometry Processing
 
@@ -1936,7 +1936,7 @@ tensorboard --logdir=exp/dss_proj
 We will add back this function ASAP.
  -->
 
-![denoise_1noise](images/armadillo_2_all.png)
+![denoise_1noise](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/098_Differentiable_Surface_Splatting/Introduction_to_Differentiable_Surface_Splatting/images/armadillo_2_all.png)
 
 **video**
 [![accompanying video](images/video-thumb.png)](https://youtu.be/MIu59GiJZ2s "Accompanying video")
