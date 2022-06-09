@@ -1,0 +1,11 @@
+{
+    "DTUHR": {
+        "testing_dir": "./data/DTU/raw",
+        "dataset": "DTU"
+    },
+
+    "LLFF": {
+        "testing_dir": "./data/LLFF/raw",
+        "dataset": "LLFF"
+    }
+}

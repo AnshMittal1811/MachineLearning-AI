@@ -1,0 +1,6 @@
+{
+    "LLFF": {
+        "testing_dir": "./raw_images_resized",
+        "dataset": "LLFF"
+    }
+}

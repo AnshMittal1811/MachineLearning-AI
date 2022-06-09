@@ -1,0 +1,15 @@
+checkpoints
+pointclouds
+data
+tb
+saved_checkpoints
+saved_pointclouds
+saved_videos
+**/__pycache__
+
+mvs/__pycache__
+mvs/checkpoints
+mvs/mvs_depths
+mvs/raw_images
+mvs/raw_images_resized
+mvs/runs

@@ -1,0 +1,9 @@
+# ninja log v5
+1	58531	1631132684665069000	/n/fs/grad/yz7608/view-syn/alt_cuda_corr/build/temp.linux-x86_64-3.8/correlation.o	781268c69c439250
+1	94385	1631132720544999000	/n/fs/grad/yz7608/view-syn/alt_cuda_corr/build/temp.linux-x86_64-3.8/correlation_kernel.o	e8a189865c5fc001
+4	52229	1631132779461709000	/n/fs/grad/yz7608/view-syn/alt_cuda_corr/build/temp.linux-x86_64-3.8/sampler.o	e9af68f4c5830321
+4	81495	1631132808835550000	/n/fs/grad/yz7608/view-syn/alt_cuda_corr/build/temp.linux-x86_64-3.8/sampler_kernel.o	7fcb06a26c5dd0e6
+2	37931	1651109127995623000	/n/fs/pvl-viewsyn/SNP_release/mvs/alt_cuda_corr/build/temp.linux-x86_64-3.8/correlation.o	b64f24e0d007bab1
+2	58409	1651109148858422000	/n/fs/pvl-viewsyn/SNP_release/mvs/alt_cuda_corr/build/temp.linux-x86_64-3.8/correlation_kernel.o	73029e9e65bae80e
+10	36998	1651109191525006000	/n/fs/pvl-viewsyn/SNP_release/mvs/alt_cuda_corr/build/temp.linux-x86_64-3.8/sampler.o	547051c6e55bb6c
+11	54651	1651109209363312000	/n/fs/pvl-viewsyn/SNP_release/mvs/alt_cuda_corr/build/temp.linux-x86_64-3.8/sampler_kernel.o	9dd3c72dd094fe6f
