@@ -2185,11 +2185,16 @@ limitations under the License.
 	
 * **Day 155 (06/04/2022)**: [ExpNet: Landmark-Free, Deep, 3D Facial Expressions](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/155_ExpNet_Landmark_Free_Deep_3D_Facial_Expression)
 
-* **Day 156 (06/05/2022)**: 
+* **Day 156 (06/05/2022)**: [CVNets: High-Performance Library for Computer Vision](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/156_CVNets_High_Performance_Library_for_Computer_Vision)
 
-* **Day 157 (06/06/2022)**: 
+* **Day 157 (06/06/2022)**: [View Synthesis using Sculpted Neural Points](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/157_View_Synthesis_using_Sculpted_Neural_Points)
 
-* **Day 158 (06/07/2022)**: 
+* **Day 158 (06/07/2022)**: [Learning Soccer Juggling Skills with Layer-wise Mixture-of-Experts](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/158_Learning_Soccer_Juggling_Skills_with_Layer-wise_Mixture-of-Experts)
+	
+* **Day 159 (06/08/2022)**: [HumanNeRF](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/159_HumanNERF)
+	
+* **Day 160 (06/09/2022)**: [Efficient Geometry-aware 3D Generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/160_Efficient_Geometry-aware_3D_Generative_Adversarial_Networks)
+	
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
 * **Day 34 (02/03/2022)**: [Adversarial Learning in Natural Language Processing Part I]()
