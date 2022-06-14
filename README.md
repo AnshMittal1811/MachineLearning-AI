@@ -1,4 +1,4 @@
-# 200 days of Artificial Intelligence
+# 300 days of Artificial Intelligence
 
 This is the 200 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
@@ -2159,7 +2159,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
 	
 * **Day 144 (05/24/2022)**: [Nystromformer: An Nystrom-based Algorithm for Approximating Self-Attention](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/144_Nystromformer_An_Intuition)
 	
@@ -2195,15 +2194,290 @@ limitations under the License.
 	
 * **Day 160 (06/09/2022)**: [Efficient Geometry-aware 3D Generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/160_Efficient_Geometry-aware_3D_Generative_Adversarial_Networks)
 	
-* **Day 161 (06/10/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/161_Pathomic_Fusion)
+* **Day 161 (06/10/2022)**: [Pathomic Fusion: An Integrated Framework for Fusing Histopathology and Genomic Features for Diagnosis and Prognosis](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/161_Pathomic_Fusion)
 	
-* **Day 162 (06/11/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/162_POSPOISE_An_Intuition)
+* **Day 162 (06/11/2022)**: [PORPOISE: Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/162_POSPOISE_An_Intuition)
+	
+PORPOISE <img src="logo.png" width="150px" align="right" />
+===========
+### Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning
+*Cancer Cell*
 
-* **Day 163 (06/12/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/163_HIPT)
+Read Link | Journal Link | [Interactive Demo](http://pancancer.mahmoodlab.org/)
+
+*This study is currently under a press embargo, please address all questions to fmahmood@fas.harvard.edu*
+
+*TL;DR - We present an interpretable, weakly-supervised, multimodal deep learning algorithm that integrates whole slide images (WSIs) and molecular profile features for cancer prognosis. We validate our method on 14 cancer types, and extract both local and global patterns of morphological and molecular feature importances in each cancer type. Using the multimodal interpretability aspect of our model, we developed [PORPOISE](http://pancancer.mahmoodlab.org/), an interactive, freely-available platform that directly yields prognostic markers determined by our model for thousands of patients across multiple cancer types. To validate that these model explanations are prognostic, we analyzed high attention morphological regions in WSIs, which indicates that tumor-infiltrating lymphocyte presence corroborates with favorable cancer prognosis on 9 out of 14 cancer types.*
+
+<img src="model.png" width="1500px" align="center" />
+
+## Pre-requisites:
+* Linux (Tested on Ubuntu 18.04) 
+* NVIDIA GPU (Tested on Nvidia GeForce RTX 2080 Ti x 16) with CUDA 11.0 and cuDNN 7.5
+* Python (3.7.7), h5py (2.10.0), matplotlib (3.1.1), numpy (1.18.1), opencv-python (4.1.1), openslide-python (1.1.1), openslide (3.4.1), pandas (1.1.3), pillow (7.0.0), PyTorch (1.6.0), scikit-learn (0.22.1), scipy (1.4.1), tensorflow (1.13.1), tensorboardx (1.9), torchvision (0.7.0), captum (0.2.0), shap (0.35.0)
+
+### Installation Guide for Linux (using anaconda)
+
+#### 1. Downloading TCGA Data
+To download diagnostic WSIs (formatted as .svs files), molecular feature data and other clinical metadata, please refer to the [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/) and the [cBioPortal](https://www.cbioportal.org/). WSIs for each cancer type can be downloaded using the [GDC Data Transfer Tool](https://docs.gdc.cancer.gov/Data_Transfer_Tool/Users_Guide/Data_Download_and_Upload/).
+
+#### 2. Processing Whole Slide Images
+To process the WSI data we used the publicaly available [CLAM WSI-analysis toolbox](https://github.com/mahmoodlab/CLAM). First, the tissue regions in each biopsy slide are segmented. The 256 x 256 patches without spatial overlapping are extracted from the segmented tissue regions at the desired magnification. Consequently, a pretrained truncated ResNet50 is used to encode raw image patches into 1024-dim feature vector. Using the CLAM toolbox, the features are saved as matrices of torch tensors of size N x 1024, where N is the number of patches from each WSI (varies from slide to slide). Please refer to [CLAM](https://github.com/mahmoodlab/CLAM) for examples on tissue segmentation and featue extraction. 
+The extracted features then serve as input (in a .pt file) to the network. The following folder structure is assumed for the extracted features vectors:    
+```bash
+DATA_ROOT_DIR/
+    └──TCGA_BLCA/
+        ├── slide_1.pt
+        ├── slide_2.pt
+        └── ...
+    └──TCGA_BRCA/
+        ├── slide_1.pt
+        ├── slide_2.pt
+        └── ...
+    ...
+```
+DATA_ROOT_DIR is the base directory of all datasets / cancer type(e.g. the directory to your SSD). Within DATA_ROOT_DIR, each folder contains a list of .pt files for that dataset / cancer type.
+
+
+#### 3. Molecular Features
+Processed molecular profile features containing mutation status, copy number variation, and RNA-Seq abundance can be downloaded from the [cBioPortal](https://www.cbioportal.org/). For RNA-Seq abundance, we selected the top 2000 genes with the largest median absolute deviation for inclusion. CSV files for aligned molecular feature data with relevant clinical metadata and SVS filenames of diagnostic slides can be found in [dataset_csv](https://github.com/Richarizardd/PORPOISE/tree/master/dataset_csv) folder.
+
+
+#### 4. Training-Validation Splits
+For evaluating the algorithm's performance, we randomly partitioned each dataset using 5-fold cross-validation. Splits for each cancer type are found in the [splits/5foldcv](https://github.com/Richarizardd/PORPOISE/tree/master/splits/5foldcv) folder, which each contain **splits_{k}.csv** for k = 1 to 5. In each **splits_{k}.csv**, the first column corresponds to the TCGA Case IDs used for training, and the second column corresponds to the TCGA Case IDs used for validation. Alternatively, one could define their own splits, however, the files would need to be defined in this format. The dataset loader for using these train-val splits are defined in the [**get_split_from_df**](https://github.com/mahmoodlab/PORPOISE/blob/6ff1259d020661f6635d0ce21af898a16f94364c/datasets/dataset_survival.py#L244) function in the [**Generic_WSI_Survival_Dataset**](https://github.com/mahmoodlab/PORPOISE/blob/4e44293ef30b4d7478bab3c8399dea2bed34df67/datasets/dataset_survival.py#L36) class (inherited from the PyTorch Dataset class).
+
+#### 5. Running Experiments
+To run experiments using the SNN, AMIL, and MMF networks defined in this repository, experiments can be run using the following generic command-line:
+```shell
+CUDA_VISIBLE_DEVICES=<DEVICE ID> python main.py --which_splits <SPLIT FOLDER PATH> --split_dir <SPLITS FOR CANCER TYPE> --mode <WHICH MODALITY> --model_type <WHICH MODEL>
+```
+Commands for all experiments / models can be found in the [Commands.md](https://github.com/mahmoodlab/PORPOISE/blob/master/docs/Commands.md) file.
+
+To run experiments on custom datasets, one would need to modify the **args.task** argument in **main.py** that catches all the 14 cancer type datasets in our study. Included below is an example of how survival analysis for Head and Heck Squamous Cell Carcinoma (TCGA-HNSC) is executed. **csv_path** is the path to the CSV file containing clinical and molecular profile information. **data_dir** is the patch to the folder of .pt features for your WSIs.
+
+```python
+if args.task == 'tcga_hnsc_survival':
+  args.n_classes = 4
+  proj = '_'.join(args.task.split('_')[:2])
+  dataset = Generic_MIL_Survival_Dataset(csv_path = './%s/%s_all.csv'  % (dataset_path, proj),
+                                           mode = args.mode,
+                                           data_dir= os.path.join(args.data_root_dir, 'tcga_hnsc_20x_features'),
+                                           shuffle = False, 
+                                           seed = args.seed, 
+                                           print_info = True,
+                                           patient_strat= False,
+                                           n_bins=4,
+                                           label_col = 'survival_months',
+                                           ignore=[])
+```
+
+## License & Usage 
+This work is still under review. Still, if you find our work useful in your research, please consider citing our paper at:
+```bash
+@article{chen2021pan,
+  title={Pan-cancer integrative histology-genomic analysis via multimodal deep learning},
+  author={Chen, Richard J and Lu, Ming Y and Williamson, Drew FK and Chen, Tiffany Y and Lipkova, Jana and Shaban, Muhammad and Shady, Maha and Williams, Mane and Joo, Bumjin and Noor, Zahra and others},
+  journal={Cancer Cell},
+  year={2022}
+}
+```
+
+© [Mahmood Lab](http://www.mahmoodlab.org) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes. 
+
+
+* **Day 163 (06/12/2022)**: [Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/163_HIPT)
 	
-* **Day 164 (06/13/2022)**: 
+* **Day 164 (06/13/2022)**: [PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/164_PAMTRI_An_Intuition)
 	
-* **Day 165 (06/14/2022)**: 
+
+# PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification
+
+This repo contains the official PyTorch implementation of *PAMTRI: Pose-Aware Multi-Task Learning for Vehicle Re-Identification Using Highly Randomized Synthetic Data*, ICCV 2019.
+
+[[Paper](http://arxiv.org/abs/2005.00673)] [[Poster](figures/PAMTRI_poster.png)]
+
+## Introduction
+
+We address the problem of vehicle re-identification using multi-task learning and embeded pose representations. Since manually labeling images with detailed pose and attribute information is prohibitive, we train the network with a combination of real and randomized synthetic data. 
+
+The proposed framework consists of two convolutional neural networks (CNNs), which are shown in the figure below. Top:  The pose estimation network is an extension of [high-resolution network (HRNet)](https://arxiv.org/abs/1902.09212) for predicting keypoint coordinates (with confidence/visibility) and generating heatmaps/segments. Bottom:  The multi-task network uses the embedded pose information from HRNet for joint vehicle re-identification and attribute classification. 
+
+![Illustrating the architecture of PAMTRI](164_PAMTRI_An_Intuition/figures/pamtri.jpg)
+
+## Getting Started
+
+### Environment
+
+The code was developed and tested with Python 3.6 on Ubuntu 16.04, using a NVIDIA GeForce RTX 2080 Ti GPU card. Other platforms or GPU card(s) may work but are not fully tested.
+
+### Code Structure
+
+Please refer to the `README.md` in each of the following directories for detailed instructions. 
+
+- [PoseEstNet directory](PoseEstNet): The modified version of [HRNet](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) for vehicle pose estimation. The code for training and testing, keypoint labels, and pre-trained models are provided. 
+
+- [MultiTaskNet directory](MultiTaskNet): The multi-task network for joint vehicle re-identification and attribute classification using embedded pose representations. The code for training and testing, attribute labels, predicted keypoints, and pre-trained models are provided. 
+
+## References
+
+Please cite these papers if you use this code in your research:
+
+    @inproceedings{Tang19PAMTRI,
+      author = {Zheng Tang and Milind Naphade and Stan Birchfield and Jonathan Tremblay and William Hodge and Ratnesh Kumar and Shuo Wang and Xiaodong Yang},
+      title = { {PAMTRI}: {P}ose-aware multi-task learning for vehicle re-identification using highly randomized synthetic data},
+      booktitle = {Proc. of the International Conference on Computer Vision (ICCV)},
+      pages = {211-–220},
+      address = {Seoul, Korea},
+      month = oct,
+      year = 2019
+    }
+
+    @inproceedings{Tang19CityFlow,
+      author = {Zheng Tang and Milind Naphade and Ming-Yu Liu and Xiaodong Yang and Stan Birchfield and Shuo Wang and Ratnesh Kumar and David Anastasiu and Jenq-Neng Hwang},
+      title = {City{F}low: {A} city-scale benchmark for multi-target multi-camera vehicle tracking and re-identification},
+      booktitle = {Proc. of the Conference on Computer Vision and Pattern Recognition (CVPR)},
+      pages = {8797–-8806},
+      address = {Long Beach, CA, USA},
+      month = jun,
+      year = 2019
+    }
+
+## License
+
+Code in the repository, unless otherwise specified, is licensed under the [NVIDIA Source Code License](LICENSE).
+
+## Contact
+
+For any questions please contact [Zheng (Thomas) Tang](https://github.com/zhengthomastang).
+
+	
+* **Day 165 (06/14/2022)**: [Neural Prompt Search: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/165_Neural_Prompt_Search_An_Intuition)
+	
+
+<div align="center">
+
+<h1>Neural Prompt Search</h1>
+
+<div>
+    <a href='https://davidzhangyuanhan.github.io/' target='_blank'>Yuanhan Zhang</a>&emsp;
+    <a href='https://kaiyangzhou.github.io/' target='_blank'>Kaiyang Zhou</a>&emsp;
+    <a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu</a>
+</div>
+<div>
+    S-Lab, Nanyang Technological University
+</div>
+
+
+<img src="figures/motivation.png">
+
+
+<h3>TL;DR</h3>
+
+The idea is simple: we view existing parameter-efficient tuning modules, including [Adapter](https://arxiv.org/abs/1902.00751), [LoRA](https://arxiv.org/abs/2106.09685) and [VPT](https://arxiv.org/abs/2203.12119), as prompt modules and propose to search the optimal configuration via neural architecture search. Our approach is named **NOAH** (Neural prOmpt seArcH).
+
+---
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2206.04673" target='_blank'>[arXiv]</a>
+</p>
+
+</div>
+
+
+
+## Updatas
+[05/2022] [arXiv](https://arxiv.org/abs/2206.04673) paper has been **released**.
+
+## Environment Setup
+```
+conda create -n NOAH python=3.8
+conda activate NOAH
+pip install -r requirements.txt
+```
+
+## Data Preparation
+
+### 1. Visual Task Adaptation Benchmark (VTAB)
+```
+cd data/vtab-source
+python get_vtab1k.py
+```
+
+### 2. Few-Shot and Domain Generation
+
+- Images
+
+    Please refer to [DATASETS.md](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md) to download the datasets.
+
+- Train/Val/Test splits
+
+    Please refer to files under `data/XXX/XXX/annotations` for the detail information.
+
+
+## Quick Start For NOAH
+We use the VTAB experiments as examples.
+
+### 1. Downloading the Pre-trained Model
+| Model | Link |
+|-------|------|
+|ViT B/16 | [link](https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz)|
+
+### 2. Supernet Training
+```
+sh configs/NOAH/VTAB/supernet/slurm_train_vtab.sh PATH-TO-YOUR-PRETRAINED-MODEL
+```
+
+### 3. Subnet Search
+```
+sh configs/NOAH/VTAB/search/slurm_search_vtab.sh PARAMETERS-LIMITES
+```
+### 4. Subnet Retraining
+```
+sh configs/NOAH/VTAB/subnet/slurm_retrain_vtab.sh PATH-TO-YOUR-PRETRAINED-MODEL
+```
+We add the optimal subnet architecture of each dataset in the ``experiments/NOAH/subnet/VTAB``.  
+
+### 5. Performance
+![fig1](figures/table1.jpg)
+
+## Citation
+If you use this code in your research, please kindly cite this work.
+```
+@inproceedings{zhang2022NOAH,
+      title={Neural Prompt Search}, 
+      author={Yuanhan Zhang and Kaiyang Zhou and Ziwei Liu},
+      year={2022},
+      archivePrefix={arXiv},
+}
+```
+
+## Acknoledgments
+Part of the code is borrowed from [CoOp](https://github.com/KaiyangZhou/CoOp), [AutoFormer](https://github.com/microsoft/Cream/tree/main/AutoFormer), [timm](https://github.com/rwightman/pytorch-image-models) and [mmcv](https://github.com/open-mmlab/mmcv).
+
+Thanks Zhou Chong (https://chongzhou96.github.io/) for the code of downloading the VTAB-1k.
+
+	
+* **Day 166 (06/15/2022)**: 
+	
+* **Day 167 (06/16/2022)**: 
+	
+* **Day 168 (06/17/2022)**: 
+	
+* **Day 169 (06/18/2022)**: 
+	
+* **Day 170 (06/19/2022)**: 
+	
+* **Day 171 (06/20/2022)**: 
+	
+* **Day 172 (06/21/2022)**: 
+	
+* **Day 173 (06/22/2022)**: 
+	
+* **Day 174 (06/23/2022)**: 
+	
+* **Day 175 (06/24/2022)**: 
+	
+* **Day 176 (06/25/2022)**: 
 	
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
