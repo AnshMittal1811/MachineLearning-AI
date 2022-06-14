@@ -1,4 +1,4 @@
-# 300 days of Artificial Intelligence
+# 200 days of Artificial Intelligence
 
 This is the 200 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
@@ -2368,7 +2368,7 @@ For any questions please contact [Zheng (Thomas) Tang](https://github.com/zhengt
 </div>
 
 
-<img src="figures/motivation.png">
+<img src="165_Neural_Prompt_Search_An_Intuition/figures/motivation.png">
 
 
 <h3>TL;DR</h3>
@@ -2385,7 +2385,7 @@ The idea is simple: we view existing parameter-efficient tuning modules, includi
 
 
 
-## Updatas
+## Updates
 [05/2022] [arXiv](https://arxiv.org/abs/2206.04673) paper has been **released**.
 
 ## Environment Setup
@@ -2478,6 +2478,54 @@ Thanks Zhou Chong (https://chongzhou96.github.io/) for the code of downloading t
 * **Day 175 (06/24/2022)**: 
 	
 * **Day 176 (06/25/2022)**: 
+	
+* **Day 177 (06/26/2022)**: 
+
+* **Day 178 (06/27/2022)**: 
+	
+* **Day 179 (06/28/2022)**: 
+
+* **Day 180 (06/29/2022)**: 
+
+* **Day 181 (06/30/2022)**: 
+
+* **Day 182 (07/01/2022)**: 
+	
+* **Day 183 (07/02/2022)**:
+	
+* **Day 184 (07/03/2022)**: 
+	
+* **Day 185 (07/04/2022)**: 
+	
+* **Day 186 (07/05/2022)**: 
+	
+* **Day 187 (07/06/2022)**: 
+	
+* **Day 188 (07/07/2022)**: 
+
+* **Day 189 (07/08/2022)**: 
+
+* **Day 190 (07/09/2022)**: 
+	
+* **Day 191 (07/10/2022)**: 
+	
+* **Day 192 (07/11/2022)**: 
+	
+* **Day 193 (07/12/2022)**: 
+	
+* **Day 194 (07/13/2022)**: 
+	
+* **Day 195 (07/14/2022)**: 
+	
+* **Day 196 (07/15/2022)**: 
+	
+* **Day 197 (07/16/2022)**: 
+	
+* **Day 198 (07/17/2022)**: 
+	
+* **Day 199 (07/18/2022)**: 
+	
+* **Day 200 (07/19/2022)**: 
 	
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
