@@ -2198,7 +2198,7 @@ limitations under the License.
 	
 * **Day 162 (06/11/2022)**: [PORPOISE: Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/162_POSPOISE_An_Intuition)
 	
-PORPOISE <img src="logo.png" width="150px" align="right" />
+PORPOISE <img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/162_POSPOISE_An_Intuition/docs/logo.png" width="150px" align="right" />
 ===========
 ### Pan-Cancer Integrative Histology-Genomic Analysis via Multimodal Deep Learning
 *Cancer Cell*
@@ -2209,7 +2209,7 @@ Read Link | Journal Link | [Interactive Demo](http://pancancer.mahmoodlab.org/)
 
 *TL;DR - We present an interpretable, weakly-supervised, multimodal deep learning algorithm that integrates whole slide images (WSIs) and molecular profile features for cancer prognosis. We validate our method on 14 cancer types, and extract both local and global patterns of morphological and molecular feature importances in each cancer type. Using the multimodal interpretability aspect of our model, we developed [PORPOISE](http://pancancer.mahmoodlab.org/), an interactive, freely-available platform that directly yields prognostic markers determined by our model for thousands of patients across multiple cancer types. To validate that these model explanations are prognostic, we analyzed high attention morphological regions in WSIs, which indicates that tumor-infiltrating lymphocyte presence corroborates with favorable cancer prognosis on 9 out of 14 cancer types.*
 
-<img src="model.png" width="1500px" align="center" />
+<img src="https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/162_POSPOISE_An_Intuition/docs/model.png" width="1500px" align="center" />
 
 ## Pre-requisites:
 * Linux (Tested on Ubuntu 18.04) 
@@ -2457,11 +2457,11 @@ Part of the code is borrowed from [CoOp](https://github.com/KaiyangZhou/CoOp), [
 Thanks Zhou Chong (https://chongzhou96.github.io/) for the code of downloading the VTAB-1k.
 
 	
-* **Day 166 (06/15/2022)**: 
+* **Day 166 (06/15/2022)**: [Neural Super-Resolution in Movies](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/166_Neural_Super-Resolution_in_Movies)
 	
-* **Day 167 (06/16/2022)**: 
+* **Day 167 (06/16/2022)**: [Diagonal Attention and Style-based GAN for Content-Style Disentanglement in Image Generation and Translation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/167_Content_Style_Disentanglement_in_Image_Generation_and_Translation)
 	
-* **Day 168 (06/17/2022)**: 
+* **Day 168 (06/17/2022)**: [Learning Formation of Physically-based Face Attributes](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/168_Learning_Formation_of_Physically-Based_Face_Attributes)
 	
 * **Day 169 (06/18/2022)**: 
 	
