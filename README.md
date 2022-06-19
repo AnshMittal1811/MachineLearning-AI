@@ -2463,7 +2463,7 @@ Thanks Zhou Chong (https://chongzhou96.github.io/) for the code of downloading t
 	
 * **Day 168 (06/17/2022)**: [Learning Formation of Physically-based Face Attributes](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/168_Learning_Formation_of_Physically-Based_Face_Attributes)
 	
-* **Day 169 (06/18/2022)**: 
+* **Day 169 (06/18/2022)**: [Adapting Self-Supervised Vision Transformers by Probing Attention-Conditioned Masking Consistency](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/169%20Adapting%20Self-Supervised%20Vision%20Transformers%20by%20Probing%20Attention-Conditioned%20Masking%20Consistency)
 	
 * **Day 170 (06/19/2022)**: 
 	
