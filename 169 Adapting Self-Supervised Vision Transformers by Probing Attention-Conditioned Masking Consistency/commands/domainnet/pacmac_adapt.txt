@@ -1,0 +1,17 @@
+python -m torch.distributed.launch --master_port 7878 main_pacmac_adapt.py \
+                                --accum_iter 8 --batch_size 64 --model vit_base_patch16 \
+                                --resume $FINETUNED_PATH \
+                                --epochs 100 --blr 1e-4 --nb_classes 40 --min_lr 2e-4 --weight_decay 0.05 \
+                                --dist_eval --data_path $DATA_PATH \
+                                --source_domains data/DomainNet/txt/"$SOURCE"_train_mini.txt \
+                                --target_domains data/DomainNet/txt/"$TARGET"_train_mini.txt \
+                                --source_eval_domains data/DomainNet/txt/"$SOURCE"_test_mini.txt \
+                                --target_eval_domains data/DomainNet/txt/"$TARGET"_test_mini.txt \
+                                --output_dir outputs/domainnet_adapt/"${SOURCE}"_"${TARGET}" \
+                                --drop_path 0.1 --log_dir logs/domainnet_adapt/"${SOURCE}"_"${TARGET}" \
+                                --target_eval_freq 10 --source_eval_freq 10 --rand_augs 1 --rand_aug_severity 2 \
+                                --layer_decay 0.65 --ckpt_save_freq 50 \
+                                --warmup_epochs 5 --no_pin_mem \
+                                --conf_threshold 0.5 \
+                                --committee_size 2 \
+                                --attention_seeding True

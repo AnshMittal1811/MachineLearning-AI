@@ -1,0 +1,12 @@
+python -m torch.distributed.launch --master_port 7878 main_finetune.py \
+        --accum_iter 4 --batch_size 256 --model vit_base_patch16 \
+        --finetune ${PRETRAINED_PATH} --epochs 100 --blr 5e-5 --layer_decay 0.65 \
+        --min_lr 2e-4 --weight_decay 0.05 --drop_path 0.1 \
+        --data_path $DATA_PATH --nb_classes 40 \
+        --domains data/DomainNet/txt/"$SOURCE"_train_mini.txt \
+        --source_eval_domains data/DomainNet/txt/"$SOURCE"_test_mini.txt \
+        --target_eval_domains data/DomainNet/txt/"$TARGET"_test_mini.txt \
+        --output_dir outputs/domainnet_finetune/pretrained_mae_s+t_"$SOURCE"_"$TARGET" \
+        --log_dir logs/domainnet_finetune/pretrained_mae_s+t_"$SOURCE"_"$TARGET" \
+        --target_eval_freq 10 --rand_augs 1 --rand_aug_severity 2 \
+        --source_eval_freq 10 --ckpt_save_freq 50 

@@ -1,0 +1,12 @@
+python -m torch.distributed.launch --master_port 7878 --nproc_per_node 4 main_pretrain.py --batch_size 128 --epochs 800 \
+                --accum_iter 2 --model mae_vit_base_patch16 --input_size 224 --mask_ratio 0.75 \
+                --data_path $DATA_PATH \
+                --output_dir outputs/domainnet_pretrain/pretrain_${SOURCE}_${TARGET} \
+                --log_dir logs/domainnet_pretrain/pretrain_${SOURCE}_${TARGET} \
+                --resume $RESUME_PATH --no_pin_mem \
+                --domains data/DomainNet/txt/"$SOURCE"_train_mini.txt \
+                --target_domains data/DomainNet/txt/"$TARGET"_train_mini.txt \
+                --source_eval_domains data/DomainNet/txt/"$SOURCE"_test_mini.txt \
+                --target_eval_domains data/DomainNet/txt/"$TARGET"_test_mini.txt \
+                --world_size 4 --blr 1e-4 --no_pin_mem \
+                --weight_decay 5e-2 --rand_augs 3 --rand_aug_severity 4 
