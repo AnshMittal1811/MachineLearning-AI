@@ -1,0 +1,7 @@
+BBOX_EXTEND_RATE = 1.5
+MARG_RATE = 0
+
+WORKER_NUM = 8
+INPUT_DIR = 'data/packs/AFLW2000'
+OUTPUT_DIR = 'data/dataset/AFLW2000_crop'
+
