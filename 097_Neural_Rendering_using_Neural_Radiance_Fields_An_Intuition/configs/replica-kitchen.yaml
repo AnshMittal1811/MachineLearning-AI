@@ -1,0 +1,75 @@
+name: 'replica-kitchen'
+notes: '
+  [Data] kitchen
+  [Model] 500 planes
+  [init] dense points (w/ box)
+  [Loss] mse_color + mse_point2plane + area_reg.
+  [Reg.] oscillate NDC
+'
+seed: 0
+cuda: '0'
+data:
+  path: 'data/replica/kitchen/'
+  image_size: [512, 512]
+  sample_rate: 1.0
+  batch_points: 10000
+  white_bg: False
+checkpoint:
+  teacher: 'replica-kitchen-teacher.pth'
+  experts: 'replica-kitchen-experts.pth'
+
+model:
+  n_plane: 500
+  n_train_sample: 4096
+  n_infer_sample: 4096
+  anti_aliasing: True
+  premultiply_alpha: False
+  init:
+    lrf_neighbors: 100
+    wh: 2
+    box_factor: 4
+    random_rate: 0.0
+  mlp_teacher:
+    n_harmonic_functions_pos: 10
+    n_harmonic_functions_dir: 4
+    n_hidden_neurons_pos: 256
+    n_hidden_neurons_dir: 128
+    n_layers: 8
+  mlp_experts:
+    n_harmonic_functions_pos: 10
+    n_harmonic_functions_dir: 4
+    n_hidden_neurons_pos: 32
+    n_hidden_neurons_dir: 32
+    n_layers: 2
+  accelerate: 
+    bake: False
+    n_bake_sample: 10000
+    bake_res: 200
+    thresh: 0.001
+
+loss_weight:
+  color: 1.0
+  point2plane: 1.0
+  area: 0.00000001
+optimizer:
+  lr: 0.0005
+  lr_scheduler_step_size: 5000
+  lr_scheduler_gamma: 0.1
+
+train:
+  resume: True
+  freeze_geometry: True
+  epoch:
+    teacher: 2000
+    distill: 1000
+    finetune: 1000
+    validation: 500
+    checkpoint: 20
+test:
+  mode: 'test_model'
+  folder: ''
+  vis:
+    id: ''
+    r: 3
+    c: [0.5, 0.5, 0.5]
+    alpha: 0.3
