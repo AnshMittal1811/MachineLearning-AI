@@ -2763,53 +2763,54 @@ year = {2020}
 
 ![GitHub Logo](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/176_DECIMER_Image_to_SMILES/assets/CheminfGit.png)
 	
-* **Day 177 (06/26/2022)**: 
+* **Day 177 (06/26/2022)**: [Galaxy Zoo Classification -- An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/177_Galaxy_Zoo_Classification)
 
-* **Day 178 (06/27/2022)**: 
+* **Day 178 (06/27/2022)**: [BlazePose GHUM Holistic: Reaal-time 3D Human Landmarks and Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/178_BlazePose_GHUM_Holistic_Intuition)
 	
-* **Day 179 (06/28/2022)**: 
+* **Day 179 (06/28/2022)**: [Highly Accurate Dichotomous Image Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/179_Highly_Accurate_Dichotomous_Image_Segmentation)
 
-* **Day 180 (06/29/2022)**: 
+* **Day 180 (06/29/2022)**: [Stylizing 3D Scene via Implicit Neural Representation and HyperNetwork](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/180_Stylizing_3D_Scene_Intuition)
 
-* **Day 181 (06/30/2022)**: 
+* **Day 181 (06/30/2022)**: [High-Quality Monocular Depth Estimation via Transfer Learninng](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/181_High_Quality_Monocular_Depth_Estimation_via_Transfer_Learning)
 
-* **Day 182 (07/01/2022)**: 
+* **Day 182 (07/01/2022)**: [360SD-Net: 360° Stereo Depth Estimation with Learnable Cost Volume](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/182_360SD_Net_360%C2%B0_Stereo_Depth_Estimation_with_Learnable_Cost_Volume)
 	
-* **Day 183 (07/02/2022)**:
+* **Day 183 (07/02/2022)**: [HorizonNet: Learning Room Layout with 1D Representation and Pano Stretch Data Augmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/183_HorizonNet_Intuition)
 	
-* **Day 184 (07/03/2022)**: 
+* **Day 184 (07/03/2022)**: [LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/184_LayoutNet_An_Intuition)
 	
-* **Day 185 (07/04/2022)**: 
+* **Day 185 (07/04/2022)**: [The Visual Centrifuge: Model-free Layered Video Representations](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/185_The_Visual_Centrifuge_Model-free_Layered_Video_Representations)
 	
-* **Day 186 (07/05/2022)**: 
+* **Day 186 (07/05/2022)**: [3D LiDAR and Stereo Fusion using Stereo Matching Network with Conditional Cost Volume Network](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/186_Stereo_LiDAR_CCVNorm)
 	
-* **Day 187 (07/06/2022)**: 
+* **Day 187 (07/06/2022)**: [Perceiver IO: A General Architecture for Structured Inputs & Outputs](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/187_Perceiver_IO_An_Intuition)
 	
-* **Day 188 (07/07/2022)**: 
+* **Day 188 (07/07/2022)**: [Indoor Panorama Planar 3D Reconstruction via Divide and Conquer](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/188_PanoPlane360_An_Intuition)
 
-* **Day 189 (07/08/2022)**: 
+* **Day 189 (07/08/2022)**: [Conversion between Equirectangular, CubeMap, Perspective](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/189_py360convert_Intuition)
 
-* **Day 190 (07/09/2022)**: 
+* **Day 190 (07/09/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/190_HoHoNet_Intuition)
 	
-* **Day 191 (07/10/2022)**: 
+* **Day 191 (07/10/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/191_DirectVoxGO_Intuition)
 	
-* **Day 192 (07/11/2022)**: 
+* **Day 192 (07/11/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/192_Robust_Video_Object_Segmentation)
 	
-* **Day 193 (07/12/2022)**: 
+* **Day 193 (07/12/2022)**: [Detecting and Recovering Sequential DeepFake Manipulation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/193_SeqDeepFake_Intuition)
 	
-* **Day 194 (07/13/2022)**: 
+* **Day 194 (07/13/2022)**: [DCT-Net: Domain-Calibrated Translation for Portrait Stylization
+](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/194_DCT_Net_Intuition)
 	
-* **Day 195 (07/14/2022)**: 
+* **Day 195 (07/14/2022)**: []()
 	
-* **Day 196 (07/15/2022)**: 
+* **Day 196 (07/15/2022)**: []()
 	
-* **Day 197 (07/16/2022)**: 
+* **Day 197 (07/16/2022)**: []()
 	
-* **Day 198 (07/17/2022)**: 
+* **Day 198 (07/17/2022)**: []()
 	
-* **Day 199 (07/18/2022)**: 
+* **Day 199 (07/18/2022)**: []()
 	
-* **Day 200 (07/19/2022)**: 
+* **Day 200 (07/19/2022)**: []()
 	
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
