@@ -1,0 +1,1 @@
+Models can be downloaded from [Trained Models](https://storage.googleapis.com/decimer_weights/Trained_Models.zip) and should be placed under Trained_Models directory
