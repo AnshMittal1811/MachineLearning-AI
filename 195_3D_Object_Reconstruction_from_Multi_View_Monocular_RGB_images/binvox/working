@@ -1,0 +1,22 @@
+
+
+REF :  http://www.patrickmin.com/minecraft/
+
+
+1 you should run binvox and viewvox from the Terminal:
+2 after downloading them into the same folder as your model, do:
+3 chmod 755 binvox
+4 chmod 755 viewvox
+5 You can then run the programs like this:
+  ./binvox
+6 ./viewvox
+  to get a summary of the commandline options.
+
+
+7. Assume we have a 3D model like the one at the top left, in a file mug.wrl.
+
+8. Run:
+   ./binvox -d 32 -c mug.wrl
+   which will create a file mug.binvox.
+9. View the result with viewvox:
+   ./viewvox mug.binvox
