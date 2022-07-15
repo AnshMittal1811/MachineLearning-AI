@@ -1,0 +1,56 @@
+ckpt_root: ckpt
+cuda: True
+num_workers: 8
+
+dataset:
+    name: S2d3dSemDataset
+    common_kwargs:
+        root: data/s2d3d_sem/
+        hw: (64, 128)
+    train_kwargs:
+        fold: 1_train
+        flip: True
+        rotate: True
+    valid_kwargs:
+        fold: 1_valid
+
+training:
+    epoch: 300
+    batch_size: 16
+    save_every: 300
+    optim_lr: 0.001
+    optim_poly_gamma: 0.9
+    optim_betas: (0.9, 0.999)
+
+model:
+    file: lib.model.hohonet
+    modelclass: HoHoNet
+    kwargs:
+        emb_dim: 256
+        input_norm: ugscnn
+        backbone_config:
+            module: SimpleEncoder
+            kwargs:
+                input_extra: 1
+                input_height: 64
+                block: conv3x3max
+                expand: 2
+        decode_config:
+            module: EfficientHeightReduction
+            kwargs:
+                out_ch: 256
+        refine_config:
+            module: TransEn
+            kwargs:
+                position_encode: 32
+                num_layers: 1
+        modalities_config:
+            SemanticSegmenter:
+                num_classes: 13
+                label_weight: data/s2d3d_sem/label13_weight.pth
+                basis: dct
+                loss: ce
+                n_components: 64
+                output_height: 64
+                dropout: 0.5
+

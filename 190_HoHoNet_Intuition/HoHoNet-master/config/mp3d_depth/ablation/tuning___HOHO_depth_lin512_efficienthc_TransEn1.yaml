@@ -1,0 +1,50 @@
+ckpt_root: ckpt
+cuda: True
+num_workers: 8
+
+dataset:
+    name: CorruptMP3dDepthDataset
+    common_kwargs:
+        root: data/mp3d_align
+        hw: (512, 1024)
+    train_kwargs:
+        scene_txt: data/matterport3d/scenes_abla_train.txt
+        rand_rotate: True
+        rand_flip: True
+        rand_gamma: True
+    valid_kwargs:
+        scene_txt: data/matterport3d/scenes_abla_valid.txt
+        rand_rotate: False
+        rand_flip: False
+        rand_gamma: False
+
+training:
+    epoch: 40
+    batch_size: 4
+    save_every: 40
+    optim_lr: 0.0001
+    optim_poly_gamma: 0.9
+    optim_betas: (0.9, 0.999)
+
+model:
+    file: lib.model.hohonet
+    modelclass: HoHoNet
+    kwargs:
+        emb_dim: 256
+        backbone_config:
+            module: Resnet
+            kwargs:
+                backbone: resnet50
+        decode_config:
+            module: EfficientHeightReduction
+        refine_config:
+            module: TransEn
+            kwargs:
+                position_encode: 256
+                num_layers: 1
+        modalities_config:
+            DepthEstimator:
+                basis: linear
+                n_components: 512
+                loss: l1
+

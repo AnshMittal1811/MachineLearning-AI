@@ -1,0 +1,46 @@
+ckpt_root: ckpt
+cuda: True
+num_workers: 8
+
+dataset:
+    name: PanoCorBonDataset
+    train_kwargs:
+        root_dir: data/mp3d_layout/train_no_occ
+        flip: True
+        rotate: True
+        gamma: True
+        stretch: True
+    valid_kwargs:
+        root_dir: data/mp3d_layout/valid_no_occ
+
+training:
+    epoch: 300
+    batch_size: 4
+    save_every: 300
+    optim_lr: 0.0001
+    optim_poly_gamma: 0.9
+
+model:
+    file: lib.model.hohonet
+    modelclass: HoHoNet
+    kwargs:
+        emb_dim: 256
+        backbone_config:
+            module: Resnet
+            kwargs:
+                backbone: resnet34
+        decode_config:
+            module: EfficientHeightReduction
+        refine_config:
+            module: TransEn
+            kwargs:
+                position_encode: 256
+                nhead: 8
+                num_layers: 1
+                dim_feedforward: 2048
+        modalities_config:
+            LayoutEstimator:
+                cor_weight: 1.
+                bon_weight: 1.
+                last_bias: False
+                last_ks: 1
