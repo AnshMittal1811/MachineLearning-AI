@@ -1,0 +1,7 @@
+/__pycache__
+/models
+/*.h5
+/*.zip
+/.vscode
+*.jpg
+*.obj
