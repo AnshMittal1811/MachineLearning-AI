@@ -2467,13 +2467,13 @@ Thanks Zhou Chong (https://chongzhou96.github.io/) for the code of downloading t
 	
 * **Day 170 (06/19/2022)**: [An Improved Normed-Deformable Convolution for Crowd-Counting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/170_An_Improved_Normed-Deformable_Convolution_for_Crowd_Counting)
 	
-* **Day 171 (06/20/2022)**: 
+* **Day 171 (06/20/2022)**: [Masked Autoencoders are Scalable Vision Learners](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/171_Masked_Autoencoders_are_Scalable_Vision_Learners)
 	
-* **Day 172 (06/21/2022)**: 
+* **Day 172 (06/21/2022)**: [WALT Implementation -- An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/172_WALT_Implementation_Intuition)
 	
-* **Day 173 (06/22/2022)**: 
+* **Day 173 (06/22/2022)**: [SADRNet: Self-Aligned Dual Face Regression Nws for Robust 3DDFA & 3DR](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/173_SADRNet_Self-Aligned_Dual_Face_Regression_Nws_for_Robust_3DDFA_%26_3DR)
 	
-* **Day 174 (06/23/2022)**: 
+* **Day 174 (06/23/2022)**: [ChemBERTa: Large-Scale Self-Supervised Property for Molecular Propoerty Prediction](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/174_ChemBERTa%20Large-Scale%20Self-Supervised%20Property%20for%20Molecular%20Property%20Prediction/paper)
 	
 * **Day 175 (06/24/2022)**: 
 	

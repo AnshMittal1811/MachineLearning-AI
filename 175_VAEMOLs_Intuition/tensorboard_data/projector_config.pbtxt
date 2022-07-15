@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "latent:0"
+  metadata_path: "smiles.tsv"
+}
