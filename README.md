@@ -2761,7 +2761,7 @@ year = {2020}
 ## Research Group
 - [Website](https://cheminf.uni-jena.de)
 
-![GitHub Logo](/assets/CheminfGit.png)
+![GitHub Logo](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/176_DECIMER_Image_to_SMILES/assets/CheminfGit.png)
 	
 * **Day 177 (06/26/2022)**: 
 
