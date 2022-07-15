@@ -1,0 +1,8 @@
+# This is the gitignore file
+*.pyc
+output
+data/MP3D
+data/SF3D
+.vscode/
+events*
+logs/
