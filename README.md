@@ -2552,21 +2552,21 @@ Notebooks
 
 Notebooks are here to help after training is done.
 
-1. `structure_variation.ipynb <https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/structure_variation.ipynb>`_
+1. [structure_variation.ipynb](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/structure_variation.ipynb)
 -------------------------------------------------------------------------------------------------------------
 
 This notebook helps to get variational structures when given a SMILES string.
 
-2. `visualize_latent_space.ipynb <https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/visualize_latent_space.ipynb>`_
+2. [visualize_latent_space.ipynb](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/visualize_latent_space.ipynb)
 -------------------------------------------------------------------------------------------------------------------
 
 This notebook helps visualizing learned latent space using a plot or tensorboard.
 
 tensorboard visualization example:
 
-.. image:: https://raw.githubusercontent.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/doc/image/tensorboard.png
+[image](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/doc/image/tensorboard.png)
 
-3. `find_top_k_mols_in_latent_space.ipynb <https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/find_top_k_mols_in_latent_space.ipynb>`_
+3. [find_top_k_mols_in_latent_space.ipynb](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/find_top_k_mols_in_latent_space.ipynb)
 -------------------------------------------------------------------------------------------------------------------------------------
 
 This notebook helps to get top_k similar molecules measured by euclidean distance in latent space.
