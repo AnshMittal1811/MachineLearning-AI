@@ -2564,7 +2564,7 @@ This notebook helps visualizing learned latent space using a plot or tensorboard
 
 tensorboard visualization example:
 
-[image](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/doc/image/tensorboard.png)
+<img src="175_VAEMOLs_Intuition/doc/image/tensorboard.png">
 
 3. [find_top_k_mols_in_latent_space.ipynb](https://github.com/AnshMittal1811/MachineLearning-AI/blob/master/175_VAEMOLs_Intuition/find_top_k_mols_in_latent_space.ipynb)
 -------------------------------------------------------------------------------------------------------------------------------------
