@@ -1,0 +1,39 @@
+{
+    "backbone":{
+        "network": "resnet34",
+        "position_embedding": "sine",
+        "Frozen_BatchNorm2d": false
+    },
+    "optimizer":{
+        "batch_size": 32,
+        "lr_backbone": 1e-4,
+        "lr": 1e-3,
+        "epochs": 170,
+        "warmup": true,
+        "warmup_epochs": 20,
+        "lr_milestones": [70,120],
+        "start_epoch": 0,
+        "weight_decay": 1e-4,
+        "clip_max_norm": 0.1
+    },
+    "transformer":{
+        "SOS_token_id": 0,
+        "EOS_token_id": 6,
+        "PAD_token_id": 7,
+        "smooth": 4,
+        "dynamic_scale": "type3",
+        "max_position_embeddings": 6,
+        "vocab_size": 8,
+        "layer_norm_eps": 1e-12,
+        "dropout": 0.1,
+        "hidden_dim": 256,
+        "enc_layers": 2,
+        "dec_layers": 2,
+        "dim_feedforward": 512,
+        "nheads": 4,
+        "pre_norm": true
+    },
+    "dataset":{
+        "imgsize": 256
+    }
+}
