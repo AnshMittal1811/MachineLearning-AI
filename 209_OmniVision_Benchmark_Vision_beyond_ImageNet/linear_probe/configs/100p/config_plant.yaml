@@ -1,0 +1,26 @@
+save_path: exps
+total_iter: 1000
+val_freq: 100
+manual_seed: 0
+
+lam: [0.00001, 0.0001, 0.0003, 0.001, 0.01, 0.1, 1, 10]
+#lam: [0.00001, 0.00003, 0.0001, 0.001, 0.01, 0.1, 1, 10]
+
+data:
+    train:
+        type: general_dataset
+        kwargs:
+            root: root_path
+            meta: xxx/plant.train/record.txt
+
+    test:
+        type: general_dataset
+        kwargs:
+            root: root_path
+            meta: xxx/plant.val/record.txt
+    mean: [0.48145466, 0.4578275, 0.40821073]
+    std: [0.26862954, 0.26130258, 0.27577711]
+    batch_size: 100
+    num_classes: 756
+    metric: per_class_acc
+

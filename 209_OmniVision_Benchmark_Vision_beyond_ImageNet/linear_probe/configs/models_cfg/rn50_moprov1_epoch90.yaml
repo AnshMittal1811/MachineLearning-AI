@@ -1,0 +1,11 @@
+model:
+    type: resnet50
+    output_dim: 2048
+
+    kwargs:
+        pretrain_path: /mnt/lustre/zhangyuanhan/CoG_weight/MoPro_V1_epoch90
+
+data:
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+    input_size: 224
