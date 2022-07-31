@@ -1,4 +1,4 @@
-# 300 days of Artificial Intelligence
+# 300 days of Artificial Intelligence and Machine Learning
 
 This is the 200 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
