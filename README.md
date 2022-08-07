@@ -2789,11 +2789,11 @@ year = {2020}
 
 * **Day 189 (07/08/2022)**: [Conversion between Equirectangular, CubeMap, Perspective](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/189_py360convert_Intuition)
 
-* **Day 190 (07/09/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/190_HoHoNet_Intuition)
+* **Day 190 (07/09/2022)**: [HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/190_HoHoNet_Intuition)
 	
-* **Day 191 (07/10/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/191_DirectVoxGO_Intuition)
+* **Day 191 (07/10/2022)**: [Direct Voxel Grid Optimization for Fast Radiance Field Reconstruction](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/191_DirectVoxGO_Intuition)
 	
-* **Day 192 (07/11/2022)**: [](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/192_Robust_Video_Object_Segmentation)
+* **Day 192 (07/11/2022)**: [Towards Robust Video Object Segmentation with Adaptive Object Calibration](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/192_Robust_Video_Object_Segmentation)
 	
 * **Day 193 (07/12/2022)**: [Detecting and Recovering Sequential DeepFake Manipulation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/193_SeqDeepFake_Intuition)
 	
