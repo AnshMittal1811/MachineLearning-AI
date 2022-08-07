@@ -2800,17 +2800,77 @@ year = {2020}
 * **Day 194 (07/13/2022)**: [DCT-Net: Domain-Calibrated Translation for Portrait Stylization
 ](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/194_DCT_Net_Intuition)
 	
-* **Day 195 (07/14/2022)**: []()
+* **Day 195 (07/14/2022)**: [3D Object Reconstruction from Multi-View Monocular RGB Images](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/195_3D_Object_Reconstruction_from_Multi_View_Monocular_RGB_images)
 	
-* **Day 196 (07/15/2022)**: []()
+* **Day 196 (07/15/2022)**: [Pix2Vox: Context-Aware 3D reconstruction from Single and Multi-view Images -- Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/196_Pix2Vox_Intuition)
 	
-* **Day 197 (07/16/2022)**: []()
+* **Day 197 (07/16/2022)**: [Deep 3D Semantic Scene Extrapolation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/197_Deep_3D_Semantic_Scene_Extrapolation)
 	
-* **Day 198 (07/17/2022)**: []()
+* **Day 198 (07/17/2022)**: [ScanComplete: Large Scale Scne-Completion and Semantic Segmentation for 3D Scans](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/198_ScanComplete_Intuition)
 	
-* **Day 199 (07/18/2022)**: []()
+* **Day 199 (07/18/2022)**: [Geometry Meets Semantics for Semi-Supervised Monocular Depth Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/199_Semantic_Mono_Depth)
 	
-* **Day 200 (07/19/2022)**: []()
+* **Day 200 (07/19/2022)**: [AtLoc: Attention-Guided Camera Localization](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/200_AtLoc_Intuition)	
+
+* **Day 201 (07/20/2022)**: [Fully Convolutional Geometric Features: Fast and Accurate 3D features for registration and correspondence](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/201_FCGF_Intuition)
+
+* **Day 202 (07/21/2022)**: [Real-time Self-Adaptive Deep Stereo](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/202_Real_time_self_adaptive_deep_stereo)
+
+* **Day 203 (07/22/2022)**: [Morphing and Sampling Network for Dense Point Cloud Completion](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/203_MSN_Point_Cloud_Completion)
+
+* **Day 204 (07/23/2022)**: [BlenderProc: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/204_BlenderProc_Intuition)
+
+* **Day 205 (07/24/2022)**: [Relighting 4D: Neural Relightable Humans from Videos](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/205_Relighting_4D_Intuition)
+
+* **Day 206 (07/25/2022)**: [XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/206_XMem_LongTerm_Video_Object_Segmentation)
+
+* **Day 207 (07/26/2022)**: [CogVideo: Large-Scale Pretrained for Text-to-Video Generation via Transformers](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/207_CogVideo_Intuition)
+
+* **Day 208 (07/27/2022)**: [Towards Grand Unification of Object Tracking](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/208_Grand_Unification_Object_Tracking)
+
+* **Day 209 (07/28/2022)**: [Benchmarking Omni-Vision Representation through the Lens of Visual Realms](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/209_OmniVision_Benchmark_Vision_beyond_ImageNet)
+
+* **Day 210 (07/29/2022)**: [MegaPotraits: One-Shot Megapixel Neural Head Avatars](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/210_MegaPotraits_OneShot_MegaPixel_Neural_Head_Avatars)
+
+* **Day 211 (07/30/2022)**: []()
+
+* **Day 212 (07/31/2022)**: []()
+
+* **Day 213 (08/01/2022)**: []()
+
+* **Day 214 (08/02/2022)**: []()
+
+* **Day 215 (08/03/2022)**: []()
+
+* **Day 216 (08/04/2022)**: []()
+
+* **Day 217 (08/05/2022)**: []()
+
+* **Day 218 (08/06/2022)**: []()
+
+* **Day 219 (08/07/2022)**: []()
+
+* **Day 220 (08/08/2022)**: []()
+
+* **Day 221 (08/09/2022)**: []()
+
+* **Day 222 (08/10/2022)**: []()
+
+* **Day 223 (08/11/2022)**: []()
+
+* **Day 224 (08/12/2022)**: []()
+
+* **Day 225 (08/13/2022)**: []()
+
+* **Day 226 (08/14/2022)**: []()
+
+* **Day 227 (08/15/2022)**: []()
+
+* **Day 228 (08/16/2022)**: []()
+
+* **Day 229 (08/17/2022)**: []()
+
+* **Day 230 (08/18/2022)**: []()
 	
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
