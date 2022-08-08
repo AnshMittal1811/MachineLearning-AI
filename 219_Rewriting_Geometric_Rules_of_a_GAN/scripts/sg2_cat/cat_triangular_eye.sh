@@ -1,0 +1,1 @@
+python train.py --dataroot data/sg2_cat/cat_triangular_eye --pretrained_G pretrained/stylegan2-afhqcat.pkl --lambda_lpips 1 --lambda_l1 0 --lambda_mse 0 --lr_schedule karras --evaluation_metrics trainproject,trainsample --only_weight --batch_size 8 --lr 0.05 --max_iter 2000 --lr_rampdown_length 0.5 --rank 50 --update_layers 8 --archG stylegan2 --name cat_triangular_eye

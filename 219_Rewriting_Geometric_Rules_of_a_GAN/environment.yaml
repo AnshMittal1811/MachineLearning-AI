@@ -1,0 +1,33 @@
+name: ganwarp
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python == 3.8
+  - pip
+  - numpy>=1.20
+  - click>=8.0
+  - pillow=8.3.1
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3
+  - requests=2.26.0
+  - tqdm=4.62.2
+  - ninja=1.10.2
+  - matplotlib=3.4.2
+  - imageio=2.9.0
+  - pandas
+  - scikit-image
+  - cudatoolkit-dev
+  - pip:
+    - wandb
+    - dominate
+    - lpips
+    - psutil
+    - imgui==1.3.0
+    - glfw==2.2.0
+    - pyopengl==3.1.5
+    - imageio-ffmpeg==0.4.3
+    - pyspng
+    - opencv-python
