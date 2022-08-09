@@ -1,6 +1,6 @@
 # 300 days of Artificial Intelligence and Machine Learning
 
-This is the 200 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
+This is the 300 days Challenge of Machine Learning, Deep Learning, AI, and Optimization (mini-projects and research papers) that I picked up at the start of January 2022. I have used various environments and Google Colab, and certain environments for this work as it required various libraries and datasets to be downloaded. The following are the problems that I tackled: 
 
 * **Day 1 (01/01/2022)**: [GradCAM Implementation on Dogs v/s Cats using VGG16 pretrained models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/001_GradCAM_basics)
 
