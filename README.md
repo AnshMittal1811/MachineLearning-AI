@@ -2832,21 +2832,21 @@ year = {2020}
 
 * **Day 210 (07/29/2022)**: [MegaPotraits: One-Shot Megapixel Neural Head Avatars](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/210_MegaPotraits_OneShot_MegaPixel_Neural_Head_Avatars)
 
-* **Day 211 (07/30/2022)**: []()
+* **Day 211 (07/30/2022)**: [NUWA: Infinity Autoregressive over Autoregressive](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/211_NUWA_Infinity_Autoregressive_over_Autoregressive)
 
-* **Day 212 (07/31/2022)**: []()
+* **Day 212 (07/31/2022)**: [TimeLens++: Event-based Frame Interpolation with Parametric Non-Linear Flow](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/212_TimeLens%2B%2B_Event_based_Frame_Interpolation_with_Parametric_NonLinearFlow_and_MultiScale_Fusion)
 
-* **Day 213 (08/01/2022)**: []()
+* **Day 213 (08/01/2022)**: [Omni3D: A lArge Benchmark and Model for 3D Object-Detection in the Wild](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/213_Omni3D_A_Large_Benchmark_and_Model_for_3D_ObjectDetection_in_the_wild)
 
-* **Day 214 (08/02/2022)**: []()
+* **Day 214 (08/02/2022)**: [MultiFace: A Dataset for Neural Face Rendering](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/214_Multiface_A_Dataset_for_Neural_Face_Rendering)
 
-* **Day 215 (08/03/2022)**: []()
+* **Day 215 (08/03/2022)**: [DEVIANT: Depth EquiVarIAnt NeTwork for Monocular 3D ObjectDetection](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/215_DEVIANT_Depth_EquiVarIAnt_NeTwork_for_Monocular_3D_ObjectDetection)
 
-* **Day 216 (08/04/2022)**: []()
+* **Day 216 (08/04/2022)**: [HRDA: Context-Aware High-Resolution Domain-Adaptation Semantic Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/216_HRDA_ContextAware_HighResolution_DomainAdaptationSemantic_Segmentation)
 
-* **Day 217 (08/05/2022)**: []()
+* **Day 217 (08/05/2022)**: [EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/217_EProPnP_An_Intuition)
 
-* **Day 218 (08/06/2022)**: []()
+* **Day 218 (08/06/2022)**: [LocoProp: Enhancing BackProp via Local Loss Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/218_LocoProp_Enhancing_BackProp_via_Local_Loss_Optimization)
 
 * **Day 219 (08/07/2022)**: []()
 
