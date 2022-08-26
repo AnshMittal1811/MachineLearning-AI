@@ -1,0 +1,14 @@
+is_upper_views = True
+is_random_views = False
+is_dither_views = True
+render_name = v22_diffspec_bunny
+N_views = 49
+theta_max = 360
+opaque = True
+refl_factor = 0.5
+object_name = bunny
+plot_cues=False
+cam_fov = 20
+N_res = 800
+cam_depth = 3.0
+alpha_rough = 0.05
