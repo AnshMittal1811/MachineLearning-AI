@@ -2864,7 +2864,7 @@ year = {2020}
 
 * **Day 226 (08/14/2022)**: [Novel View Synthesis of Human Interactions from Sparse Multi-View Videos](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/226_Novel_View_Synthesis_of_Human_Interactions_from_Sparse_MultiView_Videos)
 
-* **Day 227 (08/15/2022)**: [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/227_Instant_Neural_Graphics_Primitives_with_a_Multiresolution_Hash_Encoding)
+* **Day 227 (08/15/2022)**: [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/227_Instant_Neural_Graphics_Primitives_with_Multiresolution_Hash_Encoding)
 
 * **Day 228 (08/16/2022)**: [High-Resolution Image Synthesis with Latent Diffusion Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/228_HighResolution_Image_Synthesis_with_Latent_Diffusion_Models)
 
@@ -2886,7 +2886,7 @@ year = {2020}
 
 * **Day 237 (08/25/2022)**: [In Defense of Online Learning models for Video Instance Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/237_IDOL_for_VIS)
 
-* **Day 238 (08/26/2022)**: [KiU-Net: Overcomplete Convolutional Architectures for Biomedical Image and Volumetric Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/238_KiU-Net_An_Intuition)
+* **Day 238 (08/26/2022)**: [KiU-Net: Overcomplete Convolutional Architectures for Biomedical Image and Volumetric Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/238_KiUNet_An_Intuition)
 
 * **Day 239 (08/27/2022)**: []()
 
