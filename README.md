@@ -2848,43 +2848,59 @@ year = {2020}
 
 * **Day 218 (08/06/2022)**: [LocoProp: Enhancing BackProp via Local Loss Estimation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/218_LocoProp_Enhancing_BackProp_via_Local_Loss_Optimization)
 
-* **Day 219 (08/07/2022)**: []()
+* **Day 219 (08/07/2022)**: [Rewriting Geometric Rules of a GAN](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/219_Rewriting_Geometric_Rules_of_a_GAN)
 
-* **Day 220 (08/08/2022)**: []()
+* **Day 220 (08/08/2022)**: [GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/220_GAUDI_A_Neural_Architect_for_Immersive_3D_Scene_Generation)
 
-* **Day 221 (08/09/2022)**: []()
+* **Day 221 (08/09/2022)**: [Compositional Visual Generation with Composable Diffusion Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/221_Compositional_Visual_Generation_with_Composable_Diffusion_Models)
 
-* **Day 222 (08/10/2022)**: []()
+* **Day 222 (08/10/2022)**: [RePaint: Inpainting using Denoising Diffuision Probabilistiv Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/222_RePaint_Inpainting_using%20DDPM)
 
-* **Day 223 (08/11/2022)**: []()
+* **Day 223 (08/11/2022)**: [MiniVIS: A Minimal Video Instance Segmentation Framework without Video-based Training](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/223_MinVIS_Minimal_Video_Instance_Segmentation_An_Intuition)
 
-* **Day 224 (08/12/2022)**: []()
+* **Day 224 (08/12/2022)**: [Per-Clip Video Object Segmentation: An Intuition](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/224_PerClip_Video_Object_Segmentation_An_Intuition)
 
-* **Day 225 (08/13/2022)**: []()
+* **Day 225 (08/13/2022)**: [Simple Open-Vocabulary Object Detection with Vision Transformers](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/225_Simple_OpenVocabulary_Object_Detection_with_ViTs)
 
-* **Day 226 (08/14/2022)**: []()
+* **Day 226 (08/14/2022)**: [Novel View Synthesis of Human Interactions from Sparse Multi-View Videos](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/226_Novel_View_Synthesis_of_Human_Interactions_from_Sparse_MultiView_Videos)
 
-* **Day 227 (08/15/2022)**: []()
+* **Day 227 (08/15/2022)**: [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/227_Instant_Neural_Graphics_Primitives_with_a_Multiresolution_Hash_Encoding)
 
-* **Day 228 (08/16/2022)**: []()
+* **Day 228 (08/16/2022)**: [High-Resolution Image Synthesis with Latent Diffusion Models](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/228_HighResolution_Image_Synthesis_with_Latent_Diffusion_Models)
 
-* **Day 229 (08/17/2022)**: []()
+* **Day 229 (08/17/2022)**: [Flow-Guided Transformer for Video Inpainting](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/229_FlowGuided_Transformer_for_Video_Inpainting)
 
-* **Day 230 (08/18/2022)**: []()
+* **Day 230 (08/18/2022)**: [NeuMan: Neural Human Radiance Field from a Single Video](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/230_NeuMan_Neural_Human_Radiance_Field_from_Single_Video)
 
-* **Day 231 (08/19/2022)**: []()
+* **Day 231 (08/19/2022)**: [UPST-NERF: Universal Photorealistic Style transfer of Neural Radiance Fields for 3d Scenes](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/231_UPSTNeRF_Universal_Photorealistic_Style_Transfer_NeRFs_for_3D_Scene)
 
-* **Day 232 (08/20/2022)**: []()
+* **Day 232 (08/20/2022)**: [Neural Neighbour Style Transfer](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/232_Neural_Neighbor_Style_Transfer)
 
-* **Day 233 (08/21/2022)**: []()
+* **Day 233 (08/21/2022)**: [3DSNet: Unsupervised Shape-t-Shape 3D Style Transfer](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/233_3DSNet_Unsupervised_Shape_to_Shape_3D_Style_Transfer)
 
-* **Day 234 (08/22/2022)**: []()
+* **Day 234 (08/22/2022)**: [Neural 3D Mesh Renderer](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/234_Neural_3D_Mesh_Renderer)
 
-* **Day 235 (08/23/2022)**: []()
+* **Day 235 (08/23/2022)**: [Immersive Real World Through Deep Billboards](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/235_Immersive_Real_World_through_Deep_Billboards)
 
-* **Day 236 (08/24/2022)**: []()
+* **Day 236 (08/24/2022)**: [PANDORA: Polarization-Aided Neural Decomposition Of RAdiance](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/236_PANDORA__Polarized_Neural_Decomposition)
 
-* **Day 237 (08/25/2022)**: []()
+* **Day 237 (08/25/2022)**: [In Defense of Online Learning models for Video Instance Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/237_IDOL_for_VIS)
+
+* **Day 238 (08/26/2022)**: [KiU-Net: Overcomplete Convolutional Architectures for Biomedical Image and Volumetric Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/238_KiU-Net_An_Intuition)
+
+* **Day 239 (08/27/2022)**: []()
+
+* **Day 240 (08/28/2022)**: []()
+
+* **Day 241 (08/29/2022)**: []()
+
+* **Day 242 (08/30/2022)**: []()
+
+* **Day 243 (08/31/2022)**: []()
+
+* **Day 244 (09/01/2022)**: []()
+
+
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
