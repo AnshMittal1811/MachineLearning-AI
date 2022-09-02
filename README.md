@@ -2888,17 +2888,19 @@ year = {2020}
 
 * **Day 238 (08/26/2022)**: [KiU-Net: Overcomplete Convolutional Architectures for Biomedical Image and Volumetric Segmentation](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/238_KiUNet_An_Intuition)
 
-* **Day 239 (08/27/2022)**: []()
+* **Day 239 (08/27/2022)**: [Photorealistic Style Transfer via Wavelet Transforms](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/239_Photorealistic_Style_Transfer_via_Wavelet_Transforms)
 
-* **Day 240 (08/28/2022)**: []()
+* **Day 240 (08/28/2022)**: [RxnMapper: Unsupervised Attention Guided Atom-Mapping](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/240_RxnMapper__Unsupervised_Attention_Guided_Atom_Mapping)
 
-* **Day 241 (08/29/2022)**: []()
+* **Day 241 (08/29/2022)**: [CMUDeepLens: Deep Learning for automatic image-based galaxy-galaxy strong lens finding](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/241_CMUDeepLens_An_Intuition)
 
-* **Day 242 (08/30/2022)**: []()
+* **Day 242 (08/30/2022)**: [CosmoGAN: creating high-fidelity weak lensing convergence maps using Generative Adversarial Networks](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/242_CosmoGAN_An_Intuition)
 
-* **Day 243 (08/31/2022)**: []()
+* **Day 243 (08/31/2022)**: [Synthehicle: Multi-Vehicle Multi-Camera Tracking in Virtual Cities](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/243_Synthehicle__Multi-Vehicle_Multi-Camera_Tracking_in_Virtual_Cities)
 
-* **Day 244 (09/01/2022)**: []()
+* **Day 244 (09/01/2022)**: [Pyramid Attention for Saliency Detection]()
+
+* **Day 245 (09/02/2022)**: [Pyramid Grafting Network for One-Stage High Resolution Saliency Detection]()
 
 
 
