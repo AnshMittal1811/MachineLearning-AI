@@ -2898,9 +2898,13 @@ year = {2020}
 
 * **Day 243 (08/31/2022)**: [Synthehicle: Multi-Vehicle Multi-Camera Tracking in Virtual Cities](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/243_Synthehicle__Multi-Vehicle_Multi-Camera_Tracking_in_Virtual_Cities)
 
-* **Day 244 (09/01/2022)**: [Pyramid Attention for Saliency Detection]()
+* **Day 244 (09/01/2022)**: [HaGRID HAnd Gesture Recognition Image Dataset](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/244_HaGRID%E2%80%94HAnd_Gesture_Recognition_Image_Dataset)
 
-* **Day 245 (09/02/2022)**: [Pyramid Grafting Network for One-Stage High Resolution Saliency Detection]()
+* **Day 245 (09/02/2022)**: [Pyramid Feature Attention Network for Saliency Detection](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/245_Pyramid_Feature_Attention_Network_for_Saliency_detection)
+1. Keras Implementation
+2. PyTorch Implementation
+
+* **Day 246 (09/03/2022)**: [Pyramid Grafting Network for One-Stage High Resolution Saliency Detection]()
 
 
 
