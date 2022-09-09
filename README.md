@@ -2906,7 +2906,7 @@ year = {2020}
 
 * **Day 246 (09/03/2022)**: [Pyramid Grafting Network for One-Stage High Resolution Saliency Detection](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/246_Pyramid_Grafting_Network_for_OneStage_High_Resolution_Saliency_Detection)
 
-* **Day 247 (09/04/2022)**: [EViT: Privacy-Preserv ing Image Retrieval via Encrypted Vision Transformer in Cloud Computing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/247_EViT__PrivacyPreserving_Image_Retrieval_via_Encrypted_ViT_in_Cloud_Computing)
+* **Day 247 (09/04/2022)**: [EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/247_EViT__PrivacyPreserving_Image_Retrieval_via_Encrypted_ViT_in_Cloud_Computing)
 
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
