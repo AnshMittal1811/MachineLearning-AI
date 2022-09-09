@@ -1,0 +1,5 @@
+.idea/
+*.xml
+*.xml
+*.pth
+**/__pycache__/**

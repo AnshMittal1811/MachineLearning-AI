@@ -1,0 +1,3 @@
+/home/mattia/Downloads/AtlasNet/auxiliary/metro_sources/build/CMakeFiles/rebuild_cache.dir
+/home/mattia/Downloads/AtlasNet/auxiliary/metro_sources/build/CMakeFiles/metro.dir
+/home/mattia/Downloads/AtlasNet/auxiliary/metro_sources/build/CMakeFiles/edit_cache.dir

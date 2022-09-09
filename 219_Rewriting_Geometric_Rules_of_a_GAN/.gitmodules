@@ -1,0 +1,3 @@
+[submodule "models/networks/stylegan3"]
+	path = models/networks/stylegan3
+	url = https://github.com/NVlabs/stylegan3.git

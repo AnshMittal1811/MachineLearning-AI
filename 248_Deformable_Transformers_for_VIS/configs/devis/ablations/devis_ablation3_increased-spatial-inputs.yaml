@@ -1,0 +1,48 @@
+MODEL:
+  WEIGHTS: 'weights/r50_deformable_detr_segmentation_ablation_1lvl_res.pth'
+  MASK_ON: True
+  NUM_QUERIES: 60
+  MASK_HEAD:
+    USE_MDC: False
+    UPSAMPLING_RESOLUTIONS: ['/32']
+    USED_FEATURES: [['/32', 'encoded'], ['/16', 'backbone'], ['/8', 'backbone'], ['/4', 'backbone']]
+    DEVIS:
+      CONV_HEAD_3D: True
+
+  MATCHER:
+    CLASS_COST: 1.0
+    USE_SUM_L1_DISTANCE: False
+
+  DEVIS:
+    DEFORMABLE_ATTENTION:
+      INSTANCE_AWARE_ATTENTION: False
+
+  LOSS:
+    MASK_AUX_LOSS: [ ]
+
+DATASETS:
+  TYPE: 'vis'
+  TRAIN_DATASET: 'yt_vis_train_19'
+  VAL_DATASET: 'yt_vis_val_19'
+
+INPUT:
+  MIN_SIZE_TEST: 360
+  MAX_SIZE_TEST: 640
+
+SOLVER:
+  BASE_LR: 0.0001
+  LR_BACKBONE: 0.00001
+  EPOCHS: 10
+  BATCH_SIZE: 1
+  STEPS: [3, 7]
+
+TEST:
+  START_EVAL_EPOCH: 3
+  NUM_OUT: 10
+  CLIP_TRACKING:
+    USE_BINARY_MASK_IOU: True
+    USE_FRAME_AVERAGE_IOU: True
+    CLASS_COST: 0
+    SCORE_COST: 0
+
+

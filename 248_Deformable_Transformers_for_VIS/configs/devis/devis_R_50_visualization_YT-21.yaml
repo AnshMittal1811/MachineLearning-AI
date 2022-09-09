@@ -1,0 +1,32 @@
+MODEL:
+  WEIGHTS: 'weights/r50_devis_yt-21.pth'
+  MASK_ON: True
+  NUM_QUERIES: 180
+
+DATASETS:
+  TYPE: 'vis'
+  TRAIN_DATASET: 'yt_vis_train_21'
+  VAL_DATASET: 'yt_vis_val_21'
+
+INPUT:
+  MIN_SIZE_TEST: 360
+  MAX_SIZE_TEST: 640
+
+SOLVER:
+  BATCH_SIZE: 1
+
+TEST:
+  NUM_OUT: 5
+
+  CLIP_TRACKING:
+    MIN_FRAME_SCORE: 0.5
+    MIN_TRACK_SCORE: 0.6
+    MIN_DETECTIONS: 3
+
+  VIZ:
+    OUT_VIZ_PATH: 'visual_results'
+    SAVE_CLIP_VIZ: False
+    SAVE_MERGED_TRACKS: True
+    # These videos correspond to YT-21 & OVIS respectively.
+    # You can change DATASETS and MODEL.WEIGHTS via command line using this same config to get the visual results from the latter.
+    VIDEO_NAMES: '4b1a561480,c34989e3'

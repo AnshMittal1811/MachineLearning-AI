@@ -1,0 +1,40 @@
+MODEL:
+  WEIGHTS: 'weights/r50_deformable_detr_segmentation.pth'
+  MASK_ON: True
+  BBX_GRADIENT_PROP: True
+  NUM_QUERIES: 60
+
+  MATCHER:
+    CLASS_COST: 1.0
+    USE_SUM_L1_DISTANCE: False
+
+  LOSS:
+    SEGM_MASK_COEF: 4.0
+    SEGM_DICE_COEF: 4.0
+
+DATASETS:
+  TYPE: 'vis'
+  TRAIN_DATASET: 'yt_vis_train_19'
+  VAL_DATASET: 'yt_vis_val_19'
+
+INPUT:
+  MIN_SIZE_TEST: 360
+  MAX_SIZE_TEST: 640
+
+SOLVER:
+  BASE_LR: 0.0001
+  LR_BACKBONE: 0.00001
+  EPOCHS: 10
+  BATCH_SIZE: 1
+  STEPS: [3, 7]
+
+TEST:
+  START_EVAL_EPOCH: 3
+  NUM_OUT: 10
+  CLIP_TRACKING:
+    USE_BINARY_MASK_IOU: True
+    USE_FRAME_AVERAGE_IOU: True
+    CLASS_COST: 0
+    SCORE_COST: 0
+
+

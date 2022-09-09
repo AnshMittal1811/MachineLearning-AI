@@ -1,0 +1,98 @@
+expname: our_ceramic_owl_v2
+
+# device_ids: [0]     # single gpu           ; run on specified GPU
+# device_ids: [1, 0]  # DP                   ; run on specified GPU
+device_ids: -1        # single GPU / DP / DDP; run on all available GPUs; 
+
+data:
+  type: Ours
+  batch_size: 1       # one batch, one image
+  data_dir: ./data/real_dataset/a2_ceramic_owl_v2/
+  downscale: 4       # downscale image for training
+  scale_radius: 3.0   # scale the dataset's all camera to be within this radius
+  pin_memory: True
+
+  near: 0.0
+  far: 6.0  # NOTE: in volSDF,far = 2r=2*3=6.0
+
+  N_rays: 512        # N_rays for training
+  val_rayschunk: 256 # N_rays for validation
+  val_downscale: 8    # downscale image for validation
+  
+  space: linear
+  gt_type: stokes
+
+model:
+  framework: VolSDF
+  obj_bounding_radius: 3.0  # scene sphere, as in the VolSDF paper
+  polarized: True
+  pol_render_type: accum_stokes
+  only_diffuse: False
+  fine_spec: False
+  
+  outside_scene: "builtin"  # [builtin, nerf++]
+  max_upsample_iter: 6      # up sample iteratioms, as in the VolSDF paper
+
+  W_geometry_feature: 256
+
+  surface:
+    radius_init: 0.5        # as in VolSDF supp B.3, unit sphere
+    D: 8
+    skips: [4]
+    embed_multires: 6
+
+  radiance:
+    D: 4
+    W: 512
+    skips: []
+    embed_multires: 10
+    embed_multires_view: 2
+  
+  N_samples: 128
+  white_bkgd: False
+  use_env_mlp: rough_mask_envmap_MLP
+  env_mlp_type: no_fres # Options fres_input, no_fres, fres_mlp
+  use_mask: True # Toggle whether to use mask network
+  sh_embed: True # Toggle whether to use spherical harmonics embeddings for illumination network
+  disable_fres: False
+
+training:
+  speed_factor: 10.0
+
+  lr: 5.0e-4
+  w_eikonal: 0.1 # Penalty term for training SDF
+  w_s1_s2: 1.0 # Weight for penalty from S1 and S2 (polarization) loss
+  w_mask: 1. # Weight for mask function loss
+  w_dop: 0.0 # Weight for DOP loss
+  w_aolp: 0.0 # Weight for AoLP loss
+  learn_pi2_ambiguity: False
+  mask_specular: False
+  mask_target_object: False
+  mask_target_horizon: False
+  num_no_s1_s2: 1000 # Number of epochs without polarization loss, to help with SDF learning in early stages
+  grad_norm_max: 15
+  loss_type: l1
+  loss_space: linear # Toggle SRGB or Linear space for loss
+  w_spec_reg: 0.
+
+  log_root_dir: "logs"
+
+  num_iters: 200000 # Total number of epochs
+
+  # lr decay
+  scheduler:
+    type: exponential_step
+    min_factor: 0.1
+
+  ckpt_file: null # will be read by python as None
+  ckpt_ignore_keys: []     # only change if you want to drop certain keys in the saved checkpionts.
+  ckpt_only_use_keys: null # only change if you want to only use certain keys in the saved checkpionts.
+
+  monitoring: tensorboard
+
+  i_save: 900       # unit: seconds
+  i_backup: 50000   # unit: itertation steps
+
+  i_val: 1000
+  i_val_mesh: 10000
+

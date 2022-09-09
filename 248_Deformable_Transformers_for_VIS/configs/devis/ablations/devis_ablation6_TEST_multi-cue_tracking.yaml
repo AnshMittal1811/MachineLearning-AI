@@ -1,0 +1,32 @@
+# This config file only sets the TEST and CLIP_TRACKING parameters to the final version ones.
+# In order to replicate this ablation, you can use this config and evaluate the corresponding epoch from the ablation5 model.
+MODEL:
+  # User must set weights via command lines, as explained in evaluation section
+  WEIGHTS: ''
+  MASK_ON: True
+  BBX_GRADIENT_PROP: True
+  NUM_QUERIES: 60
+
+DATASETS:
+  TYPE: 'vis'
+  TRAIN_DATASET: 'yt_vis_train_19'
+  VAL_DATASET: 'yt_vis_val_19'
+
+INPUT:
+  MIN_SIZE_TEST: 360
+  MAX_SIZE_TEST: 640
+
+SOLVER:
+  BATCH_SIZE: 1
+
+TEST:
+  NUM_OUT: 10
+  # We set them to default values, so this is just for clarity purpose
+  CLIP_TRACKING:
+    USE_BINARY_MASK_IOU: False
+    USE_FRAME_AVERAGE_IOU: False
+    CLASS_COST: 1
+    SCORE_COST: 1
+    MASK_COST: 1
+
+

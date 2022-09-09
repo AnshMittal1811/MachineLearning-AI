@@ -1,0 +1,34 @@
+MODEL:
+  WEIGHTS: 'weights/r50_deformable_detr_segmentation.pth'
+  MASK_ON: True
+  BBX_GRADIENT_PROP: True
+  NUM_QUERIES: 180
+  LOSS:
+    AUX_LOSS_WEIGHTING: True
+
+  MATCHER:
+    CLASS_COST: 1.0
+    USE_SUM_L1_DISTANCE: False
+
+DATASETS:
+  TYPE: 'vis'
+  TRAIN_DATASET: 'yt_vis_train_21'
+  VAL_DATASET: 'yt_vis_val_21'
+
+INPUT:
+  MIN_SIZE_TEST: 360
+  MAX_SIZE_TEST: 640
+
+SOLVER:
+  BASE_LR: 0.0001
+  LR_BACKBONE: 0.00001
+  EPOCHS: 10
+  BATCH_SIZE: 1
+  STEPS: [4, 8]
+
+TEST:
+  START_EVAL_EPOCH: 5
+  NUM_OUT: 30
+
+
+

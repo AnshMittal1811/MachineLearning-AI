@@ -1,0 +1,19 @@
+MODEL:
+  WEIGHTS: 'weights/r50_deformable_detr_plus_iterative_bbox_refinement-checkpoint.pth'
+  SHIFT_CLASS_NEURON: True
+  MASK_ON: True
+  LOSS:
+    SEGM_MASK_COEF: 8.0
+    SEGM_DICE_COEF: 8.0
+
+SOLVER:
+  FROZEN_PARAMS: ['class_embed',]
+  BASE_LR: 0.00002
+  LR_BACKBONE: 0.00001
+  BACKBONE_NAMES: ['backbone.0', 'input_proj']
+  LR_MASK_HEAD_MULT: 10
+  EPOCHS: 25
+  STEPS: [15, ]
+
+TEST:
+  NUM_OUT: 50
