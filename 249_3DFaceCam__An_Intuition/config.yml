@@ -1,0 +1,15 @@
+n_feat_id: 100
+n_feat_ex: 30
+z_noise_dim: 5
+z_id_dim: 20
+z_ex_dim: 20
+n_class_id: 847
+n_class_ex: 20
+
+lr_g: 0.0002
+lr_d: 0.0002
+
+num_epochs: 1000
+
+reduced_data: ./data/reduced_train_data_130.npy
+zid_dict: ./data/zid_dictionary.pkl
