@@ -1,0 +1,3 @@
+git+https://github.com/jamesbowman/openexrpython.git
+git+https://github.com/xheon/PyMarchingCubes.git
+pyexr

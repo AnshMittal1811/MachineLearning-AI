@@ -1,0 +1,28 @@
+# run: conda env create --file environment.yaml
+name: panoptic
+channels:
+    - pytorch
+    - conda-forge
+    - anaconda
+
+dependencies:
+    - python>=3.8
+    - pip
+    - yacs
+    - numpy
+    - pytorch>=1.7.1
+    - torchvision
+    - cudatoolkit=10.2
+    - matplotlib
+#    - opencv-python
+#    - pyexr
+    - plyfile
+    - tqdm
+    - pillow>=8.4.0
+    - yacs>=0.1.6
+    - scipy
+    - opencv
+    # - MinkowskiEngine # TODO
+    # - pyMarchingCubes # TODO
+    - pip:
+      - -r requirements.txt

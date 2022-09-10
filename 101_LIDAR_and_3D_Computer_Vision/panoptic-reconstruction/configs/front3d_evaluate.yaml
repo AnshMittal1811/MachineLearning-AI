@@ -1,0 +1,69 @@
+MODEL:
+    FIX2D: True
+    PRETRAIN: "resources/panoptic-front3d.pth"
+
+    FIXNORM: True
+
+    DEPTH2D:
+        USE: True
+        FIX: True
+
+    INSTANCE2D:
+        USE: True
+        FIX: True
+
+    PROJECTION:
+        USE: True
+        SIGN_CHANNEL: True
+
+    FRUSTUM3D:
+        USE: True
+        FIX: True
+        TRUNCATION: 3.0
+        ISO_VALUE: 1.0
+
+        SEMANTIC_WEIGHT: 5.0
+        INSTANCE_WEIGHT: 25.0
+        COMPLETION_WEIGHT: 50.0
+        COMPLETION_128_WEIGHT: 25.0
+        COMPLETION_256_WEIGHT: 10.0
+        L1_WEIGHT: 5.0
+
+        LEVEL_ITERATIONS_64: 10000
+        LEVEL_ITERATIONS_128: 5000
+        LEVEL_ITERATIONS_256: 5000
+
+        COMPLETION_VOXEL_WEIGHTING: True
+        COMPLETION_128_VOXEL_WEIGHTING: True
+        COMPLETION_256_VOXEL_WEIGHTING: True
+        SURFACE_VOXEL_WEIGHTING: True
+
+        SEMANTIC_VOXEL_WEIGHTING: False
+        INSTANCE_VOXEL_WEIGHTING: False
+
+DATASETS:
+    NAME: "front3d"
+    TRAIN: "Front3D_Train"
+    VAL: "Front3D_Validation"
+    TRAINVAL: "Front3D_Train"
+    TEST: "Front3D_Test"
+    NUM_TRAIN: 0
+    NUM_TEST: 100
+    NUM_VALIDATE: 50
+    OVERFITTING: False
+    FIELDS: ("color", "depth", "instance2d", "geometry", "instance3d", "semantic3d")
+
+DATALOADER:
+    IMS_PER_BATCH: 1
+    MAX_ITER: 300000
+    SHUFFLE: True
+    NUM_WORKERS: 4
+
+SOLVER:
+    BASE_LR: 0.0001
+    BETA_1: 0.9
+    BETA_2: 0.999
+    STEPS: (100000, 150000)
+    CHECKPOINT_PERIOD: 5000
+    WEIGHT_DECAY: 0.000000
+    EVALUATION_PERIOD: 50000
