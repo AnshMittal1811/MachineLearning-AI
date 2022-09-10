@@ -1,0 +1,13 @@
+cython 
+trimesh 
+pytorch 
+cudatoolkit 
+scikit-image 
+pykdtree 
+tensorboard 
+future 
+numpy 
+pandas
+wandb
+pytorch-lightning
+PyMCubes

@@ -1,0 +1,12 @@
+__pycache__
+*.so
+build/
+*.pyc
+*.c
+experiments
+dataset/*
+*.cpp
+/trash/
+!.gitkeep
+log/*
+.DS_Store

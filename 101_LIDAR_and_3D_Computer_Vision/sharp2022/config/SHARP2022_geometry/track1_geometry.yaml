@@ -1,0 +1,43 @@
+input_type: pointcloud
+input_resolution: 128
+input_points_number: 100000
+model: IFNetGeometrySMPLGT_EarlyFusion_Attention
+action: geometry
+dataset: GeometryDataset_Pose
+trainer: GeometryTrainer
+exp_name: SHARP2022_c1_t1_geometry
+refine_with_estimated_smpl: true
+data_path: ../dataset/SHARP2022/challenge1/track1/
+data_bounding_box: [-0.8, 0.8, -0.15, 2.1, -0.8, 0.8]
+split_file: ../dataset/SHARP2022/split_geometry.npz
+overlap_score_threshold: 0.25
+n_points_score: 100000
+preprocessing:
+ color_sampling:
+  input_files_regex: /*/*/*_normalized.obj
+  sample_number: 100000
+ geometry_sampling:
+  input_files_regex: /*/*/*_normalized.obj
+  sample_number: 100000
+  sample_distribution: [0.45, 0.45, 0.1]
+  sample_sigmas: [0.015, 0.2, 'uniform']
+ voxelized_pointcloud_sampling:
+  input_files_regex: /*/*/*-partial*.obj
+ voxelized_colored_pointcloud_sampling:
+  input_files_regex: /*/*/*-partial-*.obj
+training:
+ batch_size: 2
+ num_workers: 0
+ sample_points_per_object: 60000
+ optimizer: Adam
+ lr: 0.0001
+ scheduler: true
+ loss:
+  weight_near: 0.5
+  weight_far: 1
+generation:
+ retrieval_resolution: 256
+ checkpoint: -1
+ batch_points: 200000
+ mode: test
+ retrieval_threshold: 0.5

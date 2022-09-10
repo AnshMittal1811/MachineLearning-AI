@@ -1,0 +1,89 @@
+{
+    "MODEL": {
+        "GENDER": "neutral"
+    },
+    "TRAIN": {
+        "LEARNING_RATE": 2e-2,
+        "MAX_EPOCH": 1000,
+        "WRITE": 1,
+        "OPTIMIZE_SCALE":0,
+        "OPTIMIZE_SHAPE":1
+    },
+    "USE_GPU": 0,
+    "DATASET": {
+        "NAME": "SHARP",
+        "PATH": "/scratch-second/3dv/SHARP2022/train_smpl",
+        "TARGET_PATH": "/scratch-second/3dv/SHARP2022/train_smpl",
+        "DATA_MAP":  [
+              [
+              0,
+              8
+              ],
+              [
+              1,
+              12
+             ],
+              [
+             2,
+             9
+              ],
+              [
+              4,
+              13
+             ],
+             [
+              5,
+              10
+             ],
+             [
+              7,
+              21
+             ],
+             [
+              8,
+              24
+             ],
+             [
+              10,
+              20
+             ],
+             [
+             11,
+             23
+            ],
+             [
+              12,
+              1
+             ],
+             [
+              15,
+              0
+             ],
+             [
+              16,
+              5
+             ],
+             [
+              17,
+              2
+             ],
+             [
+              18,
+              6
+             ],
+             [
+              19,
+              3
+             ],
+             [
+              20,
+              7
+             ],
+             [
+              21,
+              4
+             ]
+            ]
+    },
+    "DEBUG": 0
+}
