@@ -10,6 +10,5 @@ checkpoint/
 Visualize_Network_*
 hard_mining/
 backup.py
-*pdf
 *.bak*
 *.sh
