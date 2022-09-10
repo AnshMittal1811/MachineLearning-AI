@@ -1,0 +1,77 @@
+TRAIN:
+  lr: 1e-5
+  lr_backbone_names: ["backbone.0"]
+  lr_backbone: 1e-5
+  lr_linear_proj_names: ['reference_points', 'sampling_offsets']
+  lr_linear_proj_mult: 0.1
+  batch_size: 1
+  weight_decay: 1e-4
+  epochs: 50
+  lr_drop: 40
+  lr_drop_epochs: None
+  clip_max_norm: 0.1
+  sgd: False
+  output_dir: "./results/PTSEFormer_8gpus"
+  device: "cuda"
+  seed: 42
+  resume: "./tmp/checkpoint_best_1.pth"
+  pretrained: "./pretrained/resnet50-19c8e357.pth"
+  start_epoch: 0
+  eval: True
+  num_workers: 4
+  cache_mode: False
+
+MODEL:
+  name: "PTSEFormer" # "TCDet", "DeformDETR"
+  frozen_weights: None
+  backbone: "resnet50"
+  dilation: False
+  position_embedding: "sine"  # choices=('sine', 'learned')
+  num_feature_levels: 4
+  enc_layers: 6
+  dec_layers: 6
+  dim_feedforward: 1024
+  hidden_dim: 256
+  dropout: 0.1
+  nheads: 8
+  dec_n_points: 4
+  enc_n_points: 4
+  masks: False
+  num_classes: 30
+  num_queries: 100
+
+# Loss
+
+LOSS:
+  no_aux_loss: True
+  # these are for Deformable DETR
+  set_cost_class: 2
+  set_cost_bbox: 5
+  set_cost_giou: 2
+  mask_loss_coef: 1
+  dice_loss_coef: 1
+  cls_loss_coef: 2
+  bbox_loss_coef: 5
+  giou_loss_coef: 2
+  focal_alpha: 0.25
+
+
+
+DATASET:
+  dataset_file: ["DET_train_30classes", "VID_train_15frames"]  # vid coco
+  val_dataset: "VID_val_videos_1midf_each"
+  coco_path: ""
+  coco_panoptic_path: None  # todo
+  remove_difficult: False
+  num_classes: 30
+  debug: True
+  max_offset: 12
+  min_offset: -12
+  ref_num_local: 2
+
+TEST:
+  batch_size: 8
+  test_with_one_img: False
+  test_ref_nums: 6
+  test_max_offset: 12
+  test_min_offset: -12
