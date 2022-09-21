@@ -2908,7 +2908,7 @@ year = {2020}
 
 * **Day 247 (09/04/2022)**: [EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/247_EViT__PrivacyPreserving_Image_Retrieval_via_Encrypted_ViT_in_Cloud_Computing)
 
-* **Day 248 (09/05/2022)**: []()
+* **Day 248 (09/05/2022)**: [Deformable Transformers for VIS](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/248_Deformable_Transformers_for_VIS)
 
 * **Day 249 (09/06/2022)**: []()
 
