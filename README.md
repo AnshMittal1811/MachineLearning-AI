@@ -2908,6 +2908,11 @@ year = {2020}
 
 * **Day 247 (09/04/2022)**: [EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/247_EViT__PrivacyPreserving_Image_Retrieval_via_Encrypted_ViT_in_Cloud_Computing)
 
+* **Day 248 (09/05/2022)**: []()
+
+* **Day 249 (09/06/2022)**: []()
+
+* **Day 250 (09/07/2022)**: []()
 
 <!-- * **Day 32 (02/01/2022)**: [Adversarial Attacks in Natural Language Processing](https://github.com/AnshMittal1811/MachineLearning-AI/tree/master/032_Adversarial_Learning_in_Natural_Language_Processing_I)
 * **Day 33 (02/05/2022)**: [Adversarial Attacks in Natural Language Processing]()
